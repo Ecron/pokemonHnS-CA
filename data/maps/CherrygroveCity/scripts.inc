@@ -193,22 +193,20 @@ CherryGroveCity_EventScript_Corsola::
 	end
 
 CherryGroveCity_EventScript_Krabby::
+	lock
+	faceplayer
 	random 10
 	copyvar VAR_0x8004, VAR_RESULT
 	goto_if_eq VAR_0x8004, 1, CherryGroveCity_EventScript_KrabbyBerry
-	lock
-	faceplayer
 	waitse
 	playmoncry SPECIES_KRABBY, CRY_MODE_NORMAL
 	msgbox CherryGroveCity_Text_Krabby, MSGBOX_DEFAULT
 	waitmoncry
-	releaseall
+	release
 	setvar VAR_0x8004, 0
 	end
 
 CherryGroveCity_EventScript_KrabbyBerry::
-	lock
-	faceplayer
 	waitse
 	playmoncry SPECIES_KRABBY, CRY_MODE_NORMAL
 	msgbox CherryGroveCity_Text_Krabby, MSGBOX_DEFAULT
@@ -217,7 +215,7 @@ CherryGroveCity_EventScript_KrabbyBerry::
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	msgbox CherryGroveCity_Text_GenerousKrabby, MSGBOX_DEFAULT
 	waitmessage
-	releaseall
+	release
 	setvar VAR_0x8004, 0
 	end
 
