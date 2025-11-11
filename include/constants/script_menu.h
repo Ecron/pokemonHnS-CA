@@ -5,7 +5,7 @@
 
 #define MAX_MULTICHOICE_WIDTH 28
 
-#define MULTI_B_PRESSED  127
+#define MULTI_B_PRESSED  131
 
 // Multichoice Ids
 #define MULTI_BRINEY_ON_DEWFORD            0
@@ -136,7 +136,10 @@
 #define MULTI_OLIVINE_HARBOR               125
 #define MULTI_VERMILION_HARBOR             126
 #define MULTI_HOENN_STARTERS               127
-#define MULTI_5FLOORS                     128
+#define MULTI_5FLOORS                      128
+#define MULTI_DRESSER_DRAWERS              129
+#define MULTI_GOLD_COSTUMES                130
+#define MULTI_KRIS_COSTUMES                131
 
 
 

@@ -1087,6 +1087,7 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/scripts/item_ball_scripts.inc"
 	.include "data/scripts/profile_man.inc"
 	.include "data/scripts/day_care.inc"
+	.include "data/scripts/costume_changer.inc"
 	.include "data/scripts/flash.inc"
 	.include "data/scripts/players_house.inc"
 	.include "data/scripts/berry_blender.inc"

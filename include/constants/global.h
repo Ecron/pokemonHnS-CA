@@ -157,4 +157,9 @@
 #define SLOW_MOVEMENT_ON_STAIRS         TRUE
 #define FOLLOW_ME_IMPLEMENTED           FALSE    //for stairs movement. see ObjectMovingOnRockStairs in src/field_player_avatar.c
 
+#define GOLDOG_COSTUME      0
+#define GOLDALT_COSTUME     1
+#define KRISOG_COSTUME      2
+#define KRISALT_COSTUME     3
+
 #endif // GUARD_CONSTANTS_GLOBAL_H

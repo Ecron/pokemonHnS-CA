@@ -922,6 +922,28 @@ static const struct MenuAction MultichoiceList_Exit[] =
     {gText_Exit},
 };
 
+static const struct MenuAction MultichoiceList_DresserDrawers[] =
+{
+    {gText_FirstDrawer},
+    {gText_SecondDrawer},
+    //{gText_ThirdDrawer},
+    {gText_Exit},
+};
+
+static const struct MenuAction MultichoiceList_GoldCostumes[] =
+{
+    {gText_GoldOGCostume},
+    {gText_GoldALTCostume},
+    {gText_Exit},
+};
+
+static const struct MenuAction MultichoiceList_KrisCostumes[] =
+{
+    {gText_KrisOGCostume},
+    {gText_KrisALTCostume},
+    {gText_Exit},
+};
+
 struct MultichoiceListStruct
 {
     const struct MenuAction *list;
@@ -1059,6 +1081,9 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_ELDERQUIIZ5]                 = MULTICHOICE(MultichoiceList_ElderQuiz5),
     [MULTI_HOENN_STARTERS]              = MULTICHOICE(MultichoiceList_HoennStarters),
     [MULTI_5FLOORS]                    = MULTICHOICE(MultichoiceList_5Floors),
+    [MULTI_DRESSER_DRAWERS]            = MULTICHOICE(MultichoiceList_DresserDrawers),
+    [MULTI_GOLD_COSTUMES]             = MULTICHOICE(MultichoiceList_GoldCostumes),
+    [MULTI_KRIS_COSTUMES]             = MULTICHOICE(MultichoiceList_KrisCostumes),
 
 };
 

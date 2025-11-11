@@ -569,6 +569,7 @@ struct SaveBlock2
               u16 optionsAutorunSurf:1;
               u16 optionsAutorunDive:1;
               u16 optionsNewBattleUI:1;
+    /*0xF2C*/ u8 costumeId;
 }; // sizeof=0xF2C
 
 extern struct SaveBlock2 *gSaveBlock2Ptr;

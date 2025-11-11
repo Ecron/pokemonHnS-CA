@@ -3262,6 +3262,17 @@ extern const u8 gText_PkmnsNickname[];
 extern const u8 gText_TellHimTheWords[];
 
 extern const u8 gText_AshQty[];
+
+// Costumes
+extern const u8 gText_GoldOGCostume[];
+extern const u8 gText_GoldALTCostume[];
+extern const u8 gText_KrisOGCostume[];
+extern const u8 gText_KrisALTCostume[];
+
+extern const u8 gText_FirstDrawer[];
+extern const u8 gText_SecondDrawer[];
+//extern const u8 gText_ThirdDrawer[];
+
 // Exp. Share
 extern const u8 gText_ExpShareOn[];
 extern const u8 gText_ExpShareOff[];

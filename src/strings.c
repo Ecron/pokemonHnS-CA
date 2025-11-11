@@ -2078,6 +2078,17 @@ const u8 gText_Berry[] = _("BERRY");
 const u8 gText_Berries[] = _("BERRIES");
 const u8 gText_AshQty[] = _("ASH QTY:\n{STR_VAR_1}{PAUSE_UNTIL_PRESS}");
 
+// Costumes
+const u8 gText_FirstDrawer[] =_("Gold");
+const u8 gText_SecondDrawer[] =_("Kris");
+//const u8 gText_ThirdDrawer[] =_("Holiday");
+
+const u8 gText_GoldOGCostume[] = _("Gold Original");
+const u8 gText_GoldALTCostume[] = _("Gold Swap");
+const u8 gText_KrisOGCostume[] = _("Kris Original");
+const u8 gText_KrisALTCostume[] = _("Kris Swap");
+
+
 // Exp. Share
 const u8 gText_ExpShareOn[] = _("Turned on the Exp. Share.\pParty will now gain a portion\nof the Experience Points.{PAUSE_UNTIL_PRESS}");
 const u8 gText_ExpShareOff[] = _("Turned off the Exp. Share.\pParty will no longer gain a portion\nof any Experience Points.{PAUSE_UNTIL_PRESS}");
