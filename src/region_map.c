@@ -1835,6 +1835,26 @@ void CreateRegionMapPlayerIcon(u16 tileTag, u16 paletteTag)
     struct SpritePalette palette = {sRegionMapPlayerIcon_BrendanPal, paletteTag};
     struct SpriteTemplate template = {tileTag, paletteTag, &sRegionMapPlayerIconOam, sRegionMapPlayerIconAnimTable, NULL, gDummySpriteAffineAnimTable, SpriteCallbackDummy};
 
+    switch (gSaveBlock2Ptr->costumeId)
+    {
+    case GOLDOG_COSTUME:
+        sheet.data = sRegionMapPlayerIcon_BrendanGfx;
+        palette.data = sRegionMapPlayerIcon_BrendanPal;
+        break;
+    case GOLDALT_COSTUME:
+        sheet.data = sRegionMapPlayerIcon_MayGfx;
+        palette.data = sRegionMapPlayerIcon_MayPal;
+        break;
+    case KRISOG_COSTUME:
+        sheet.data = sRegionMapPlayerIcon_MayGfx;
+        palette.data = sRegionMapPlayerIcon_MayPal;
+        break;
+    case KRISALT_COSTUME:
+        sheet.data = sRegionMapPlayerIcon_BrendanGfx;
+        palette.data = sRegionMapPlayerIcon_BrendanPal;
+        break;
+    }
+
     if (IsEventIslandMapSecId(gMapHeader.regionMapSectionId))
     {
         sRegionMap->playerIconSprite = NULL;

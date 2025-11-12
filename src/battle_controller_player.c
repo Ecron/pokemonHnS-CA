@@ -192,6 +192,14 @@ static void (*const sPlayerBufferCommands[CONTROLLER_CMDS_COUNT])(void) =
     [CONTROLLER_TERMINATOR_NOP]           = PlayerCmdEnd
 };
 
+static const u8 sCostumeBackPics[COSTUME_COUNT][GENDER_COUNT] = 
+{
+    [GOLDOG_COSTUME]           = {TRAINER_BACK_PIC_BRENDAN, TRAINER_BACK_PIC_BRENDAN},
+    [GOLDALT_COSTUME]               = {TRAINER_BACK_PIC_MAY, TRAINER_BACK_PIC_MAY},
+    [KRISOG_COSTUME]               = {TRAINER_BACK_PIC_MAY, TRAINER_BACK_PIC_MAY},
+    [KRISALT_COSTUME]           = {TRAINER_BACK_PIC_BRENDAN, TRAINER_BACK_PIC_BRENDAN},
+};
+
 static EWRAM_DATA bool8 sAckBallUseBtn = FALSE;
 static EWRAM_DATA bool8 sBallSwapped = FALSE;
 static EWRAM_DATA bool8 sDescriptionSubmenu = 0;

@@ -161,5 +161,6 @@
 #define GOLDALT_COSTUME     1
 #define KRISOG_COSTUME      2
 #define KRISALT_COSTUME     3
+#define COSTUME_COUNT       4
 
 #endif // GUARD_CONSTANTS_GLOBAL_H

@@ -304,6 +304,14 @@ static const u8 sTrainerCardTextColors[] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_D
 static const u8 sTrainerCardStatColors[] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_RED, TEXT_COLOR_LIGHT_RED};
 static const u8 sTimeColonInvisibleTextColors[6] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_TRANSPARENT, TEXT_COLOR_TRANSPARENT};
 
+static const u8 sCostumeFrontPics[COSTUME_COUNT][GENDER_COUNT] = 
+{
+    [GOLDOG_COSTUME]           = {TRAINER_PIC_BRENDAN, TRAINER_PIC_BRENDAN},
+    [GOLDALT_COSTUME]               = {TRAINER_PIC_MAY, TRAINER_PIC_MAY},
+    [KRISOG_COSTUME]               = {TRAINER_PIC_MAY, TRAINER_PIC_MAY},
+    [KRISALT_COSTUME]           = {TRAINER_PIC_BRENDAN, TRAINER_PIC_BRENDAN},
+};
+
 static const u8 sTrainerPicOffset[2][GENDER_COUNT][2] =
 {
     // Kanto

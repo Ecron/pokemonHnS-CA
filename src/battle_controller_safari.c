@@ -23,6 +23,7 @@
 #include "constants/battle_anim.h"
 #include "constants/songs.h"
 #include "constants/rgb.h"
+#include "constants/trainers.h"
 
 static void SafariHandleGetMonData(void);
 static void SafariHandleGetRawMonData(void);
@@ -145,6 +146,14 @@ static void (*const sSafariBufferCommands[CONTROLLER_CMDS_COUNT])(void) =
     [CONTROLLER_RESETACTIONMOVESELECTION] = SafariHandleResetActionMoveSelection,
     [CONTROLLER_ENDLINKBATTLE]            = SafariHandleEndLinkBattle,
     [CONTROLLER_TERMINATOR_NOP]           = SafariCmdEnd
+};
+
+static const u8 sCostumeBackPics[COSTUME_COUNT][GENDER_COUNT] = 
+{
+    [GOLDOG_COSTUME]           = {TRAINER_BACK_PIC_BRENDAN, TRAINER_BACK_PIC_BRENDAN},
+    [GOLDALT_COSTUME]               = {TRAINER_BACK_PIC_MAY, TRAINER_BACK_PIC_MAY},
+    [KRISOG_COSTUME]               = {TRAINER_BACK_PIC_MAY, TRAINER_BACK_PIC_MAY},
+    [KRISALT_COSTUME]           = {TRAINER_BACK_PIC_BRENDAN, TRAINER_BACK_PIC_BRENDAN},
 };
 
 static void UNUSED SpriteCB_Null4(void)

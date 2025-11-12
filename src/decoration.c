@@ -1414,12 +1414,16 @@ static void SetUpPlacingDecorationPlayerAvatar(u8 taskId, struct PlaceDecoration
     switch (gSaveBlock2Ptr->costumeId)
     {
         case GOLDOG_COSTUME:
+            sDecor_CameraSpriteObjectIdx2 = CreateObjectGraphicsSprite(OBJ_EVENT_GFX_BRENDAN_DECORATING, SpriteCallbackDummy, x, 72, 0);
             break;
         case GOLDALT_COSTUME:
+            sDecor_CameraSpriteObjectIdx2 = CreateObjectGraphicsSprite(OBJ_EVENT_GFX_MAY_DECORATING, SpriteCallbackDummy, x, 72, 0);
             break;
         case KRISOG_COSTUME:
+            sDecor_CameraSpriteObjectIdx2 = CreateObjectGraphicsSprite(OBJ_EVENT_GFX_MAY_DECORATING, SpriteCallbackDummy, x, 72, 0);
             break;
         case KRISALT_COSTUME:
+            sDecor_CameraSpriteObjectIdx2 = CreateObjectGraphicsSprite(OBJ_EVENT_GFX_BRENDAN_DECORATING, SpriteCallbackDummy, x, 72, 0);
             break;
     }
         gSprites[sDecor_CameraSpriteObjectIdx2].oam.priority = 1;

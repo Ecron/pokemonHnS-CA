@@ -23,6 +23,14 @@ static void CreateBattlerSprite(u8 battlerId);
 static void CreateHealthboxSprite(u8 battlerId);
 static void ClearBattleBgCntBaseBlocks(void);
 
+static const u8 sCostumeBackPics[COSTUME_COUNT][GENDER_COUNT] = 
+{
+    [GOLDOG_COSTUME]           = {TRAINER_BACK_PIC_BRENDAN, TRAINER_BACK_PIC_BRENDAN},
+    [GOLDALT_COSTUME]               = {TRAINER_BACK_PIC_MAY, TRAINER_BACK_PIC_MAY},
+    [KRISOG_COSTUME]               = {TRAINER_BACK_PIC_MAY, TRAINER_BACK_PIC_MAY},
+    [KRISALT_COSTUME]           = {TRAINER_BACK_PIC_BRENDAN, TRAINER_BACK_PIC_BRENDAN},
+};
+
 void ReshowBattleScreenDummy(void)
 {
 
