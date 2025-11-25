@@ -1,10 +1,10 @@
 gText_ApprenticeChallenge0::
-	.string "Um, I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice.\n"
-	.string "Snivel… This tension is getting to me…$"
+	.string "Mm, sóc l'aprenent núm. {STR_VAR_2} del {STR_VAR_1}.\n"
+	.string "Redell… Aquesta tensió m'està matant…$"
 
 gText_ApprenticeChallenge1::
-	.string "I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice!\n"
-	.string "Here we come!$"
+	.string "Sóc l'aprenent núm. {STR_VAR_2} del {STR_VAR_1}!\n"
+	.string "Som-hi!$"
 
 gText_ApprenticeChallenge2::
 	.string "I'm the no. {STR_VAR_2} apprentice of {STR_VAR_1}!\n"
