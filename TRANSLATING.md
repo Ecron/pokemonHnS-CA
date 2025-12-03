@@ -1,5 +1,5 @@
-List of translatable files:
-- /Data/Maps/:
+List of translatable text files:
+- ../data/maps/:
   - data/maps/AbandonedShip_CaptainsOffice/scripts.inc
   - data/maps/AbandonedShip_Corridors_1F/scripts.inc
   - data/maps/AbandonedShip_Corridors_B1F/scripts.inc
@@ -126,4 +126,50 @@ List of translatable files:
   - data/maps/DiglettsCave_EntranceNorth/scripts.inc
   - data/maps/DragonsDen_Cavern/scripts.inc
   - data/maps/DragonsDen_Shrine/scripts.inc
+  - data/maps/EcruteakCity/scripts.inc
+  - data/maps/EcruteakCity_Gym/scripts.inc
+  - data/maps/EcruteakCity_House1/scripts.inc
+  - data/maps/EcruteakCity_House2/scripts.inc
+  - data/maps/EcruteakCity_Mart/scripts.inc
+  - data/maps/EcruteakCity_PokemonCenter/scripts.inc
+  - data/maps/EcruteakCity_SageOffice1/scripts.inc
+  - data/maps/EcruteakCity_Theater/scripts.inc
+  - data/maps/EverGrandeCity/scripts.inc
+  - data/maps/EverGrandeCity_ChampionsRoom/scripts.inc
+  - data/maps/EverGrandeCity_DrakesRoom/scripts.inc
+  - data/maps/EverGrandeCity_GlaciasRoom/scripts.inc
+  - data/maps/EverGrandeCity_HallOfFame/scripts.inc
+  - data/maps/EverGrandeCity_PhoebesRoom/scripts.inc
+  - data/maps/EverGrandeCity_PokemonCenter_1F/scripts.inc
+  - data/maps/EverGrandeCity_PokemonLeague_1F/scripts.inc
+  - data/maps/EverGrandeCity_SidneysRoom/scripts.inc
+  - data/maps/FallarborTown/scripts.inc
+  - data/maps/FallarborTown_BattleTentCorridor/scripts.inc
+  - data/maps/FallarborTown_BattleTentLobby/scripts.inc
+  - data/maps/FallarborTown_CozmosHouse/scripts.inc
+  - data/maps/FallarborTown_Mart/scripts.inc
+  - data/maps/FallarborTown_MoveRelearnersHouse/scripts.inc
+  - data/maps/FallarborTown_PokemonCenter_1F/scripts.inc
+  - data/maps/FarawayIsland_Entrance/scripts.inc
+  - data/maps/FarawayIsland_Interior/scripts.inc
+  - data/maps/FortreeCity/scripts.inc
+  - data/maps/FortreeCity_DecorationShop/scripts.inc
+  - data/maps/FortreeCity_Gym/scripts.inc
+  - data/maps/FortreeCity_House1/scripts.inc
+  - data/maps/FortreeCity_House2/scripts.inc
+  - data/maps/FortreeCity_House3/scripts.inc
+  - data/maps/FortreeCity_House4/scripts.inc
+  - data/maps/FortreeCity_House5/scripts.inc
+  - data/maps/FortreeCity_Mart/scripts.inc
+  - data/maps/FortreeCity_PokemonCenter_1F/scripts.inc
+  - data/maps/FuchsiaCity/scripts.inc
+  - data/maps/FuchsiaCity_Gym/scripts.inc
+  - data/maps/FuchsiaCity_House1/scripts.inc
+  - data/maps/FuchsiaCity_House2/scripts.inc
+  - data/maps/FuchsiaCity_Mart/scripts.inc
+  - data/maps/FuchsiaCity_PokemonCenter/scripts.inc
+  - data/maps/FuchsiaCity_Route15_Gate/scripts.inc
+  - data/maps/FuchsiaCity_Route19_Gate
+  - data/maps/FuchsiaCity_SafariZoneBeach/scripts.inc
+  - data/maps/FuchsiaCity_SafariZoneEntrance/scripts.inc
   - 
