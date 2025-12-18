@@ -1,28 +1,29 @@
 gText_Birch_Welcome::
 	.string "Hola! Disculpa per fer-te esperar!\p"
-	.string "Et done la benvinguda al món dels POKéMON!\p"
+	.string "Et done la benvinguda\n"
+	.string "al món dels POKéMON!\p"
 	.string "Em diuen ROURES.\p"
-	.string "Però la gent em diu\n"
-	.string "el PROFESSOR POKéMON.\p"
+	.string "Però tot el món em coneix com el\n"
+	.string "PROFESSOR POKéMON.\p"
 	.string "$"
 
 gText_Birch_Pokemon::
-	.string "Açò és el que anomenem “POKéMON”.\p"
+	.string "Açò és el que anomenem un “POKéMON”.\p"
 	.string "\n"
 	.string "$"
 
 gText_Birch_MainSpeech::
-	.string "El món es troba habitat per diverses\n"
-	.string "criatures conegudes com a POKéMON.\p"
+	.string "El món es troba habitat per unes\n"
+	.string "criatures que anomenem POKéMON.\p"
 	.string "La gent i els POKéMON viuen en armonia,\n"
 	.string "ajudant-se entre ells.\p"
-	.string "Alguns juguen amb els POKéMON,\n"
-	.string "altres lluiten amb ells. \p"
-	.string "Però encara no ho sabem tot\n"
-	.string "sobre els POKéMON. \p"
-	.string "Encara hi ha molts misteris\n"
-	.string "que resoldre. Per això estudie els\l"
-	.string "POKéMON cada dia.\p"
+	.string "Alguns juguen amb ells. Uns altres\n"
+	.string "els utilitzen per a lluitar.\p"
+	.string "Però encara no ho sabem tot sobre ells\n"
+	.string "\p"
+	.string "Encara hi ha molts misteris per\n"
+	.string "resoldre. Per això em dedique a\l"
+	.string "estudiar els POKéMON.\p"
 	.string "$"
 
 gText_Birch_AndYouAre::
@@ -58,18 +59,18 @@ gText_Birch_WhatsYourName::
 	.string "et diuen?$"
 
 gText_Birch_SoItsPlayer::
-	.string "Ah! Així que eres {PLAYER}{KUN}?$"
+	.string "Has dit {PLAYER}{KUN}, veritat?$"
 
 gText_Birch_YourePlayer::
 	.string "{PLAYER}{KUN}, estàs a punt?\p"
-	.string "La teua pròpia aventura està a punt\n"
-	.string "de començar.\p"
+	.string "La teua  aventura està a punt de\n"
+	.string "començar.\p"
 	.string "$"
 
 gText_Birch_AreYouReady::
-	.string "Et trobaràs diversions, però també\n"
-	.string "reptes complicats.\p"
-	.string "T'espera un món ple de somnis i\n"
-	.string "aventures amb els POKéMON! Endavant!\p"
+	.string "Et trobaràs moments divertits, però\n"
+	.string "també reptes complicats.\p"
+	.string "T'espera un món d'aventures i somnis\n"
+	.string "amb els POKéMON! Molta sort!\p"
 	.string "Ens veurem més endavant!\p"
 	.string "$"
