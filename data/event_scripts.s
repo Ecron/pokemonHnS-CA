@@ -835,18 +835,17 @@ Common_EventScript_PlayerHandedOverTheItem::
 	
 @ The below and surf.inc could be split into some text/notices.inc
 gText_PokemartSign::
-	.string "«Els millors productes del mercat!»\n"
+	.string "“Els millors productes del mercat!”\n"
 	.string "BOTIGA POKéMON$"
 
 gText_PokemonCenterSign:
-	.string "«Recupera la salud dels teus companys!»\n"
+	.string "“Recupera la salut dels teus companys!”\n"
 	.string "CENTRE POKéMON$"
 
 gText_MomOrDadMightLikeThisProgram::
-	.string "{STR_VAR_1} might like this program.\n"
-	.string "Aquest programa podria agradar a {STR_VAR_1}.\n"
+	.string "A {STR_VAR_1} li agradaria este programa.\n"
 	.string "… … … … … … … … … … … … … … … …\p"
-	.string "Serà millor que marxem!$"
+	.string "Serà millor que ens n'anem!$"
 
 gText_WhichFloorWouldYouLike::
 	.string "Welcome to LILYCOVE DEPARTMENT STORE.\p"
@@ -857,8 +856,8 @@ gText_SandstormIsVicious::
 	.string "It's impossible to keep going.$"
 
 gText_SelectWithoutRegisteredItem::
-	.string "An item in the BAG can be\n"
-	.string "registered to SELECT for easy use.$"
+	.string "Es pot associar un objecte de la MOXILLA\n"
+	.string "al botó SELECT per a usar-lo.$"
 
 gText_SelectWithoutRegisteredLongItem::
 	.string "A second item in the BAG can be\n"
@@ -874,22 +873,22 @@ gText_PokemonTrainerSchoolEmail::
 	.string "… … … … … …$"
 
 gText_PlayerHouseBootPC::
-	.string "{PLAYER} booted up the PC.$"
+	.string "{PLAYER} ha encés el PC.$"
 
 gText_PokeblockLinkCanceled::
-	.string "The link was canceled.$"
+	.string "S'ha cancel·lat l'enllaç.$"
 
 gText_UnusedNicknameReceivedPokemon::
-	.string "Want to give a nickname to\n"
-	.string "the {STR_VAR_2} you received?$"
+	.string "Vols donar-li un malnom\n"
+	.string "al {STR_VAR_2} que has rebut?$"
 
 gText_PlayerWhitedOut::
 	.string "{PLAYER} is out of usable\n"
 	.string "POKéMON!\p{PLAYER} whited out!$"
 
 gText_RegisteredTrainerinPokeNav::
-	.string "Registered {STR_VAR_1} {STR_VAR_2}\n"
-	.string "in the POKéNAV.$"
+	.string "S'ha registrat {STR_VAR_1} {STR_VAR_2}\n"
+	.string "al POKéNAV.$"
 
 gText_ComeBackWithSecretPower::
 	.string "Do you know the TM SECRET POWER?\p"
@@ -916,7 +915,7 @@ gText_DoorOpenedFarAway::
 	.string "somewhere far away.$"
 
 gText_BigHoleInTheWall::
-	.string "There is a big hole in the wall.$"
+	.string "Hi ha un forat enorme en la paret.$"
 
 gText_SorryWirelessClubAdjustments::
 	.string "I'm terribly sorry.\n"
@@ -938,7 +937,7 @@ gText_SorryRecordCornerPreparation::
 	.string "is under preparation.$"
 
 gText_PlayerHandedOverTheItem::
-	.string "{PLAYER} handed over the\n"
+	.string "{PLAYER} ha entregat\n"
 	.string "{STR_VAR_1}.$"
 
 gText_ThankYouForAccessingMysteryGift::
@@ -946,7 +945,7 @@ gText_ThankYouForAccessingMysteryGift::
 	.string "MYSTERY GIFT System.$"
 
 gText_PlayerFoundOneTMHM::
-	.string "{PLAYER} found one {STR_VAR_1}\n"
+	.string "{PLAYER} ha trobat una {STR_VAR_1}\n"
 	.string "{STR_VAR_2}!$"
 
 gText_Sudowoodo_Attacked::
