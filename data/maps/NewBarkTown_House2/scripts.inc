@@ -19,8 +19,8 @@ NewBarkTown_House2_EventScript_ElmsSon::
 	end
 
 NewBarkTown_House2_Text_ElmsWife:
-	.string "Com va, {PLAYER}! El meu home està\n"
-	.string "sempre tan afaenat… Espere que estiga bé.\p"
+	.string "Com va, {PLAYER}! El meu home està sempre\n"
+	.string "tan afaenat… Espere que estiga bé.\p"
 	.string "Quan s'engresca en la seua\n"
 	.string "investigació POKéMON, fins i tot\l"
 	.string "se li oblida menjar.$"
