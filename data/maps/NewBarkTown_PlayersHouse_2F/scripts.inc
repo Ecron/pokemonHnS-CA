@@ -50,6 +50,6 @@ NewBarkTown_PlayersHouse_2F_EventScript_NES::
 	end
 
 NewBarkTown_PlayersHouse_2F_Text_NES:
-    .string "{PLAYER} played with the NES.\p"
-    .string "…Okay!\n"
-    .string "It's time to go!$"
+    .string "{PLAYER} ha jugat amb la NES.\p"
+    .string "… Au!\n"
+    .string "Ja és hora d'anar-se'n!$"
