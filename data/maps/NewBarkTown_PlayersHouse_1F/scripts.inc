@@ -157,21 +157,22 @@ NewBarkTown_PlayersHouse_1F_MovementFaceLeft:
 
 NewBarkTown_PlayersHouse_1F_Text_ElmsLookingForYou:
 	.string "Oh, {PLAYER}…! El veí,\n"
-	.string "el PROF. XOP, t'estava buscant.\p"
-	.string "Ha dit que volia que\n"
-	.string "li feres un favor.\p"
-	.string "Ah! Quasi ho oblide! Ja han reparat\n"
-	.string "el teu POKéFON, acaba d'arribar de la botiga.\p"
+	.string "el PROFESSOR XOP, t'estava buscant.\p"
+	.string "Ha dit que volia demanar-te si\n"
+	.string "podies fer-li un favor.\p"
+	.string "Ah! Quasi ho oblide! Ja han reparat el\n"
+	.string "teu POKéFON, acaba d'arribar de la botiga.\p"
 	.string "Ací el tens!$"
 
 NewBarkTown_PlayersHouse_1F_Text_ObtainedPokeGear:
 	.string "{PLAYER} ha obtingut el POKéFON.$"
 
 NewBarkTown_PlayersHouse_1F_Text_ExplainPokeGear:
-	.string "MAMÀ: Els números de telèfon es guarden\n"
+	.string "MARE: Els números de telèfon es guarden\n"
 	.string "en la memòria.\p"
-	.string "Només cal que tries el nom de qui vols tocar.\p"
-	.string "Xe, ma que és útil, això!$"
+	.string "Només cal que tries el nom\n"
+	.string "de qui vols tocar.\p"
+	.string "Ma que és fàcil!$"
 
 NewBarkTown_PlayersHouse_1F_Text_WearTheseRunningShoes:
 	.string "Ah, i no t'oblides de les teues\n"
@@ -182,8 +183,8 @@ NewBarkTown_PlayersHouse_1F_Text_SwitchShoesWithRunningShoes:
 	.string "i s'ha posat les SABATILLES.$"
 
 NewBarkTown_PlayersHouse_1F_Text_ExplainRunningShoes:
-	.string "MAMÀ: {PLAYER}, prem el botó B\n"
-	.string "en dur-les posades per a eixir a córrer!$"
+	.string "MARE: {PLAYER}, prem el botó B\n"
+	.string "per a eixir a córrer!$"
 
 NewBarkTown_PlayersHouse_1F_Text_MomHurryUpElmIsWaiting:
 	.string "MAMÀ: El PROF. XOP t'espera.\p"
@@ -201,8 +202,8 @@ NewBarkTown_PlayersHouse_1F_Text_MomLeaving:
 	.string "MAMÀ: Hala, quin POKéMON més bonico.\n"
 	.string "D'on te l'has tret?\p"
 	.string "…\p"
-	.string "Llavors, te'n vas d'aventura...\n"
-	.string "Sembla que serà tot un repte...\p"
+	.string "Llavors, te'n vas d'aventura…\n"
+	.string "Sembla que serà tot un repte…\p"
 	.string "Vés amb compte.\p"
 	.string "Els POKéMON són els teus amics.\n"
 	.string "Haureu de treballar en equip.\p"
