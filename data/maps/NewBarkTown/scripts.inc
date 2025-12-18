@@ -240,8 +240,8 @@ NewBarkTown_Text_LassState2:
 	.string "Espera, {PLAYER}!\p"
 	.string "És perillos eixir\n"
 	.string "sense un POKéMON!\p"
-	.string "Els POKéMON salvatges boten de l'herba\n"
-	.string "de camí a la próxima ciutat.$"
+	.string "En l'herba toparàs amb POKéMON salvatges\n"
+	.string "de camí a la pròxima ciutat.$"
 
 NewBarkTown_Text_LassState3:
 	.string "Oh! EL teu POKéMON és adorable!\n"
@@ -278,7 +278,7 @@ NewBarkTown_EventScript_ElmsHouseMailbox::
 	end
 
 NewBarkTown_Text_PlayersHouse:
-	.string "CASA DE: {PLAYER}$"
+	.string "CA {PLAYER}$"
 
 NewBarkTown_Text_ElmsHouse:
-	.string "CASA DEL PROF. XOP$"
+	.string "CA PROF. XOP$"
