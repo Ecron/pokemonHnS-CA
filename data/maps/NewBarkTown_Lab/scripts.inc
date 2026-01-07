@@ -618,7 +618,7 @@ NewBarkTown_Lab_Text_ShouldntTouch:
 	.string "Millor no tocar!$"
 
 NewBarkTown_Lab_Text_ElmIntro:
-	.string "XOP: {PLAYER}! Ja estàs ací!\p"
+	.string "OLM: {PLAYER}! Ja estàs ací!\p"
 	.string "Necessite demanar-te un favor.\p"
 	.string "Estic inmers en una nova\n"
 	.string "investigació POKéMON.\l"
@@ -661,7 +661,7 @@ NewBarkTown_Lab_Text_ElmMissionFromMrPokemon:
 	.string "No para de trobar coses estranyes i\n"
 	.string "devanir-se dels seus descobriments.\p"
 	.string "Total, que acabe de rebre un correu seu\n"
-	.string "en el que diu que ara sí que és\l"
+	.string "en el que diu que esta volta sí que és\l"
 	.string "de veres.\p"
 	.string "M'intriga molt, però estem ocupats amb\n"
 	.string "les nostres investigacions POKéMON…\p"
@@ -678,27 +678,27 @@ NewBarkTown_Lab_Text_ElmChooseAPokemon:
 	.string "Endavant. Tria'n un!$"
 
 NewBarkTown_Lab_Text_ElmWhereGoing:
-	.string "XOP: Espera! A on te'n\n"
+	.string "OLM: Espera! A on te'n\n"
 	.string "vas ara?$"
 
 NewBarkTown_Lab_Text_ChooseCyndaquil:
-	.string "XOP: Tries a {STR_VAR_1},\n"
+	.string "OLM: Tries a {STR_VAR_1},\n"
 	.string "el POKéMON {STR_VAR_2}?$"
 
 NewBarkTown_Lab_Text_ChooseTotodile:
-	.string "ELM: Vols a {STR_VAR_1},\n"
+	.string "OLM: Vols a {STR_VAR_1},\n"
 	.string "el POKéMON {STR_VAR_2}?$"
 
 NewBarkTown_Lab_Text_ChooseChikorita:
-	.string "ELM: T'agrada {STR_VAR_1},\n"
+	.string "OLM: T'agrada {STR_VAR_1},\n"
 	.string "el POKéMON {STR_VAR_2}?$"
 
 NewBarkTown_Lab_Text_DidntChooseStarter:
-	.string "XOP: Pensa-t'ho bé.\p"
+	.string "OLM: Pensa-t'ho bé.\p"
 	.string "És important triar un bon company.$"
 
 NewBarkTown_Lab_Text_ChoseStarter:
-	.string "XOP: Jo també pense que és\n"
+	.string "OLM: Jo també pense que és\n"
 	.string "un gran POKéMON!$"
 
 NewBarkTown_Lab_Text_ReceivedStarter:
@@ -733,7 +733,7 @@ NewBarkTown_Lab_Text_ElmDirections2:
 
 NewBarkTown_Lab_Text_GotElmsNumber:
 	.string "{PLAYER} ha obtingut el número\n"
-	.string "de telèfon de XOP.$"
+	.string "de telèfon d'OLM.$"
 
 NewBarkTown_Lab_Text_ElmDescribesMrPokemon:
 	.string "El SR. POKéMON viatja arreu i\n"
@@ -743,27 +743,27 @@ NewBarkTown_Lab_Text_ElmDescribesMrPokemon:
 
 NewBarkTown_Lab_Text_ElmPokeBall:
 	.string "Conté un POKéMON capturat\n"
-	.string "pel PROF. XOP.$"
+	.string "pel PROF. OLM.$"
 
 @THEFT================================================================================
 
 NewBarkTown_Lab_Text_ElmAfterTheft1:
-	.string "XOP: {PLAYER}, açò és terrible…\p"
+	.string "OLM: {PLAYER}, és terrible…\p"
 	.string "Ah, sí, quin era el gran descobriment\n"
 	.string "del SR. POKéMON?$"
 
 NewBarkTown_Lab_Text_ElmAfterTheft2:
-	.string "{PLAYER} entrega l'OU MISTERIÓS\n"
-	.string "al PROF. XOP.$"
+	.string "{PLAYER} ha entregat l'OU MISTERIÓS\n"
+	.string "al PROF. OLM.$"
 
 NewBarkTown_Lab_Text_ElmAfterTheft3:
-	.string "ELM: Açò?$"
+	.string "OLM: Açò?$"
 
 NewBarkTown_Lab_Text_ElmAfterTheft4:
 	.string "Però… És un OU POKéMON?\p"
 	.string "Si és així, és un gran\n"
 	.string "descobriment!\p"
-	.string "XOP: Què?!?\p"
+	.string "OLM: Què?!?\p"
 	.string "El PROF. ROURES t'ha donat una POKéDEX?\p"
 	.string "{PLAYER}, és cert això?\n"
 	.string "É-és increïble!\p"
@@ -777,18 +777,18 @@ NewBarkTown_Lab_Text_ElmAfterTheft4:
 	.string "dels GIMNASOS POKéMON.\p"
 	.string "El més proper seria el de\n"
 	.string "la CIUTAT MALVA.\p"
-	.string "…{PLAYER}. El camí cap al\n"
+	.string "… {PLAYER}. El camí cap al\n"
 	.string "campionat serà llarg.\p"
 	.string "Abans d'anar-te'n, no t'oblides\n"
 	.string "de parlar amb ta mare.$"
 
 NewBarkTown_Lab_Text_ElmStudyingEgg:
-	.string "XOP: No et rendisques!\n"
+	.string "OLM: No et rendisques!\n"
 	.string "Et tocaré si descobrisc res\l"
 	.string "sobre eixe OU!$"
 
 NewBarkTown_Lab_Text_ElmAideHasEgg:
-	.string "XOP: {PLAYER}? No t'has trobat\n"
+	.string "OLM: {PLAYER}? No t'has trobat\n"
 	.string "amb el meu ajudant?\p"
 	.string "L'hauries d'haver trobat, a ell i\n"
 	.string "a l'OU, al CENTRE POKéMON de\p"
@@ -797,7 +797,7 @@ NewBarkTown_Lab_Text_ElmAideHasEgg:
 	.string "Vés i troba'l allà.$"
 
 NewBarkTown_Lab_Text_ElmWaitingEggHatch:
-	.string "XOP: Ei! Ha canviat l'OU eixe\n"
+	.string "OLM: Ei! Ha canviat l'OU eixe\n"
 	.string "de cap de manera?$"
 
 NewBarkTown_Lab_Text_ElmThoughtEggHatched:
@@ -806,7 +806,7 @@ NewBarkTown_Lab_Text_ElmThoughtEggHatched:
 	.string "A on està el POKéMON?$"
 
 NewBarkTown_Lab_Text_ShowTogepi1:
-	.string "XOP: {PLAYER}, se't veu bé!$"
+	.string "OLM: {PLAYER}, se't veu bé!$"
 
 NewBarkTown_Lab_Text_ShowTogepi2:
 	.string "Com? Eixe POKéMON!?!$"
@@ -816,7 +816,7 @@ NewBarkTown_Lab_Text_ShowTogepi3:
 	.string "naixen d'OUS…\p"
 	.string "No, potser no tots els POKéMON\n"
 	.string "ho fan.\p"
-	.string "Xe, encara cal fer molt\n"
+	.string "Xe, encara cal fer molta\n"
 	.string "investigació sobre el tema.$"
 
 NewBarkTown_Lab_Text_ElmGiveEverstone1:
