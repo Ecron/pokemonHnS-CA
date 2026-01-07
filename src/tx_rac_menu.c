@@ -1224,14 +1224,14 @@ static void VBlankCB(void)
     TransferPlttBuffer();
 }
 
-static const u8 sText_TopBar_Left[]             = _("{L_BUTTON}PREVIOUS");
-static const u8 sText_TopBar_Right[]            = _("{R_BUTTON}NEXT");
-static const u8 sText_TopBar_Mode[]             = _("GAMEMODE");
-static const u8 sText_TopBar_Features[]         = _("FEATURES");
-static const u8 sText_TopBar_Randomizer[]       = _("RANDOMIZER");
+static const u8 sText_TopBar_Left[]             = _("{L_BUTTON}ANTERIOR");
+static const u8 sText_TopBar_Right[]            = _("{R_BUTTON}SEGÜENT");
+static const u8 sText_TopBar_Mode[]             = _("MODE DE JOC");
+static const u8 sText_TopBar_Features[]         = _("FUNCIONALITATS");
+static const u8 sText_TopBar_Randomizer[]       = _("MODE ALEATORI");
 static const u8 sText_TopBar_Nuzlocke[]         = _("NUZLOCKE");
-static const u8 sText_TopBar_Difficulty[]       = _("DIFFICULTY");
-static const u8 sText_TopBar_Challenges[]       = _("CHALLENGES");
+static const u8 sText_TopBar_Difficulty[]       = _("DIFICULTAT");
+static const u8 sText_TopBar_Challenges[]       = _("REPTES");
 static void DrawTopBarText(void)
 {
     const u8 color[3] = { TEXT_DYNAMIC_COLOR_6, TEXT_COLOR_WHITE, TEXT_COLOR_OPTIONS_GRAY_FG };
