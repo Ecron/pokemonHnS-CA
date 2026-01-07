@@ -115,13 +115,13 @@ static u16 sCurIndex;   // absolute row index on current page
 //page 1 Mode
 static const u8 sText_InfiniteTMs_Label[]   = _("MT REUSABLES");
 static const u8 sText_SurvivePoison_Label[] = _("SOBREVIURE AL VERÍ");
-static const u8 sText_Synchronize_Label[]   = _("SINCRONITZACIÓ");
-static const u8 sText_Mints_Label[]         = _("MENTES DE NATURA");
-static const u8 sText_NewCitrus_Label[]     = _("BAIA 'SITRUS'");
+static const u8 sText_Synchronize_Label[]   = _("'SINCRONÍA'**");
+static const u8 sText_Mints_Label[]         = _("MENTA DE NATURA");
+static const u8 sText_NewCitrus_Label[]     = _("BAIA 'SITRUS'**");
 static const u8 sText_FairyTypes_Label[]    = _("TIPUS FADA");
-static const u8 sText_Sturdy_Label[]        = _("'ROBUSTEZ'");
+static const u8 sText_Sturdy_Label[]        = _("'ROBUSTEZ'**");
 static const u8 sText_ModernMoves_Label[]   = _("JOC D'ATACS {PKMN}");
-static const u8 sText_LegendaryAbils_Label[]= _("HABILITATS DELS LEGEND.");
+static const u8 sText_LegendaryAbils_Label[]= _("HABILITATS DELS LEGEN.");
 
 //page 2 Features
 static const u8 sText_RTCType_Label[]      = _("CLOCK TYPE");
