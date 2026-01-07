@@ -113,15 +113,15 @@ static u16 sCurIndex;   // absolute row index on current page
 
 // --- Viewer-only text/colors (keep local; do not export) ---
 //page 1 Mode
-static const u8 sText_InfiniteTMs_Label[]   = _("REUSABLE TMS");
-static const u8 sText_SurvivePoison_Label[] = _("SURVIVE POISON");
-static const u8 sText_Synchronize_Label[]   = _("SYNCHRONIZE");
-static const u8 sText_Mints_Label[]         = _("NATURE MINTS");
-static const u8 sText_NewCitrus_Label[]     = _("SITRUS BERRY");
-static const u8 sText_FairyTypes_Label[]    = _("ADD FAIRY TYPE");
-static const u8 sText_Sturdy_Label[]        = _("STURDY");
-static const u8 sText_ModernMoves_Label[]   = _("{PKMN} MOVEPOOL");
-static const u8 sText_LegendaryAbils_Label[]= _("LEGEN. ABILITIES");
+static const u8 sText_InfiniteTMs_Label[]   = _("MT REUSABLES");
+static const u8 sText_SurvivePoison_Label[] = _("SOBREVIURE AL VERÍ");
+static const u8 sText_Synchronize_Label[]   = _("SINCRONITZACIÓ");
+static const u8 sText_Mints_Label[]         = _("MENTES DE NATURA");
+static const u8 sText_NewCitrus_Label[]     = _("BAIA 'SITRUS'");
+static const u8 sText_FairyTypes_Label[]    = _("TIPUS FADA");
+static const u8 sText_Sturdy_Label[]        = _("'ROBUSTEZ'");
+static const u8 sText_ModernMoves_Label[]   = _("JOC D'ATACS {PKMN}");
+static const u8 sText_LegendaryAbils_Label[]= _("HABILITATS DELS LEGEND.");
 
 //page 2 Features
 static const u8 sText_RTCType_Label[]      = _("CLOCK TYPE");
