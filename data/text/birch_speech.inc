@@ -2,14 +2,13 @@ gText_Birch_Welcome::
 	.string "Hola! Disculpa per fer-te esperar!\p"
 	.string "Et done la benvinguda\n"
 	.string "al món dels POKéMON!\p"
-	.string "Em diuen ROURES.\p"
+	.string "Em diuen OLM.\p"
 	.string "Però tot el món em coneix com el\n"
 	.string "PROFESSOR POKéMON.\p"
 	.string "$"
 
 gText_Birch_Pokemon::
 	.string "Açò és el que anomenem un “POKéMON”.\p"
-	.string "\n"
 	.string "$"
 
 gText_Birch_MainSpeech::
@@ -45,7 +44,7 @@ gText_Birch_LockDifficulty::
 	.string "També la pots bloquejar, si vols.\n"
 	.string "Vols bloquejar la DIFICULTAT\l"
 	.string "que has triat?\p"
-	.string "Ja no la podràs canviar després.$"
+	.string "Ja no la podràs tornar a canviar.$"
 
 gText_Birch_Challenge::
 	.string "Oh, de veres?\p"
@@ -63,7 +62,7 @@ gText_Birch_SoItsPlayer::
 
 gText_Birch_YourePlayer::
 	.string "{PLAYER}{KUN}, estàs a punt?\p"
-	.string "La teua  aventura està a punt de\n"
+	.string "La teua aventura està a un pas de\n"
 	.string "començar.\p"
 	.string "$"
 
