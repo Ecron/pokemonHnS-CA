@@ -2,7 +2,7 @@ gText_Birch_Welcome::
 	.string "Hola! Disculpa per fer-te esperar!\p"
 	.string "Et done la benvinguda\n"
 	.string "al món dels POKéMON!\p"
-	.string "Em diuen OLM.\p"
+	.string "Em diuen ROURES.\p"
 	.string "Però tot el món em coneix com el\n"
 	.string "PROFESSOR POKéMON.\p"
 	.string "$"
