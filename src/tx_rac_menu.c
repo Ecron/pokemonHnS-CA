@@ -474,20 +474,20 @@ struct // MENU_CHALLENGES
 
 
 static const u8 sText_Gamemode[]            = _("MODE DE JOC");
-//static const u8 sText_AlternateSpawns[]     = _("ENCOUNTERS");
+//static const u8 sText_AlternateSpawns[]     = _("ENCONTRES");
 static const u8 sText_InfiniteTMs[]         = _("MT REUSABLES");
 static const u8 sText_Poison[]              = _("SOBREVIURE AL VERÍ");
 static const u8 sText_Synchronize[]         = _("'SINCRONÍA'**");
 static const u8 sText_Mints[]               = _("MENTA DE NATURA");
 static const u8 sText_NewCitrus[]           = _("BAIA 'SITRUS'**");
-static const u8 sText_ModernTypes[]         = _("{COLOR 3}{SHADOW 3}POKéMON TYPES");
+static const u8 sText_ModernTypes[]         = _("{COLOR 3}{SHADOW 3}TIPUS DE POKéMON");
 static const u8 sText_FairyTypes[]          = _("TIPUS FADA");
-static const u8 sText_NewStats[]            = _("{COLOR 3}{SHADOW 3}POKéMON STATS");
+static const u8 sText_NewStats[]            = _("{COLOR 3}{SHADOW 3}ESTADÍSTIQUES");
 static const u8 sText_Sturdy[]              = _("'ROBUSTEZ'**");
 static const u8 sText_Modern_Moves[]        = _("JOC D'ATACS {PKMN}");
 static const u8 sText_Legendary_Abilities[] = _("HABILITATS DELS LEGEN.");
-static const u8 sText_New_Legendaries[]     = _("{COLOR 3}{SHADOW 3}EXTRA LEGEND.");
-static const u8 sText_New_Effectiveness[]   = _("TYPE CHART");
+static const u8 sText_New_Legendaries[]     = _("{COLOR 3}{SHADOW 3}LEGEND. EXTRA");
+//static const u8 sText_New_Effectiveness[]   = _("TAULA DE TIPUS");
 static const u8 sText_Next[]                = _("SEGÜENT");
 // Menu left side option names text
 static const u8 *const sOptionMenuItemsNamesMode[MENUITEM_MODE_COUNT] =
@@ -510,13 +510,13 @@ static const u8 *const sOptionMenuItemsNamesMode[MENUITEM_MODE_COUNT] =
     [MENUITEM_MODE_NEXT]                      = sText_Next,
 };
 
-static const u8 sText_RTC_Type[]            = _("CLOCK TYPE");
-static const u8 sText_ShinyChance[]         = _("SHINY CHANCE");
-static const u8 sText_ItemDrop[]            = _("ITEM DROP");
-static const u8 sText_EasyFeebas[]          = _("{COLOR 3}{SHADOW 3}EASIER FEEBAS");
-static const u8 sText_Unlimited_WT[]        = _("{COLOR 3}{SHADOW 3}UNLIMITED WT");
-static const u8 sText_FrontierBans[]        = _("FRONTIER BANS");
-static const u8 sText_Shiny_Colors[]        = _("SHINY COLORS");
+static const u8 sText_RTC_Type[]            = _("RELLOTGE");
+static const u8 sText_ShinyChance[]         = _("{PKMN} BRILLANTS");
+static const u8 sText_ItemDrop[]            = _("OBJECTES");
+static const u8 sText_EasyFeebas[]          = _("{COLOR 3}{SHADOW 3}FEEBAS FÀCIL");
+static const u8 sText_Unlimited_WT[]        = _("{COLOR 3}{SHADOW 3}IF IL·LIMITATS WT");
+static const u8 sText_FrontierBans[]        = _("BANDEJOS AL FRONT");
+static const u8 sText_Shiny_Colors[]        = _("COLORS BRILLANTS");
 
 // Menu left side option names text
 static const u8 *const sOptionMenuItemsNamesFeatures[MENUITEM_FEATURES_COUNT] =
@@ -532,21 +532,21 @@ static const u8 *const sOptionMenuItemsNamesFeatures[MENUITEM_FEATURES_COUNT] =
 };
 
 static const u8 sText_Dummy[] =                     _("DUMMY");
-static const u8 sText_Randomizer[] =                _("RANDOMIZER");
-static const u8 sText_Starter[] =                   _("STARTER POKéMON");
-static const u8 sText_WildPkmn[] =                  _("WILD POKéMON");
-static const u8 sText_Trainer[] =                   _("TRAINER");
-static const u8 sText_Static[] =                    _("STATIC POKéMON");
-static const u8 sText_SimiliarEvolutionLevel[] =    _("BALANCING");
-static const u8 sText_InlcudeLegendaries[]=         _("LEGENDARIES");
-static const u8 sText_Type[] =                      _("TYPE");
-static const u8 sText_Moves[] =                     _("MOVES");
-static const u8 sText_Abilities[] =                 _("ABILITIES");
-static const u8 sText_Evolutions[] =                _("EVOLUTIONS");
-static const u8 sText_EvolutionMethods[] =          _("EVO LINES");
-static const u8 sText_TypeEff[] =                   _("EFFECTIVENESS");
-static const u8 sText_Items[] =                     _("ITEMS");
-static const u8 sText_Chaos[] =                     _("CHAOS MODE");
+static const u8 sText_Randomizer[] =                _("ALEATORI");
+static const u8 sText_Starter[] =                   _("POKéMON INICIAL");
+static const u8 sText_WildPkmn[] =                  _("POKéMON SALVATGES");
+static const u8 sText_Trainer[] =                   _("ENTRENADORS");
+static const u8 sText_Static[] =                    _("POKéMON ESTÀTICS");
+static const u8 sText_SimiliarEvolutionLevel[] =    _("EQUILIBRAT");
+static const u8 sText_InlcudeLegendaries[]=         _("LEGENDARIS");
+static const u8 sText_Type[] =                      _("TIPUS");
+static const u8 sText_Moves[] =                     _("ATACS");
+static const u8 sText_Abilities[] =                 _("HABILITATS");
+static const u8 sText_Evolutions[] =                _("EVOLUCIONS");
+static const u8 sText_EvolutionMethods[] =          _("LÍNIES D'EVOLUCIÓ");
+static const u8 sText_TypeEff[] =                   _("EFECTIVITAT");
+static const u8 sText_Items[] =                     _("OBJECTES");
+static const u8 sText_Chaos[] =                     _("MODE CAÒTIC");
 static const u8 *const sOptionMenuItemsNamesRandom[MENUITEM_RANDOM_COUNT] =
 {
     [MENUITEM_RANDOM_OFF_ON]                    = sText_Randomizer,
@@ -569,11 +569,11 @@ static const u8 *const sOptionMenuItemsNamesRandom[MENUITEM_RANDOM_COUNT] =
 
 // MENU_NUZLOCKE
 static const u8 sText_Nuzlocke[]        = _("NUZLOCKE");
-static const u8 sText_SpeciesClause[]   = _("DUPES CLAUSE");
-static const u8 sText_ShinyClause[]     = _("SHINY CLAUSE");
-static const u8 sText_Nicknaming[]      = _("NICKNAMES");
-static const u8 sText_Deletion[]        = _("FAINTING");
-static const u8 sText_RareCandy[]       = _("INF. RARE CANDY");
+static const u8 sText_SpeciesClause[]   = _("CLÀUSULA DUPLICATS");
+static const u8 sText_ShinyClause[]     = _("CLÀUSULA BRILLANTS");
+static const u8 sText_Nicknaming[]      = _("MALNOMS");
+static const u8 sText_Deletion[]        = _("DEBILITATS");
+static const u8 sText_RareCandy[]       = _("DOLÇ ESTRANY INF.");
 
 static const u8 *const sOptionMenuItemsNamesNuzlocke[MENUITEM_NUZLOCKE_COUNT] =
 {
@@ -587,19 +587,19 @@ static const u8 *const sOptionMenuItemsNamesNuzlocke[MENUITEM_NUZLOCKE_COUNT] =
 };
 
 //MENU_DIFFICULTY
-static const u8 sText_PartyLimit[]          = _("PARTY LIMIT");
-static const u8 sText_LessEscapes[]         = _("LESS ESCAPES");
-static const u8 sText_LevelCap[]            = _("LEVEL CAP");
-static const u8 sText_ExpMultiplier[]       = _("EXP. MULTIPLIER");
-static const u8 sText_Items_Player[]        = _("PLAYER ITEMS");
-static const u8 sText_Items_Trainer[]       = _("TRAINER ITEMS");
-static const u8 sText_NoEVs[]               = _("PLAYER EVs");
-static const u8 sText_ScalingIVs[]          = _("TRAINER IVs");
-static const u8 sText_ScalingEVs[]          = _("TRAINER EVs");
-//static const u8 sText_LimitDifficulty[]     = _("LOCK DIFFICULTY");
-//static const u8 sText_HardExp[]             = _("HARD MODE EXP.");
-static const u8 sText_MaxPartyIvs[]         = _("PLAYER IVs");
-static const u8 sText_DigRope[]             = _("ESC. ROPE / DIG");
+static const u8 sText_PartyLimit[]          = _("LÍMIT D'EQUIP");
+static const u8 sText_LessEscapes[]         = _("MENYS ESCAPS");
+static const u8 sText_LevelCap[]            = _("LÍMIT DE NIVELL");
+static const u8 sText_ExpMultiplier[]       = _("MULTIPLICADOR D'EXP.");
+static const u8 sText_Items_Player[]        = _("OBJECTES DEL JUGADOR");
+static const u8 sText_Items_Trainer[]       = _("OBJECTES DELS ENTRENADORS");
+static const u8 sText_NoEVs[]               = _("VE DEL JUGADOR");
+static const u8 sText_ScalingIVs[]          = _("VI DELS ENTRENADORS");
+static const u8 sText_ScalingEVs[]          = _("VE DELS ENTRENADORS");
+//static const u8 sText_LimitDifficulty[]     = _("DIFICULTAT BLOQUEJADA");
+//static const u8 sText_HardExp[]             = _("EXP. EN MODE DIFÍCIL");
+static const u8 sText_MaxPartyIvs[]         = _("VI DEL JUGADOR");
+static const u8 sText_DigRope[]             = _("CAVACLOTS/CORDA FUGIDA");
 static const u8 *const sOptionMenuItemsNamesDifficulty[MENUITEM_DIFFICULTY_COUNT] =
 {
     [MENUITEM_DIFFICULTY_PARTY_LIMIT]           = sText_PartyLimit,
