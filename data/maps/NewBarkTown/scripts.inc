@@ -219,7 +219,7 @@ NewBarkTown_Movement_FaceDown:
 	step_end
 
 NewBarkTown_Text_LabSign:
-	.string "LABORATORI DEL PROF. XOP$"
+	.string "LABORATORI DEL PROF. OLM$"
 
 NewBarkTown_Text_Door:
 	.string "La porta està tancada.$"
@@ -233,7 +233,7 @@ NewBarkTown_Text_FatManState2:
 
 NewBarkTown_Text_FatManState3:
 	.string "Com va, {PLAYER}!\p"
-	.string "He sentit que el PROF. XOP\n"
+	.string "He sentit que el PROF. OLM\n"
 	.string "ha descobert POKéMON nous.$"
 
 NewBarkTown_Text_LassState2:
@@ -259,7 +259,7 @@ NewBarkTown_Text_LassState5:
 NewBarkTown_Text_Silver1:
 	.string ". . .\p"
 	.string "Així que este és el famós LABORATORI\n"
-	.string "del PROF. XOP…$"
+	.string "del PROF. OLM…$"
 
 NewBarkTown_Text_Silver2:
 	.string "… I tu què mires?$"
@@ -281,4 +281,4 @@ NewBarkTown_Text_PlayersHouse:
 	.string "CA {PLAYER}$"
 
 NewBarkTown_Text_ElmsHouse:
-	.string "CA PROF. XOP$"
+	.string "CA PROF. OLM$"
