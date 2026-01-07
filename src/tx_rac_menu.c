@@ -473,22 +473,22 @@ struct // MENU_CHALLENGES
 };
 
 
-static const u8 sText_Gamemode[]            = _("GAMEMODE");
+static const u8 sText_Gamemode[]            = _("MODE DE JOC");
 //static const u8 sText_AlternateSpawns[]     = _("ENCOUNTERS");
-static const u8 sText_InfiniteTMs[]         = _("REUSABLE TMS");
-static const u8 sText_Poison[]              = _("SURVIVE POISON");
-static const u8 sText_Synchronize[]         = _("SYNCHRONIZE");
-static const u8 sText_Mints[]               = _("NATURE MINTS");
-static const u8 sText_NewCitrus[]           = _("SITRUS BERRY");
+static const u8 sText_InfiniteTMs[]         = _("MT REUSABLES");
+static const u8 sText_Poison[]              = _("SOBREVIURE AL VERÍ");
+static const u8 sText_Synchronize[]         = _("'SINCRONÍA'**");
+static const u8 sText_Mints[]               = _("MENTA DE NATURA");
+static const u8 sText_NewCitrus[]           = _("BAIA 'SITRUS'**");
 static const u8 sText_ModernTypes[]         = _("{COLOR 3}{SHADOW 3}POKéMON TYPES");
-static const u8 sText_FairyTypes[]          = _("ADD FAIRY TYPE");
+static const u8 sText_FairyTypes[]          = _("TIPUS FADA");
 static const u8 sText_NewStats[]            = _("{COLOR 3}{SHADOW 3}POKéMON STATS");
-static const u8 sText_Sturdy[]              = _("STURDY");
-static const u8 sText_Modern_Moves[]        = _("{PKMN} MOVEPOOL");
-static const u8 sText_Legendary_Abilities[] = _("LEGEN. ABILITIES");
+static const u8 sText_Sturdy[]              = _("'ROBUSTEZ'**");
+static const u8 sText_Modern_Moves[]        = _("JOC D'ATACS {PKMN}");
+static const u8 sText_Legendary_Abilities[] = _("HABILITATS DELS LEGEN.");
 static const u8 sText_New_Legendaries[]     = _("{COLOR 3}{SHADOW 3}EXTRA LEGEND.");
 static const u8 sText_New_Effectiveness[]   = _("TYPE CHART");
-static const u8 sText_Next[]                = _("NEXT");
+static const u8 sText_Next[]                = _("SEGÜENT");
 // Menu left side option names text
 static const u8 *const sOptionMenuItemsNamesMode[MENUITEM_MODE_COUNT] =
 {
@@ -774,39 +774,39 @@ static bool8 CheckConditions(int selection)
 static const u8 sText_Empty[]               = _("");
 static const u8 sText_Description_Save[]    = _("Save choices and continue...");
 
-static const u8 sText_Description_Mode_Gamemode_Classic[]         = _("Recommended settings.\n{COLOR 7}{COLOR 8}NOTE: All selections are PERMANENT.");
-static const u8 sText_Description_Mode_Gamemode_Modern[]          = _("Choose your own rules.\n{COLOR 7}{COLOR 8}NOTE: All selections are PERMANENT.");
-static const u8 sText_Description_Mode_Gamemode_Custom[]          = _("Choose your own rules.\n{COLOR 7}{COLOR 8}NOTE: All selections are PERMANENT.");
+static const u8 sText_Description_Mode_Gamemode_Classic[]         = _("Configuració recomanada.\n{COLOR 7}{COLOR 8}NOTA: Les seleccions son PERMANENTS.");
+static const u8 sText_Description_Mode_Gamemode_Modern[]          = _("Choose your own rules.\n{COLOR 7}{COLOR 8}NOTA: Les seleccions son PERMANENTS.");
+static const u8 sText_Description_Mode_Gamemode_Custom[]          = _("Choose your own rules.\n{COLOR 7}{COLOR 8}NOTA: Les seleccions son PERMANENTS.");
 //static const u8 sText_Description_Mode_AlternateSpawns_Vanilla[]        = _("Use VANILLA wild encounters.\nUnchanged from the original.");
 //static const u8 sText_Description_Mode_AlternateSpawns_Postgame[]       = _("VANILLA, but after becoming champion,\nall 423 {PKMN} will be available.");
 //static const u8 sText_Description_Mode_AlternateSpawns_Modern[]         = _("Use MODERN wild encounters.\nAll 423 {PKMN} will be available.");
-static const u8 sText_Description_Mode_InfiniteTMs_On[]           = _("TMs are reusable.\nModern Emerald recommended.");
-static const u8 sText_Description_Mode_InfiniteTMs_Off[]          = _("TMs are not reusable.\nLike in the original.");
-static const u8 sText_Description_Mode_SurvivePoison_On[]         = _("Your {PKMN} will survive the POISON\nstatus with 1HP.");
-static const u8 sText_Description_Mode_SurvivePoison_Off[]        = _("Your {PKMN} will faint if they are\nPOISONED.");
-static const u8 sText_Description_Mode_Synchronize_Old[]          = _("SYNCHRONIZE works as in GEN III.\n50% chance to copy nature.");
-static const u8 sText_Description_Mode_Synchronize_New[]          = _("SYNCHRONIZE works as in GEN VIII+.\n100% chance to copy nature.");
-static const u8 sText_Description_Mode_Mints_Off[]                = _("Mints are not availabe ingame until\nfinishing the game.");
-static const u8 sText_Description_Mode_Mints_On[]                 = _("Mints can be bought at PRETTY PETAL\nFLOWER SHOP after the 4th medal.");
-static const u8 sText_Description_Mode_New_Citrus_Off[]           = _("SITRUS BERRY restores 30HP.\nSame as GEN III.");
-static const u8 sText_Description_Mode_New_Citrus_On[]            = _("SITRUS BERRY restores 25% of\ntotal HP. Same as GEN IV and up.");
-static const u8 sText_Description_Mode_Modern_Types_Off[]         = _("Original {PKMN} typings. Doesn't include\n{PKMN} that got added to FAIRY in GEN VI.");
-static const u8 sText_Description_Mode_Modern_Types_On[]          = _("{PKMN} have modified typings\nto make them more viable.");
-static const u8 sText_Description_Mode_Fairy_Types_Off[]          = _("FAIRY TYPE isn't added to {PKMN} \nthat got it in GEN VI.");
-static const u8 sText_Description_Mode_Fairy_Types_On[]           = _("FAIRY TYPE is added / changed to\ncertain {PKMN}, as in GEN VI.");
-static const u8 sText_Description_Mode_New_Stats_Off[]            = _("Original GEN III {PKMN} stats.");
-static const u8 sText_Description_Mode_New_Stats_On[]             = _("Modified stats to make certain\n{PKMN} more viable.");
-static const u8 sText_Description_Mode_Sturdy_Off[]               = _("STURDY works as in GEN III. Only\nnegates OHKO moves (GUILLOTINE, etc.)");
-static const u8 sText_Description_Mode_Sturdy_On[]                = _("STURDY works as in GEN V+.\n{PKMN} survive lethal hits with 1HP.");
-static const u8 sText_Description_Mode_Modern_Moves_Off[]         = _("No new MOVES, and original MOVEPOOL\nfor all {PKMN} + new EGG and TUTOR MOVES.");
-static const u8 sText_Description_Mode_Modern_Moves_On[]          = _("13 new MOVES, and improved MOVEPOOL\nfor all {PKMN} + new EGG and TUTOR MOVES.");
-static const u8 sText_Description_Mode_Leg_Abilities_Off[]        = _("PRESSURE stays as the main\nability of some legendaries.");
-static const u8 sText_Description_Mode_Leg_Abilities_On[]         = _("Legendaries have PRESSURE changed\nfor a better ability.");
-static const u8 sText_Description_Mode_New_Legendaries_Off[]      = _("No extra legendaries are added.");
-static const u8 sText_Description_Mode_New_Legendaries_On[]       = _("Extra legendaries from GEN I and II\nare added via ingame events.");
-static const u8 sText_Description_Mode_New_Effectiveness_Original[]  = _("Original type effectiveness\nfor all types.");
-static const u8 sText_Description_Mode_New_Effectiveness_Modern[]    = _("New and balanced type effectiveness\nfor certain types.");
-static const u8 sText_Description_Mode_Next[]                     = _("Continue to Features options.");
+static const u8 sText_Description_Mode_InfiniteTMs_On[]           = _("Les MT es poden reutilitzar.\nOpció recomanada.");
+static const u8 sText_Description_Mode_InfiniteTMs_Off[]          = _("Les MT no es poden reutilitzar.\nCom al joc original.");
+static const u8 sText_Description_Mode_SurvivePoison_On[]         = _("Els {PKMN} sobreviuran a l'estat\nVERÍ amb 1 PS.");
+static const u8 sText_Description_Mode_SurvivePoison_Off[]        = _("Els {PKMN} s'acabaran debilitant en\nser enverinats.");
+static const u8 sText_Description_Mode_Synchronize_Old[]          = _("'SINCRONÍA' funciona com a la GEN. III.\n50% de probab. de copiar la natura.");
+static const u8 sText_Description_Mode_Synchronize_New[]          = _("'SINCRONÍA' funciona com a la GEN. VIII+.\n100% de probab. de copiar la natura.");
+static const u8 sText_Description_Mode_Mints_Off[]                = _("Les mentes no es troben disponibles fins\nque no es finalitze el joc.");
+static const u8 sText_Description_Mode_Mints_On[]                 = _("Les mentes es poden comprar en PRETTY PETAL\nFLOWER SHOP després de la 4a medalla.");
+static const u8 sText_Description_Mode_New_Citrus_Off[]           = _("La BAIA 'SITRUS' restableix 30 PS.\nIgual que en la GEN. III.");
+static const u8 sText_Description_Mode_New_Citrus_On[]            = _("La BAIA 'SITRUS' restableix un 25% \ndels PS totals. Igual que en la GEN. IV i següents.");
+static const u8 sText_Description_Mode_Modern_Types_Off[]         = _("Tipus de {PKMN} originals. No inclou els\n{PKMN} que es van afegir al FADA en la GEN. VI.");
+static const u8 sText_Description_Mode_Modern_Types_On[]          = _("Els {PKMN} tenen tipus modificats\nper a fer-los més viables.");
+static const u8 sText_Description_Mode_Fairy_Types_Off[]          = _("El TIPUS FADA no s'afegeix als {PKMN} \nque el tenen en la GEN. VI.");
+static const u8 sText_Description_Mode_Fairy_Types_On[]           = _("El TIPOS FADA s'afegeix o es canvia\na certs {PKMN}, com en la GEN. VI.");
+static const u8 sText_Description_Mode_New_Stats_Off[]            = _("Estadístiques dels {PKMN} originals,\nde la GEN. III.");
+static const u8 sText_Description_Mode_New_Stats_On[]             = _("Estadístiques modificades per a fer\ncerts {PKMN} més viables.");
+static const u8 sText_Description_Mode_Sturdy_Off[]               = _("'ROBUSTEZ' funciona com en la GEN. III.\nNomés evita atacs KO (GUILLOTINA, etc.)");
+static const u8 sText_Description_Mode_Sturdy_On[]                = _("'ROBUSTEZ' funciona com en la GEN. V+.\nEls {PKMN} sobreviuen atacs letals amb 1 PS.");
+static const u8 sText_Description_Mode_Modern_Moves_Off[]         = _("Sense ATACS nous, i el JOC D'ATACS original\nper a tots els {PKMN} + ATACS OU i TUTOR nous.");
+static const u8 sText_Description_Mode_Modern_Moves_On[]          = _("13 ATACS nous, i un JOC D'ATACS millorat\nper a tots els {PKMN} + ATACS OU i TUTOR nous.");
+static const u8 sText_Description_Mode_Leg_Abilities_Off[]        = _("PRESSURE es manté com a habilitat\nprincipal d'alguns legendaris.");
+static const u8 sText_Description_Mode_Leg_Abilities_On[]         = _("Els legendaris canvien PRESSURE per\nuna habilitat millor.");
+static const u8 sText_Description_Mode_New_Legendaries_Off[]      = _("No s'afegeixen legendaris extra.");
+static const u8 sText_Description_Mode_New_Legendaries_On[]       = _("S'afegeixen legendaris de les GEN. I i II\nmitjançant esdeveniments interns.");
+static const u8 sText_Description_Mode_New_Effectiveness_Original[]  = _("Efectivitat per tipus original\nper a tots els tipus.");
+static const u8 sText_Description_Mode_New_Effectiveness_Modern[]    = _("Efectivitat per tipus nova i equilibrada\nper a certs tipus.");
+static const u8 sText_Description_Mode_Next[]                     = _("Continua a les opcions de funcionalitat.");
 
 static const u8 *const sOptionMenuItemDescriptionsMode[MENUITEM_MODE_COUNT][5] =
 {
