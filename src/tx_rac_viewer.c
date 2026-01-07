@@ -182,25 +182,25 @@ static const u8 sText_Chk_Mirror[]            = _("MIRROR MODE");
 static const u8 sText_Chk_MirrorThief[]       = _("MIRROR THIEF");
 
 //Options
-static const u8 sText_On[]  = _("ON");
-static const u8 sText_Off[] = _("OFF");
-static const u8 sText_Yes[]   = _("YES");
+static const u8 sText_On[]  = _("ACTIU");
+static const u8 sText_Off[] = _("INACTIU");
+static const u8 sText_Yes[]   = _("SÍ");
 static const u8 sText_No[]    = _("NO");
 static const u8 sText_Original[]  = _("ORIGINAL");
 static const u8 sText_Modern[]    = _("MODERN");
-static const u8 sText_RTC[]     = _("RTC");
-static const u8 sText_FakeRTC[] = _("FAKE RTC");
-static const u8 sText_Frontier_Ban[]     = _("BAN");
-static const u8 sText_Frontier_Unban[]   = _("UNBAN");
-static const u8 sText_Nuz_Mode_Off[]        = _("OFF");
-static const u8 sText_Nuz_Mode_Easy[]       = _("EASY");
+static const u8 sText_RTC[]     = _("RTR");
+static const u8 sText_FakeRTC[] = _("RTR FALS");
+static const u8 sText_Frontier_Ban[]     = _("BANDEJATS");
+static const u8 sText_Frontier_Unban[]   = _("PERMESOS");
+static const u8 sText_Nuz_Mode_Off[]        = _("INACTIU");
+static const u8 sText_Nuz_Mode_Easy[]       = _("FÀCIL");
 static const u8 sText_Nuz_Mode_Standard[]   = _("NORMAL");
-static const u8 sText_Nuz_Mode_Hardcore[]   = _("HARD");
-static const u8 sText_Nuz_Fainting_Cemetery[]   = _("CEMETERY");
-static const u8 sText_Nuz_Fainting_Release[]    = _("RELEASE");
+static const u8 sText_Nuz_Mode_Hardcore[]   = _("DIFÍCIL");
+static const u8 sText_Nuz_Fainting_Cemetery[]   = _("CEMENTERI");
+static const u8 sText_Nuz_Fainting_Release[]    = _("ALLIBERA");
 
 // Party Limit: OFF,5,4,3,2,1
-static const u8 sPL_Off[] = _("OFF");
+static const u8 sPL_Off[] = _("CAP");
 static const u8 sPL_5[]   = _("5");
 static const u8 sPL_4[]   = _("4");
 static const u8 sPL_3[]   = _("3");
@@ -209,69 +209,69 @@ static const u8 sPL_1[]   = _("1");
 static const u8 *const sText_Diff_PartyLimit_Strings[] = {
     sPL_Off, sPL_5, sPL_4, sPL_3, sPL_2, sPL_1
 };
-static const u8 sLC_Off[]  = _("OFF");
-static const u8 sLC_Easy[] = _("EASY");
-static const u8 sLC_Hard[] = _("HARD");
+static const u8 sLC_Off[]  = _("CAP");
+static const u8 sLC_Easy[] = _("FÀCIL");
+static const u8 sLC_Hard[] = _("DIFÍCIL");
 static const u8 *const sText_Diff_LevelCap_Strings[] = {
     sLC_Off, sLC_Easy, sLC_Hard
 };
-static const u8 sEM_1x[]   = _("1x");
-static const u8 sEM_15x[]  = _("1.5x");
-static const u8 sEM_2x[]   = _("2x");
-static const u8 sEM_0x[]   = _("0x");
+static const u8 sEM_1x[]   = _("x1");
+static const u8 sEM_15x[]  = _("x1,5");
+static const u8 sEM_2x[]   = _("x2");
+static const u8 sEM_0x[]   = _("x0");
 static const u8 *const sText_Diff_ExpMult_Strings[] = {
     sEM_1x, sEM_15x, sEM_2x, sEM_0x
 };
-static const u8 sIVs_Yes[]   = _("YES");
+static const u8 sIVs_Yes[]   = _("SÍ");
 static const u8 sIVs_No[]    = _("NO");
-static const u8 sIVs_NoHP[]  = _("NO (HP)");
+static const u8 sIVs_NoHP[]  = _("NO (PS)");
 static const u8 *const sText_Diff_PlayerIVs_Strings[] = {
     sIVs_Yes, sIVs_No, sIVs_NoHP
 };
-static const u8 sTrainerEVs_Off[]   = _("OFF");
-static const u8 sTrainerEVs_Scale[] = _("SCALE");
-static const u8 sTrainerEVs_Hard[]  = _("HARD");
-static const u8 sTrainerEVs_Extreme[]  = _("EXTREME");
+static const u8 sTrainerEVs_Off[]   = _("CAP");
+static const u8 sTrainerEVs_Scale[] = _("ESCALAT");
+static const u8 sTrainerEVs_Hard[]  = _("DIFÍCIL");
+static const u8 sTrainerEVs_Extreme[]  = _("EXTREM");
 static const u8 *const sText_TrainerEV_Strings[] = {
     sTrainerEVs_Off, sTrainerEVs_Scale, sTrainerEVs_Hard, sTrainerEVs_Extreme
 };
-static const u8 sEX_Off[]  = _("OFF");
+static const u8 sEX_Off[]  = _("NO");
 static const u8 sEX_5x[]   = _("x5");
 static const u8 sEX_10x[]  = _("x10");
 static const u8 sEX_50x[]  = _("x50!");
 static const u8 *const sText_Chk_Expensive_Strings[] = { sEX_Off, sEX_5x, sEX_10x, sEX_50x };
-static const u8 sEL_Off[]   = _("OFF");
-static const u8 sEL_First[] = _("FIRST");
-static const u8 sEL_All[]   = _("ALL");
+static const u8 sEL_Off[]   = _("CAP");
+static const u8 sEL_First[] = _("PRIMERA");
+static const u8 sEL_All[]   = _("COMPLET");
 static const u8 *const sText_Chk_EvoLimit_Strings[] = { sEL_Off, sEL_First, sEL_All };
-static const u8 sBE_Off[]  = _("OFF");
+static const u8 sBE_Off[]  = _("CAP");
 static const u8 sBE_100[]  = _("100");
 static const u8 sBE_255[]  = _("255");
 static const u8 sBE_500[]  = _("500");
 static const u8 *const sText_Chk_BaseStatEq_Strings[] = { sBE_Off, sBE_100, sBE_255, sBE_500 };
 // --- One Type Challenge display strings (index == type constant) ---
 static const u8 sTypeName_Normal[]   = _("NORMAL");
-static const u8 sTypeName_Fighting[] = _("FIGHTING");
-static const u8 sTypeName_Flying[]   = _("FLYING");
-static const u8 sTypeName_Poison[]   = _("POISON");
-static const u8 sTypeName_Ground[]   = _("GROUND");
-static const u8 sTypeName_Rock[]     = _("ROCK");
-static const u8 sTypeName_Bug[]      = _("BUG");
-static const u8 sTypeName_Ghost[]    = _("GHOST");
-static const u8 sTypeName_Steel[]    = _("STEEL");
-static const u8 sTypeName_Mystery[]  = _("MYSTERY");
-static const u8 sTypeName_Fire[]     = _("FIRE");
-static const u8 sTypeName_Water[]    = _("WATER");
-static const u8 sTypeName_Grass[]    = _("GRASS");
-static const u8 sTypeName_Electric[] = _("ELECTRIC");
-static const u8 sTypeName_Psychic[]  = _("PSYCHIC");
-static const u8 sTypeName_Ice[]      = _("ICE");
-static const u8 sTypeName_Dragon[]   = _("DRAGON");
-static const u8 sTypeName_Dark[]     = _("DARK");
-static const u8 sTypeName_Fairy[]    = _("FAIRY");
+static const u8 sTypeName_Fighting[] = _("LLUITA");
+static const u8 sTypeName_Flying[]   = _("VOLADOR");
+static const u8 sTypeName_Poison[]   = _("VERÍ");
+static const u8 sTypeName_Ground[]   = _("TERRA");
+static const u8 sTypeName_Rock[]     = _("PEDRA");
+static const u8 sTypeName_Bug[]      = _("INSECTE");
+static const u8 sTypeName_Ghost[]    = _("ESPERIT");
+static const u8 sTypeName_Steel[]    = _("METALL");
+static const u8 sTypeName_Mystery[]  = _("MISTERIÓS");
+static const u8 sTypeName_Fire[]     = _("FOC");
+static const u8 sTypeName_Water[]    = _("AIGUA");
+static const u8 sTypeName_Grass[]    = _("HERBA");
+static const u8 sTypeName_Electric[] = _("ELÈCTRIC");
+static const u8 sTypeName_Psychic[]  = _("PSÍQUIC");
+static const u8 sTypeName_Ice[]      = _("GEL");
+static const u8 sTypeName_Dragon[]   = _("DRAC");
+static const u8 sTypeName_Dark[]     = _("FOSC");
+static const u8 sTypeName_Fairy[]    = _("FADA");
 
 // Display "OFF" when value is out of range
-static const u8 sText_TypeOff[] = _("OFF");
+static const u8 sText_TypeOff[] = _("TOTS");
 
 // Index order matches your TYPE_* defines (0..18)
 static const u8 *const sTypeNames[19] = {
@@ -312,8 +312,8 @@ static const u8 sColorRightRedDark[3]= { TEXT_COLOR_TRANSPARENT, TEXT_COLOR_OPTI
 static const u8 sColorRightGray[3]   = { TEXT_COLOR_TRANSPARENT, TEXT_COLOR_OPTIONS_GRAY_FG,      TEXT_COLOR_OPTIONS_GRAY_SHADOW };
 
 // Top bar / desc strings
-static const u8 sViewerTopLeft[] = _("CHALLENGE VIEWER");
-static const u8 sViewerDesc[] = _("{A_BUTTON}/{B_BUTTON}: Exit         {DPAD_UP}/{DPAD_DOWN}: Scroll\n {L_BUTTON}/{R_BUTTON}: Change Page");
+static const u8 sViewerTopLeft[] = _("VISOR DE REPTES");
+static const u8 sViewerDesc[] = _("{A_BUTTON}/{B_BUTTON}: Ix         {DPAD_UP}/{DPAD_DOWN}: Llisca\n {L_BUTTON}/{R_BUTTON}: Canvia la pàgina");
 
 // Match tx_rac_menu background (light blue)
 static const u16 sOptionMenuBg_Pal[] = { RGB(17, 18, 31) };
@@ -1190,7 +1190,7 @@ static void DrawTopBar(void)
     // Right side hint: Exit + Scroll
     {
         // "A/B: Exit  Up/Down: Scroll"
-        static const u8 sViewerExitScrollHint[] = _("Heart & Soul");
+        static const u8 sViewerExitScrollHint[] = _("Cor i Ànima");
         s32 w = GetStringWidth(FONT_SMALL, sViewerExitScrollHint, 0);
         s32 x = 232 - w; // stay a few px from the right edge
         if (x < 0) x = 0;
