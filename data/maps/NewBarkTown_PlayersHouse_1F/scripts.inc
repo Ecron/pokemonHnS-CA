@@ -157,7 +157,7 @@ NewBarkTown_PlayersHouse_1F_MovementFaceLeft:
 
 NewBarkTown_PlayersHouse_1F_Text_ElmsLookingForYou:
 	.string "Oh, {PLAYER}…! El veí,\n"
-	.string "el PROFESSOR XOP, t'estava buscant.\p"
+	.string "el PROFESSOR OLM, t'estava buscant.\p"
 	.string "Ha dit que volia demanar-te si\n"
 	.string "podies fer-li un favor.\p"
 	.string "Ah! Quasi ho oblide! Ja han reparat el\n"
@@ -184,10 +184,10 @@ NewBarkTown_PlayersHouse_1F_Text_SwitchShoesWithRunningShoes:
 
 NewBarkTown_PlayersHouse_1F_Text_ExplainRunningShoes:
 	.string "MARE: {PLAYER}, prem el botó B\n"
-	.string "per a eixir a córrer!$"
+	.string "per a pegar a córrer!$"
 
 NewBarkTown_PlayersHouse_1F_Text_MomHurryUpElmIsWaiting:
-	.string "MAMÀ: El PROF. XOP t'espera.\p"
+	.string "MAMÀ: El PROF. OLM t'espera.\p"
 	.string "Afanya't, rei!$"
 
 NewBarkTown_PlayersHouse_1F_Text_MomsFriend:
@@ -195,13 +195,13 @@ NewBarkTown_PlayersHouse_1F_Text_MomsFriend:
 	.string "Estic de visita!\p"
 	.string "Te n'has assabentat?\p"
 	.string "La meua filla està encabotada en\n"
-	.string "ser l'ajudant del PROF. XOP.\p"
+	.string "ser l'ajudant del PROF. OLM.\p"
 	.string "Li encanten els POKéMON!$"
 
 NewBarkTown_PlayersHouse_1F_Text_MomLeaving:
 	.string "MAMÀ: Hala, quin POKéMON més bonico.\n"
 	.string "D'on te l'has tret?\p"
-	.string "…\p"
+	.string "...\p"
 	.string "Llavors, te'n vas d'aventura…\n"
 	.string "Sembla que serà tot un repte…\p"
 	.string "Vés amb compte.\p"
