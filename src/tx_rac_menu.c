@@ -514,7 +514,7 @@ static const u8 sText_RTC_Type[]            = _("RELLOTGE");
 static const u8 sText_ShinyChance[]         = _("{PKMN} BRILLANTS");
 static const u8 sText_ItemDrop[]            = _("OBJECTES");
 static const u8 sText_EasyFeebas[]          = _("{COLOR 3}{SHADOW 3}FEEBAS FÀCIL");
-static const u8 sText_Unlimited_WT[]        = _("{COLOR 3}{SHADOW 3}IF IL·LIMITATS WT");
+static const u8 sText_Unlimited_WT[]        = _("{COLOR 3}{SHADOW 3}IF IL·LIMITATS");
 static const u8 sText_FrontierBans[]        = _("BANDEJOS AL FRONT");
 static const u8 sText_Shiny_Colors[]        = _("COLORS BRILLANTS");
 
@@ -619,15 +619,15 @@ static const u8 *const sOptionMenuItemsNamesDifficulty[MENUITEM_DIFFICULTY_COUNT
 };
 
 // MENU_CHALLENGES
-static const u8 sText_Pokecenter[]          = _("POKéCENTER");
-static const u8 sText_PCHeal[]              = _("PC HEALS {PKMN}");
-static const u8 sText_Expensive[]           = _("ULTRA EXPENSIVE!");
-static const u8 sText_EvoLimit[]            = _("EVO LIMIT");
-static const u8 sText_OneTypeChallenge[]    = _("ONE TYPE ONLY");
-static const u8 sText_BaseStatEqualizer[]   = _("BST EQUALIZER");
-static const u8 sText_Mirror[]              = _("MIRROR MODE");
-static const u8 sText_MirrorThief[]         = _("MIRROR THIEF");
-static const u8 sText_Save[]                = _("SAVE");
+static const u8 sText_Pokecenter[]          = _("CENTRE POKéMON");
+static const u8 sText_PCHeal[]              = _("{PKMN} CURATS AL PC");
+static const u8 sText_Expensive[]           = _("ULTRA CAR!");
+static const u8 sText_EvoLimit[]            = _("LÍMIT D'EVOLUCIÓ");
+static const u8 sText_OneTypeChallenge[]    = _("NOMÉS UN TIPUS");
+static const u8 sText_BaseStatEqualizer[]   = _("ESTAD. BÀSIQUES");
+static const u8 sText_Mirror[]              = _("MODE ESPILL");
+static const u8 sText_MirrorThief[]         = _("LLADRE ESPILL");
+static const u8 sText_Save[]                = _("GUARDA");
 static const u8 *const sOptionMenuItemsNamesChallenges[MENUITEM_CHALLENGES_COUNT] =
 {
     [MENUITEM_DIFFICULTY_POKECENTER]            = sText_Pokecenter,
@@ -793,7 +793,7 @@ static const u8 sText_Description_Mode_New_Citrus_On[]            = _("La BAIA '
 static const u8 sText_Description_Mode_Modern_Types_Off[]         = _("Tipus de {PKMN} originals. No inclou els\n{PKMN} que es van afegir al FADA en la GEN. VI.");
 static const u8 sText_Description_Mode_Modern_Types_On[]          = _("Els {PKMN} tenen tipus modificats\nper a fer-los més viables.");
 static const u8 sText_Description_Mode_Fairy_Types_Off[]          = _("El TIPUS FADA no s'afegeix als {PKMN} \nque el tenen en la GEN. VI.");
-static const u8 sText_Description_Mode_Fairy_Types_On[]           = _("El TIPOS FADA s'afegeix o es canvia\na certs {PKMN}, com en la GEN. VI.");
+static const u8 sText_Description_Mode_Fairy_Types_On[]           = _("El TIPUS FADA s'afegeix o es canvia\nen certs {PKMN}, com en la GEN. VI.");
 static const u8 sText_Description_Mode_New_Stats_Off[]            = _("Estadístiques dels {PKMN} originals,\nde la GEN. III.");
 static const u8 sText_Description_Mode_New_Stats_On[]             = _("Estadístiques modificades per a fer\ncerts {PKMN} més viables.");
 static const u8 sText_Description_Mode_Sturdy_Off[]               = _("'ROBUSTEZ' funciona com en la GEN. III.\nNomés evita atacs KO (GUILLOTINA, etc.)");
@@ -828,25 +828,25 @@ static const u8 *const sOptionMenuItemDescriptionsMode[MENUITEM_MODE_COUNT][5] =
     [MENUITEM_MODE_NEXT]                  = {sText_Description_Mode_Next,                   sText_Empty,                                  sText_Empty,                                        sText_Empty,                                        sText_Empty},
 };
 
-static const u8 sText_Description_Features_RTC_Type_RTC[]             = _("Use vanilla Real Time Clock.");
-static const u8 sText_Description_Features_RTC_Type_FakeRTC[]         = _("Use a fake Real Time Clock.\n1h in real life = 1 day in-game.");
-static const u8 sText_Description_Features_ItemDrop_On[]              = _("Wild {PKMN} will drop their hold item\nafter defeating them.");
-static const u8 sText_Description_Features_ItemDrop_Off[]             = _("Wild {PKMN} items will be only obtainable\nvia capture or THIEF.");
-static const u8 sText_Description_Features_ShinyChance_8192[]         = _("Very low chance of SHINY encounter.\nDefault chance from Generation III.");
-static const u8 sText_Description_Features_ShinyChance_4096[]         = _("Low chance of SHINY encounter.\nDefault chance from Generation VI+.");
-static const u8 sText_Description_Features_ShinyChance_2048[]         = _("Decent chance of SHINY encounter.");
-static const u8 sText_Description_Features_ShinyChance_1024[]         = _("High chance of SHINY encounter.");
-static const u8 sText_Description_Features_ShinyChance_512[]          = _("Very high chance of SHINY encounter.");
-static const u8 sText_Description_Features_EasyFeebas_On[]            = _("FEEBAS is easier to catch and spawns\neverywhere in ROUTE 119.");
-static const u8 sText_Description_Features_EasyFeebas_Off[]           = _("FEEBAS is encountered in random\nspots in ROUTE 119.");
-static const u8 sText_Description_Features_Unlimited_WT_On[]          = _("Enables a daily limit of 3\nWonderTrades. Recommended.");
-static const u8 sText_Description_Features_Unlimited_WT_Off[]         = _("WonderTrades have no daily limit.");
-static const u8 sText_Description_Features_FrontierBans_Unban[]       = _("All legendaries are allowed to\nparticipate in the BATTLE FRONTIER.");
-static const u8 sText_Description_Features_FrontierBans_Ban[]         = _("Powerful legendary {PKMN} are banned\nin the BATTLE FRONTIER. Default.");
-static const u8 sText_Description_Features_Shiny_Colors_Original[]    = _("Original shiny color palette for all\nPOKéMON. Default.");
-static const u8 sText_Description_Features_Shiny_Colors_Modern[]      = _("Some shiny POKéMON have brand new\ncolor palettes.");
+static const u8 sText_Description_Features_RTC_Type_RTC[]             = _("Usa el Rellotge de Temps Real normal.");
+static const u8 sText_Description_Features_RTC_Type_FakeRTC[]         = _("Usa un Rellotge de Temps Real fals.\n1h al món real = 1 dia al joc.");
+static const u8 sText_Description_Features_ItemDrop_On[]              = _("Els {PKMN} salvatges deixaran caure el seu objecte\nen debilitar-los.");
+static const u8 sText_Description_Features_ItemDrop_Off[]             = _("Només es podran obtindre els objectes dels {PKMN}\nsi es capturen o amb THIEF.");
+static const u8 sText_Description_Features_ShinyChance_8192[]         = _("Probabilitat molt baixa de trobar un {PKMN} BRILLANT.\nProbabilitat de la GEN. III.");
+static const u8 sText_Description_Features_ShinyChance_4096[]         = _("Probabilitat baixa de trobar un {PKMN} BRILLANT.\nProbabilitat de les GEN. VI+.");
+static const u8 sText_Description_Features_ShinyChance_2048[]         = _("Probabilitat decent de trobar un {PKMN} BRILLANT.");
+static const u8 sText_Description_Features_ShinyChance_1024[]         = _("Probabilitat alta de trobar un {PKMN} BRILLANT.");
+static const u8 sText_Description_Features_ShinyChance_512[]          = _("Probabilitat molt alta de trobar un {PKMN} BRILLANT.");
+static const u8 sText_Description_Features_EasyFeebas_On[]            = _("'FEEBAS'** és més fàcil de capturar i apareix\narreu en la RUTA 119.");
+static const u8 sText_Description_Features_EasyFeebas_Off[]           = _("'FEEBAS'** apareix en punts aleatoris\nde la RUTA 119.");
+static const u8 sText_Description_Features_Unlimited_WT_On[]          = _("Activa un límit diari de 3\nIntercanvis Fabulosos. Recomanat.");
+static const u8 sText_Description_Features_Unlimited_WT_Off[]         = _("Els Intercanvis Fabulosos no tenen\ncap límit diari.");
+static const u8 sText_Description_Features_FrontierBans_Unban[]       = _("Tots els legendaris poden participar\nen el FRONT BATALLA.");
+static const u8 sText_Description_Features_FrontierBans_Ban[]         = _("Els {PKMN} legendaris més forts estan bandejats\nen el FRONT BATALLLA. Predefinit.");
+static const u8 sText_Description_Features_Shiny_Colors_Original[]    = _("Paleta de colors brillants original per a tots\nels POKéMON. Predefinit.");
+static const u8 sText_Description_Features_Shiny_Colors_Modern[]      = _("Alguns POKéMON brillants tenen paletes de color\nnoves.");
 
-static const u8 sText_Description_Features_Next[]                     = _("Continue to Randomizer options.");
+static const u8 sText_Description_Features_Next[]                     = _("Continua a les opcions del Mode Aleatori.");
 
 static const u8 *const sOptionMenuItemDescriptionsFeatures[MENUITEM_FEATURES_COUNT][5] =
 {
@@ -860,10 +860,10 @@ static const u8 *const sOptionMenuItemDescriptionsFeatures[MENUITEM_FEATURES_COU
     [MENUITEM_FEATURES_NEXT]                  = {sText_Description_Features_Next,                   sText_Empty,                                      sText_Empty,                                        sText_Empty,                                        sText_Empty},
 };
 
-static const u8 sText_Description_Randomizer_Off[]                  = _("Game will not be randomized.");
-static const u8 sText_Description_Randomizer_On[]                   = _("Play the game randomized.\nSettings below!");
-static const u8 sText_Description_Random_Starter_Off[]              = _("Standard starter POKéMON.");
-static const u8 sText_Description_Random_Starter_On[]               = _("Randomize starter POKéMON.");
+static const u8 sText_Description_Randomizer_Off[]                  = _("El joc no serà aleatori.");
+static const u8 sText_Description_Randomizer_On[]                   = _("Juga en Mode Aleatori.\nConfigura-ho a baix!");
+static const u8 sText_Description_Random_Starter_Off[]              = _("POKéMON inicial estàndard.");
+static const u8 sText_Description_Random_Starter_On[]               = _("POKéMON inicial aleatori.");
 static const u8 sText_Description_Random_WildPokemon_Off[]          = _("Same wild encounter as in the\nbase game.");
 static const u8 sText_Description_Random_WildPokemon_On[]           = _("Randomize wild POKéMON.");
 static const u8 sText_Description_Random_Trainer_Off[]              = _("Trainer will have their expected\nparty.");
