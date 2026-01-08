@@ -124,62 +124,62 @@ static const u8 sText_ModernMoves_Label[]   = _("JOC D'ATACS {PKMN}");
 static const u8 sText_LegendaryAbils_Label[]= _("HABILITATS DELS LEGEN.");
 
 //page 2 Features
-static const u8 sText_RTCType_Label[]      = _("CLOCK TYPE");
-static const u8 sText_ShinyChance_Label[]  = _("SHINY CHANCE");
-static const u8 sText_ItemDrops_Label[]    = _("ITEM DROP");
-static const u8 sText_FrontierBans_Label[] = _("FRONTIER BANS");
-static const u8 sText_ShinyColors_Label[]  = _("SHINY COLORS");
+static const u8 sText_RTCType_Label[]      = _("RELLOTGE");
+static const u8 sText_ShinyChance_Label[]  = _("{PKMN} BRILLANTS");
+static const u8 sText_ItemDrops_Label[]    = _("OBJECTES");
+static const u8 sText_FrontierBans_Label[] = _("BANDEJOS AL FRONT");
+static const u8 sText_ShinyColors_Label[]  = _("COLORS BRILLANTS");
 
 // page 3 (Randomizer)
-static const u8 sText_Randomizer[]            = _("RANDOMIZER");
-static const u8 sText_Rand_Starter[]          = _("STARTER POKéMON");
-static const u8 sText_Rand_Wild[]             = _("WILD POKéMON");
-static const u8 sText_Rand_Trainer[]          = _("TRAINER");
-static const u8 sText_Rand_Static[]           = _("RANDOM STATIC");
-static const u8 sText_Rand_SimilarEvoLvl[]    = _("BALANCING");
-static const u8 sText_Rand_IncludeLegends[]   = _("LEGENDARIES");
-static const u8 sText_Rand_Type[]             = _("TYPE");
-static const u8 sText_Rand_Moves[]            = _("MOVES");
-static const u8 sText_Rand_Abilities[]        = _("ABILITIES");
-static const u8 sText_Rand_Evolutions[]       = _("EVOLUTIONS");
-static const u8 sText_Rand_EvoMethods[]       = _("EVO LINES");
-static const u8 sText_Rand_TypeEffect[]       = _("EFFECTIVENESS");
-static const u8 sText_Rand_Items[]            = _("ITEMS");
-static const u8 sText_Rand_Chaos[]            = _("CHAOS");
+static const u8 sText_Randomizer[]            = _("ALEATORI");
+static const u8 sText_Rand_Starter[]          = _("POKéMON INICIAL");
+static const u8 sText_Rand_Wild[]             = _("POKéMON SALVATGES");
+static const u8 sText_Rand_Trainer[]          = _("ENTRENADORS");
+static const u8 sText_Rand_Static[]           = _("POKéMON ESTÀTICS");
+static const u8 sText_Rand_SimilarEvoLvl[]    = _("EQUILIBRAT");
+static const u8 sText_Rand_IncludeLegends[]   = _("LEGENDARIS");
+static const u8 sText_Rand_Type[]             = _("TIPUS");
+static const u8 sText_Rand_Moves[]            = _("ATACS");
+static const u8 sText_Rand_Abilities[]        = _("HABILITATS");
+static const u8 sText_Rand_Evolutions[]       = _("EVOLUCIONS");
+static const u8 sText_Rand_EvoMethods[]       = _("LÍNIES D'EVOLUCIÓ");
+static const u8 sText_Rand_TypeEffect[]       = _("EFECTIVITAT");
+static const u8 sText_Rand_Items[]            = _("OBJECTES");
+static const u8 sText_Rand_Chaos[]            = _("CAOS");
 
 
 // page 4 (Nuzlocke)
 static const u8 sText_Nuz_Nuzlocke[]         = _("NUZLOCKE");
-static const u8 sText_Nuz_Hardcore[]         = _("NUZLOCKE HARDCORE");
-static const u8 sText_Nuz_Mode[]             = _("NUZLOCKE MODE");
-static const u8 sText_Nuz_SpeciesClause[]    = _("DUPES CLAUSE");
-static const u8 sText_Nuz_ShinyClause[]      = _("SHINY CLAUSE");
-static const u8 sText_Nuz_Nicknaming[]       = _("NICKNAMES");
-static const u8 sText_Nuz_Fainting[]         = _("FAINTING");
-static const u8 sText_Nuz_RareCandy[]        = _("INF. RARE CANDY");
+static const u8 sText_Nuz_Hardcore[]         = _("NUZLOCKE EXTREM");
+static const u8 sText_Nuz_Mode[]             = _("MODE DEL NUZLOCKE");
+static const u8 sText_Nuz_SpeciesClause[]    = _("CLÀUSULA DUPLICATS");
+static const u8 sText_Nuz_ShinyClause[]      = _("CLÀUSULA BRILLANTS");
+static const u8 sText_Nuz_Nicknaming[]       = _("MALNOMS");
+static const u8 sText_Nuz_Fainting[]         = _("DEBILITATS");
+static const u8 sText_Nuz_RareCandy[]        = _("DOLÇ ESTRANY INF.");
 
 // page 5 (Difficulty) — labels
-static const u8 sText_Diff_PartyLimit[]      = _("PARTY LIMIT");
-static const u8 sText_Diff_LevelCap[]        = _("LEVEL CAP");
-static const u8 sText_Diff_ExpMult[]         = _("EXP. MULTIPLIER");
-static const u8 sText_Diff_NoItemPlayer[]    = _("PLAYER ITEMS");
-static const u8 sText_Diff_NoItemTrainer[]   = _("TRAINER ITEMS");
-static const u8 sText_Diff_PartyIVs[]        = _("PLAYER IVs");
-static const u8 sText_Diff_TrainerIVs[]      = _("TRAINER IVs");
-static const u8 sText_Diff_PlayerEVs[]       = _("PLAYER EVs");
-static const u8 sText_Diff_TrainerEVs[]      = _("TRAINER EVs");
-static const u8 sText_Diff_LessEscapes[]     = _("LESS ESCAPES");
-static const u8 sText_Diff_EscapeRopeDig[]   = _("ESC. ROPE / DIG");
+static const u8 sText_Diff_PartyLimit[]      = _("LÍMIT D'EQUIP");
+static const u8 sText_Diff_LevelCap[]        = _("LÍMIT DE NIVELL");
+static const u8 sText_Diff_ExpMult[]         = _("MULTIPLICADOR D'EXP.");
+static const u8 sText_Diff_NoItemPlayer[]    = _("OBJECTES DEL JUGADOR");
+static const u8 sText_Diff_NoItemTrainer[]   = _("OBJECTES DELS ENTRENADORS");
+static const u8 sText_Diff_PartyIVs[]        = _("VI DEL JUGADOR");
+static const u8 sText_Diff_TrainerIVs[]      = _("VI DELS ENTRENADORS");
+static const u8 sText_Diff_PlayerEVs[]       = _("VE DEL JUGADOR");
+static const u8 sText_Diff_TrainerEVs[]      = _("VE DELS ENTRENADORS");
+static const u8 sText_Diff_LessEscapes[]     = _("MENYS ESCAPS");
+static const u8 sText_Diff_EscapeRopeDig[]   = _("CAVACLOTS/CORDA FUGIDA");
 
 // page 6 (Other Challenges) — labels
-static const u8 sText_Chk_PkmnCenter[]        = _("POKéCENTER");
-static const u8 sText_Chk_PCHeal[]            = _("PC HEAL {PKMN}");
-static const u8 sText_Chk_Expensive[]         = _("ULTRA EXPENSIVE!");
-static const u8 sText_Chk_EvoLimit[]          = _("EVO LIMIT");
-static const u8 sText_Chk_OneType[]           = _("ONE TYPE ONLY");
-static const u8 sText_Chk_BaseStatEq[]        = _("BST EQUALIZER");
-static const u8 sText_Chk_Mirror[]            = _("MIRROR MODE");
-static const u8 sText_Chk_MirrorThief[]       = _("MIRROR THIEF");
+static const u8 sText_Chk_PkmnCenter[]        = _("CENTRE POKéMON");
+static const u8 sText_Chk_PCHeal[]            = _("{PKMN} CURATS AL PC");
+static const u8 sText_Chk_Expensive[]         = _("ULTRA CAR!");
+static const u8 sText_Chk_EvoLimit[]          = _("LÍMIT D'EVOLUCIÓ");
+static const u8 sText_Chk_OneType[]           = _("NOMÉS UN TIPUS");
+static const u8 sText_Chk_BaseStatEq[]        = _("ESTAD. BÀSIQUES");
+static const u8 sText_Chk_Mirror[]            = _("MODE ESPILL");
+static const u8 sText_Chk_MirrorThief[]       = _("LLADRE ESPILL");
 
 //Options
 static const u8 sText_On[]  = _("ACTIU");
