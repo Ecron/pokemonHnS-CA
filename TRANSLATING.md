@@ -1,5 +1,26 @@
-List of translatable text files:
-- ../data/maps/:
+![Pokémon H&S logo](/HnS_Logo.png)
+
+# TRANSLATING POKéMON HEART & SOUL
+
+
+
+This document contains useful suggestions in case you want to localize Pokémon Heart&Soul to your own language.
+
+### Translation Tips and Tricks
+- Max. string length for regular dialogs would be around 40 characters. Any sentence longer than that would need to be broken to the next line.
+- ...
+
+### Hard to find, important files to be translated:
+- Initial game settings (GameMode, Randomizer, Nuzlocke, etc.):
+  - ../src/tx_rac_menu.c
+  - ../src/tx_rac_viewer.c
+- ...
+
+### Comprehensive list of translatable text files:
+
+<details>
+<summary>../data/maps/:</summary>
+  
   - data/maps/AbandonedShip_CaptainsOffice/scripts.inc
   - data/maps/AbandonedShip_Corridors_1F/scripts.inc
   - data/maps/AbandonedShip_Corridors_B1F/scripts.inc
@@ -453,3 +474,5 @@ List of translatable text files:
   - data/maps/Route13/scripts.inc
   - data/maps/Route14/scripts.inc
   - 
+
+</details>
