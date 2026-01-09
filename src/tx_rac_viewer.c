@@ -115,11 +115,11 @@ static u16 sCurIndex;   // absolute row index on current page
 //page 1 Mode
 static const u8 sText_InfiniteTMs_Label[]   = _("MT REUSABLES");
 static const u8 sText_SurvivePoison_Label[] = _("SOBREVIURE AL VERÍ");
-static const u8 sText_Synchronize_Label[]   = _("'SINCRONÍA'**");
-static const u8 sText_Mints_Label[]         = _("MENTA DE NATURA");
-static const u8 sText_NewCitrus_Label[]     = _("BAIA 'SITRUS'**");
+static const u8 sText_Synchronize_Label[]   = _("SINCRONITZAT");
+static const u8 sText_Mints_Label[]         = _("MENTA DE CARÀCTER");
+static const u8 sText_NewCitrus_Label[]     = _("BAIA TRONJA");
 static const u8 sText_FairyTypes_Label[]    = _("TIPUS FADA");
-static const u8 sText_Sturdy_Label[]        = _("'ROBUSTEZ'**");
+static const u8 sText_Sturdy_Label[]        = _("ROBUST");
 static const u8 sText_ModernMoves_Label[]   = _("JOC D'ATACS {PKMN}");
 static const u8 sText_LegendaryAbils_Label[]= _("HABILITATS DELS LEGEN.");
 
@@ -267,7 +267,7 @@ static const u8 sTypeName_Electric[] = _("ELÈCTRIC");
 static const u8 sTypeName_Psychic[]  = _("PSÍQUIC");
 static const u8 sTypeName_Ice[]      = _("GEL");
 static const u8 sTypeName_Dragon[]   = _("DRAC");
-static const u8 sTypeName_Dark[]     = _("FOSC");
+static const u8 sTypeName_Dark[]     = _("PERVERS");
 static const u8 sTypeName_Fairy[]    = _("FADA");
 
 // Display "OFF" when value is out of range
@@ -313,7 +313,7 @@ static const u8 sColorRightGray[3]   = { TEXT_COLOR_TRANSPARENT, TEXT_COLOR_OPTI
 
 // Top bar / desc strings
 static const u8 sViewerTopLeft[] = _("VISOR DE REPTES");
-static const u8 sViewerDesc[] = _("{A_BUTTON}/{B_BUTTON}: Ix         {DPAD_UP}/{DPAD_DOWN}: Llisca\n {L_BUTTON}/{R_BUTTON}: Canvia la pàgina");
+static const u8 sViewerDesc[] = _("{A_BUTTON}/{B_BUTTON}: Ix         {DPAD_UP}/{DPAD_DOWN}: Desplaça\n {L_BUTTON}/{R_BUTTON}: Canvia la pàgina");
 
 // Match tx_rac_menu background (light blue)
 static const u16 sOptionMenuBg_Pal[] = { RGB(17, 18, 31) };
