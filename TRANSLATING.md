@@ -11,6 +11,8 @@ This document contains useful suggestions in case you want to localize Pokémon 
 - ...
 
 ### Hard to find, important files to be translated:
+- Main, general strings (menus, events, OK, CANCEL, etc.):
+  - ../src/strings.c
 - Initial game settings (GameMode, Randomizer, Nuzlocke, etc.):
   - ../src/tx_rac_menu.c
   - ../src/tx_rac_viewer.c
