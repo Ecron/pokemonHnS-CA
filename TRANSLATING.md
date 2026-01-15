@@ -552,6 +552,48 @@ This document contains useful suggestions in case you want to localize Pokémon 
   - data/maps/RustboroCity_PokemonCenter_1F/scripts.inc
   - data/maps/RustboroCity_PokemonSchool/scripts.inc
   - data/maps/RusturfTunnel/scripts.inc
+  - data/maps/SSAqua_1F/scripts.inc
+  - data/maps/SSAqua_B1F/scripts.inc
+  - data/maps/SSAqua_CaptainsRoom/scripts.inc
+  - data/maps/SSAqua_PlayersRoom/scripts.inc
+  - data/maps/SSAqua_RoomNE/scripts.inc
+  - data/maps/SSAqua_RoomNNE/scripts.inc
+  - data/maps/SSAqua_RoomNW/scripts.inc
+  - data/maps/SSAqua_RoomSE/scripts.inc
+  - data/maps/SSAqua_RoomSSE/scripts.inc
+  - data/maps/SSAqua_RoomSSW/scripts.inc
+  - data/maps/SSAqua_RoomSW/scripts.inc
+  - data/maps/SSTidalCorridor/scripts.inc
+  - data/maps/SSTidalLowerDeck/scripts.inc
+  - data/maps/SSTidalRooms/scripts.inc
+  - data/maps/SafariZoneGate/scripts.inc
+  - data/maps/SafariZoneGate_PokemonCenter/scripts.inc
+  - data/maps/SafariZoneGate_SafariZoneEntrance/scripts.inc
+  - data/maps/SafariZone_Northeast/scripts.inc
+  - data/maps/SafariZone_Southeast/scripts.inc
+  - data/maps/SafariZone_Southwest/scripts.inc
+  - data/maps/SaffronCity/scripts.inc
+  - data/maps/SaffronCity_CopyCatsHouse_1F/scripts.inc
+  - data/maps/SaffronCity_CopyCatsHouse_2F/scripts.inc
+  - data/maps/SaffronCity_FightingDojo/scripts.inc
+  - data/maps/SaffronCity_FightingDojoVIP/scripts.inc
+  - data/maps/SaffronCity_Gym/scripts.inc
+  - data/maps/SaffronCity_House1/scripts.inc
+  - data/maps/SaffronCity_Mart/scripts.inc
+  - data/maps/SaffronCity_PokemonCenter/scripts.inc
+  - data/maps/SaffronCity_SilphCo/scripts.inc
+  - data/maps/SaffronCity_TrainStation/scripts.inc
+  - data/maps/SeafloorCavern_Entrance/scripts.inc
+  - data/maps/SeafloorCavern_Room1/scripts.inc
+  - data/maps/SeafloorCavern_Room3/scripts.inc
+  - data/maps/SeafloorCavern_Room4/scripts.inc
+  - data/maps/SeafloorCavern_Room9/scripts.inc
+  - data/maps/SeafoamIslands_B1F/scripts.inc
+  - data/maps/SeafoamIslands_Gym/scripts.inc
+  - data/maps/ShoalCave_LowTideIceRoom_Suicune/scripts.inc
+  - data/maps/ShoalCave_LowTideLowerRoom/scripts.inc
+  - data/maps/SkyPillar_Outside/scripts.inc
+  - data/maps/SkyPillar_Top/scripts.inc
   - 
 
 </details>
