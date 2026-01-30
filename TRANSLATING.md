@@ -594,6 +594,122 @@ This document contains useful suggestions in case you want to localize Pokémon 
   - data/maps/ShoalCave_LowTideLowerRoom/scripts.inc
   - data/maps/SkyPillar_Outside/scripts.inc
   - data/maps/SkyPillar_Top/scripts.inc
+  - data/maps/SlateportCity/scripts.inc
+  - data/maps/SlateportCity_BattleTentCorridor/scripts.inc
+  - data/maps/SlateportCity_BattleTentLobby/scripts.inc
+  - data/maps/SlateportCity_Harbor/scripts.inc
+  - data/maps/SlateportCity_House/scripts.inc
+  - data/maps/SlateportCity_Mart/scripts.inc
+  - data/maps/SlateportCity_NameRatersHouse/scripts.inc
+  - data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc
+  - data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc
+  - data/maps/SlateportCity_PokemonCenter_1F/scripts.inc
+  - data/maps/SlateportCity_PokemonFanClub/scripts.inc
+  - data/maps/SlateportCity_SternsShipyard_1F/scripts.inc
+  - data/maps/SlateportCity_SternsShipyard_2F/scripts.inc
+  - data/maps/SlowpokeWell_B1F/scripts.inc
+  - data/maps/SlowpokeWell_B2F/scripts.inc
+  - data/maps/SootopolisCity/scripts.inc
+  - data/maps/SootopolisCity_Gym_1F/scripts.inc
+  - data/maps/SootopolisCity_Gym_B1F/scripts.inc
+  - data/maps/SootopolisCity_House1/scripts.inc
+  - data/maps/SootopolisCity_House2/scripts.inc
+  - data/maps/SootopolisCity_House3/scripts.inc
+  - data/maps/SootopolisCity_House4/scripts.inc
+  - data/maps/SootopolisCity_House5/scripts.inc
+  - data/maps/SootopolisCity_House6/scripts.inc
+  - data/maps/SootopolisCity_House7/scripts.inc
+  - data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.inc
+  - data/maps/SootopolisCity_Mart/scripts.inc
+  - data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.inc
+  - data/maps/SootopolisCity_PokemonCenter_1F/scripts.inc
+  - data/maps/SproutTower_1F/scripts.inc
+  - data/maps/SproutTower_2F/scripts.inc
+  - data/maps/SproutTower_3F/scripts.inc
+  - data/maps/TinTower_1F/scripts.inc
+  - data/maps/TinTower_RoofDay/scripts.inc
+  - data/maps/TohjoFalls_GiovanniRoom/scripts.inc
+  - data/maps/TrainerHill_Courtyard/scripts.inc
+  - data/maps/TrainerHill_Entrance/scripts.inc
+  - data/maps/Underwater_SeafloorCavern/scripts.inc
+  - data/maps/UnionCave_1F/scripts.inc
+  - data/maps/UnionCave_B1F/scripts.inc
+  - data/maps/UnionCave_B2F/scripts.inc
+  - data/maps/VerdanturfTown/scripts.inc
+  - data/maps/VerdanturfTown_BattleTentCorridor/scripts.inc
+  - data/maps/VerdanturfTown_BattleTentLobby/scripts.inc
+  - data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.inc
+  - data/maps/VerdanturfTown_House/scripts.inc
+  - data/maps/VerdanturfTown_Mart/scripts.inc
+  - data/maps/VerdanturfTown_PokemonCenter_1F/scripts.inc
+  - data/maps/VerdanturfTown_WandasHouse/scripts.inc
+  - data/maps/VermilionCity/scripts.inc
+  - data/maps/VermilionCity_FanClub/scripts.inc
+  - data/maps/VermilionCity_Gym/scripts.inc
+  - data/maps/VermilionCity_House1/scripts.inc
+  - data/maps/VermilionCity_House2/scripts.inc
+  - data/maps/VermilionCity_House3/scripts.inc
+  - data/maps/VermilionCity_Mart/scripts.inc
+  - data/maps/VermilionCity_PokemonCenter/scripts.inc
+  - data/maps/VermilionCity_PortInside/scripts.inc
+  - data/maps/VermilionCity_PortOutside/scripts.inc
+  - data/maps/VictoryRoadKanto_1F/scripts.inc
+  - data/maps/VictoryRoad_1F/scripts.inc
+  - data/maps/VictoryRoad_B1F/scripts.inc
+  - data/maps/VictoryRoad_B2F/scripts.inc
+  - data/maps/VioletCity/scripts.inc
+  - data/maps/VioletCity_Gym/scripts.inc
+  - data/maps/VioletCity_House1/scripts.inc
+  - data/maps/VioletCity_House2/scripts.inc
+  - data/maps/VioletCity_Mart/scripts.inc
+  - data/maps/VioletCity_PokemonCenter/scripts.inc
+  - data/maps/VioletCity_TrainerSchool/scripts.inc
+  - data/maps/ViridianCity/scripts.inc
+  - data/maps/ViridianCity_Gym/scripts.inc
+  - data/maps/ViridianCity_House1/scripts.inc
+  - data/maps/ViridianCity_Mart/scripts.inc
+  - data/maps/ViridianCity_PokemonCenter/scripts.inc
+  - data/maps/ViridianForest/scripts.inc
+  - data/maps/WhirlIslands_LugiaChamber/scripts.inc
+
+</details>
+<details>
+<summary>../data/scripts/:</summary>
+  
+  - data/scripts/berry_blender.inc
+  - data/scripts/berry_tree.inc
+  - data/scripts/bug_contest.inc
+  - data/scripts/change_deoxys_form.inc
+  - data/scripts/contest_hall.inc
+  - data/scripts/day_care.inc
+  - data/scripts/debug.inc
+  - data/scripts/field_move_scripts.inc
+  - data/scripts/follower.inc
+  - data/scripts/gift_altering_cave.inc
+  - data/scripts/gift_aurora_ticket.inc
+  - data/scripts/gift_battle_card.inc
+  - data/scripts/gift_mystic_ticket.inc
+  - data/scripts/gift_old_sea_map.inc
+  - data/scripts/gift_pichu.inc
+  - data/scripts/gift_stamp_card.inc
+  - data/scripts/gift_trainer.inc
+  - data/scripts/lilycove_lady.inc
+  - data/scripts/mauville_man.inc
+  - data/scripts/players_house.inc
+  - data/scripts/profile_man.inc
+  - data/scripts/repel.inc
+  - data/scripts/roulette.inc
+  - data/scripts/safari_zone.inc
+  - data/scripts/secret_base.inc
+  - data/scripts/secret_power_tm.inc
+  - data/scripts/shared_secret_base.inc
+  - data/scripts/test_signpost.inc
+
+</details>
+<details>
+<summary>../data/text/:</summary>
+
+  - data/text/abnormal_weather.inc
   - 
 
 </details>
