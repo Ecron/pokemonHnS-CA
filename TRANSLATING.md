@@ -7,7 +7,8 @@
 This document contains useful suggestions in case you want to localize Pokémon Heart&Soul to your own language.
 
 ### Translation Tips and Tricks
-- Max. string length for regular dialogs would be around 40 characters. Any sentence longer than that would need to be broken to the next line.
+- For regular in-game dialogs, max. string length would be around 40 characters. Any sentence longer than that would need to be broken to the next line.
+- Regarding the Gamemode settings at the beggining of a new game, the max. string length for the settings' names is recommended to be of 15 or 16 characters. Regarding the bottom explanations, a good rule would be not to exceed 35 or 36 characters, depending on the number of capital letters. A {PKMN} code can be used to insert a 2-character PKMN symbol.
 - ...
 
 ### Hard to find, important files to be translated:
