@@ -22,6 +22,9 @@ This document contains useful suggestions in case you want to localize Pokémon 
 ### Comprehensive list of translatable text files:
 
 <details>
+<summary> ../data/</summary>
+  
+<details>
 <summary>../data/maps/:</summary>
   
   - data/maps/AbandonedShip_CaptainsOffice/scripts.inc
@@ -711,6 +714,95 @@ This document contains useful suggestions in case you want to localize Pokémon 
 <summary>../data/text/:</summary>
 
   - data/text/abnormal_weather.inc
-  - 
+  - data/text/apprentice.inc
+  - data/text/battle_dome.inc
+  - data/text/battle_tent.inc
+  - data/text/berries.inc
+  - data/text/birch_speech.inc
+  - data/text/blend_master.inc
+  - data/text/braille.inc
+  - data/text/cable_club.inc
+  - data/text/check_furniture.inc
+  - data/text/contest_link.inc
+  - data/text/contest_painting.inc
+  - data/text/contest_strings.inc
+  - data/text/event_ticket_1.inc
+  - data/text/event_ticket_2.inc
+  - data/text/frontier_brain.inc
+  - data/text/lottery_corner.inc
+  - data/text/mart_clerk.inc
+  - data/text/match_call.inc
+  - data/text/mauville_man.inc
+  - data/text/move_tutors.inc
+  - data/text/obtain_item.inc
+  - data/text/pc.inc
+  - data/text/pc_transfer.inc
+  - data/text/pkmn_center_nurse.inc
+  - data/text/pokedex_rating.inc
+  - data/text/pokemon_news.inc
+  - data/text/questionnaire.inc
+  - data/text/record_mix.inc
+  - data/text/save.inc
+  - data/text/secret_base_trainers.inc
+  - data/text/shoal_cave.inc
+  - data/text/surf.inc
+  - data/text/trainers.inc
+  - data/text/trick_house_mechadolls.inc
+  - data/text/tv.inc
 
+</details>
+
+- data/event_scripts.s
+
+</details>
+
+<details>
+<summary>../src/</summary>
+
+  <details>
+    <summary>../src/data/</summary>
+    - src/data/decoration/description.h
+    - src/data/easy_chat/easy_chat_group_actions.h
+    - src/data/easy_chat/easy_chat_group_adjectives.h
+    - src/data/easy_chat/easy_chat_group_battle.h
+    - src/data/easy_chat/easy_chat_group_conditions.h
+    - src/data/easy_chat/easy_chat_group_endings.h
+    - src/data/easy_chat/easy_chat_group_events.h
+    - src/data/easy_chat/easy_chat_group_feelings.h
+    - src/data/easy_chat/easy_chat_group_greetings.h
+    - src/data/easy_chat/easy_chat_group_hobbies.h
+    - src/data/easy_chat/easy_chat_group_lifestyle.h
+    - src/data/easy_chat/easy_chat_group_misc.h
+    - src/data/easy_chat/easy_chat_group_people.h
+    - src/data/easy_chat/easy_chat_group_speech.h
+    - src/data/easy_chat/easy_chat_group_status.h
+    - src/data/easy_chat/easy_chat_group_time.h
+    - src/data/easy_chat/easy_chat_group_trainer.h
+    - src/data/easy_chat/easy_chat_group_trendy_saying.h
+    - src/data/easy_chat/easy_chat_group_voices.h
+    - src/data/pokemon/pokedex_entries.h
+    - src/data/pokemon/pokedex_text.h
+    - src/data/region_map/region_map_sections.json
+    - src/data/region_map/region_map_sections_johto.json
+    - src/data/text/abilities.h
+    - src/data/text/follower_messages.h
+    - src/data/text/gift_ribbon_descriptions.h
+    - src/data/text/item_descriptions.h
+    - src/data/text/match_call_messages.h
+    - src/data/text/move_descriptions.h
+    - src/data/text/move_names.h
+    - src/data/text/nature_names.h
+    - src/data/text/ribbon_descriptions.h
+    - src/data/text/species_names.h
+    - src/data/text/trainer_class_names.h
+    - src/data/text/wonder_trade_OT_names.h
+    - src/data/credits.h
+    - src/data/items.h
+    - src/data/trade.h
+    - src/data/trainers.h
+    - src/data/union_room.h
+    - src/battle_message.c
+    - 
+    
+  </details>
 </details>
