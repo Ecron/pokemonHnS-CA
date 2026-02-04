@@ -759,50 +759,61 @@ This document contains useful suggestions in case you want to localize Pokémon 
 <details>
 <summary>../src/</summary>
 
-  <details>
-    <summary>../src/data/</summary>
-    - src/data/decoration/description.h
-    - src/data/easy_chat/easy_chat_group_actions.h
-    - src/data/easy_chat/easy_chat_group_adjectives.h
-    - src/data/easy_chat/easy_chat_group_battle.h
-    - src/data/easy_chat/easy_chat_group_conditions.h
-    - src/data/easy_chat/easy_chat_group_endings.h
-    - src/data/easy_chat/easy_chat_group_events.h
-    - src/data/easy_chat/easy_chat_group_feelings.h
-    - src/data/easy_chat/easy_chat_group_greetings.h
-    - src/data/easy_chat/easy_chat_group_hobbies.h
-    - src/data/easy_chat/easy_chat_group_lifestyle.h
-    - src/data/easy_chat/easy_chat_group_misc.h
-    - src/data/easy_chat/easy_chat_group_people.h
-    - src/data/easy_chat/easy_chat_group_speech.h
-    - src/data/easy_chat/easy_chat_group_status.h
-    - src/data/easy_chat/easy_chat_group_time.h
-    - src/data/easy_chat/easy_chat_group_trainer.h
-    - src/data/easy_chat/easy_chat_group_trendy_saying.h
-    - src/data/easy_chat/easy_chat_group_voices.h
-    - src/data/pokemon/pokedex_entries.h
-    - src/data/pokemon/pokedex_text.h
-    - src/data/region_map/region_map_sections.json
-    - src/data/region_map/region_map_sections_johto.json
-    - src/data/text/abilities.h
-    - src/data/text/follower_messages.h
-    - src/data/text/gift_ribbon_descriptions.h
-    - src/data/text/item_descriptions.h
-    - src/data/text/match_call_messages.h
-    - src/data/text/move_descriptions.h
-    - src/data/text/move_names.h
-    - src/data/text/nature_names.h
-    - src/data/text/ribbon_descriptions.h
-    - src/data/text/species_names.h
-    - src/data/text/trainer_class_names.h
-    - src/data/text/wonder_trade_OT_names.h
-    - src/data/credits.h
-    - src/data/items.h
-    - src/data/trade.h
-    - src/data/trainers.h
-    - src/data/union_room.h
-    - src/battle_message.c
-    - 
+<details>
+<summary>../src/data/:</summary>
+    
+  - src/data/decoration/description.h
+  - src/data/easy_chat/easy_chat_group_actions.h
+  - src/data/easy_chat/easy_chat_group_adjectives.h
+  - src/data/easy_chat/easy_chat_group_battle.h
+  - src/data/easy_chat/easy_chat_group_conditions.h
+  - src/data/easy_chat/easy_chat_group_endings.h
+  - src/data/easy_chat/easy_chat_group_events.h
+  - src/data/easy_chat/easy_chat_group_feelings.h
+  - src/data/easy_chat/easy_chat_group_greetings.h
+  - src/data/easy_chat/easy_chat_group_hobbies.h
+  - src/data/easy_chat/easy_chat_group_lifestyle.h
+  - src/data/easy_chat/easy_chat_group_misc.h
+  - src/data/easy_chat/easy_chat_group_people.h
+  - src/data/easy_chat/easy_chat_group_speech.h
+  - src/data/easy_chat/easy_chat_group_status.h
+  - src/data/easy_chat/easy_chat_group_time.h
+  - src/data/easy_chat/easy_chat_group_trainer.h
+  - src/data/easy_chat/easy_chat_group_trendy_saying.h
+  - src/data/easy_chat/easy_chat_group_voices.h
+  - src/data/pokemon/pokedex_entries.h
+  - src/data/pokemon/pokedex_text.h
+  - src/data/region_map/region_map_sections.json
+  - src/data/region_map/region_map_sections_johto.json
+  - src/data/text/abilities.h
+  - src/data/text/follower_messages.h
+  - src/data/text/gift_ribbon_descriptions.h
+  - src/data/text/item_descriptions.h
+  - src/data/text/match_call_messages.h
+  - src/data/text/move_descriptions.h
+  - src/data/text/move_names.h
+  - src/data/text/nature_names.h
+  - src/data/text/ribbon_descriptions.h
+  - src/data/text/species_names.h
+  - src/data/text/trainer_class_names.h
+  - src/data/text/wonder_trade_OT_names.h
+  - src/data/credits.h
+  - src/data/items.h
+  - src/data/trade.h
+  - src/data/trainers.h
+  - src/data/union_room.h
     
   </details>
+    
+  - src/battle_message.c
+  - src/berry.c
+  - src/berry_blender.c
+  - src/berry_fix_program.c
+  - src/debug.c
+  - src/debug_pokemon_creator.c
+  - src/follower_helper.c
+  - src/landmark.c
+  - 
+    
+</details>
 </details>
