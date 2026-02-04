@@ -2,13 +2,11 @@
 
 # TRANSLATING POKéMON HEART & SOUL
 
-
-
 This document contains useful suggestions in case you want to localize Pokémon Heart&Soul to your own language.
 
 ### Translation Tips and Tricks
-- For regular in-game dialogs, max. string length would be around 40 characters. Any sentence longer than that would need to be broken to the next line.
-- Regarding the Gamemode settings at the beggining of a new game, the max. string length for the settings' names is recommended to be of 15 or 16 characters. Regarding the bottom explanations, a good rule would be not to exceed 35 or 36 characters, depending on the number of capital letters. A {PKMN} code can be used to insert a 2-character PKMN symbol.
+- For regular in-game dialogues, max. string length would be around 40 characters. Any sentence longer than that would need to be broken to the next line.
+- Regarding the Gamemode settings at the beginning of a new game, the max. string length for the settings' names is recommended to be of 15 or 16 characters. Regarding the bottom explanations, a good rule would be not to exceed 35 or 36 characters, depending on the number of capital letters. A {PKMN} code can be used to insert a 2-character PKMN symbol.
 - ...
 
 ### Hard to find, important files to be translated:
@@ -24,8 +22,8 @@ This document contains useful suggestions in case you want to localize Pokémon 
 <details>
 <summary> ../data/</summary>
   
-<details>
-<summary>../data/maps/:</summary>
+- <details>
+  <summary>../data/maps/:</summary>
   
   - data/maps/AbandonedShip_CaptainsOffice/scripts.inc
   - data/maps/AbandonedShip_Corridors_1F/scripts.inc
@@ -676,9 +674,9 @@ This document contains useful suggestions in case you want to localize Pokémon 
   - data/maps/ViridianForest/scripts.inc
   - data/maps/WhirlIslands_LugiaChamber/scripts.inc
 
-</details>
-<details>
-<summary>../data/scripts/:</summary>
+  </details>
+- <details>
+  <summary>../data/scripts/:</summary>
   
   - data/scripts/berry_blender.inc
   - data/scripts/berry_tree.inc
@@ -709,9 +707,9 @@ This document contains useful suggestions in case you want to localize Pokémon 
   - data/scripts/shared_secret_base.inc
   - data/scripts/test_signpost.inc
 
-</details>
-<details>
-<summary>../data/text/:</summary>
+  </details>
+- <details>
+  <summary>../data/text/:</summary>
 
   - data/text/abnormal_weather.inc
   - data/text/apprentice.inc
@@ -750,7 +748,7 @@ This document contains useful suggestions in case you want to localize Pokémon 
   - data/text/trick_house_mechadolls.inc
   - data/text/tv.inc
 
-</details>
+  </details>
 
 - data/event_scripts.s
 
@@ -759,8 +757,8 @@ This document contains useful suggestions in case you want to localize Pokémon 
 <details>
 <summary>../src/</summary>
 
-<details>
-<summary>../src/data/:</summary>
+- <details>
+  <summary>../src/data/:</summary>
     
   - src/data/decoration/description.h
   - src/data/easy_chat/easy_chat_group_actions.h
@@ -805,15 +803,32 @@ This document contains useful suggestions in case you want to localize Pokémon 
     
   </details>
     
-  - src/battle_message.c
-  - src/berry.c
-  - src/berry_blender.c
-  - src/berry_fix_program.c
-  - src/debug.c
-  - src/debug_pokemon_creator.c
-  - src/follower_helper.c
-  - src/landmark.c
-  - 
+- src/battle_message.c
+- src/berry.c
+- src/berry_blender.c
+- src/berry_fix_program.c
+- src/debug.c
+- src/debug_pokemon_creator.c
+- src/follower_helper.c
+- src/landmark.c
+- src/link_rfu_2.c
+- src/map_name_popup.c
+- src/mystery_event_msg.c
+- src/options_plus_menu.c
+- src/pokenav_menu_handler_gfx.c
+- src/sliding_puzzle.c
+- src/strings.c
+- src/text_input_strings.c
+- src/tx_rac_menu.c
+- src/tx_rac_viewer.c
     
 </details>
 </details>
+
+### Comprehensive list of translatable graphic files:
+
+- ../data/tilesets/
+  - ...
+- ../graphics/
+  - ...
+ 
