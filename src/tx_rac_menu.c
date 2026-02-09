@@ -476,16 +476,16 @@ struct // MENU_CHALLENGES
 static const u8 sText_Gamemode[]            = _("MODE DE JOC");
 //static const u8 sText_AlternateSpawns[]     = _("ENCONTRES");
 static const u8 sText_InfiniteTMs[]         = _("MT REUSABLES");
-static const u8 sText_Poison[]              = _("SOBREVIURE AL VERÍ");
+static const u8 sText_Poison[]              = _("SOBREV. AL VERÍ");
 static const u8 sText_Synchronize[]         = _("SINCRONITZAT");
-static const u8 sText_Mints[]               = _("MENTA DE CARÀCTER");
+static const u8 sText_Mints[]               = _("MENTA (CARÀCTER)");
 static const u8 sText_NewCitrus[]           = _("BAIA TRONJA");
 static const u8 sText_ModernTypes[]         = _("{COLOR 3}{SHADOW 3}TIPUS DE POKéMON");
 static const u8 sText_FairyTypes[]          = _("TIPUS FADA");
 static const u8 sText_NewStats[]            = _("{COLOR 3}{SHADOW 3}ESTADÍSTIQUES");
 static const u8 sText_Sturdy[]              = _("ROBUST");
 static const u8 sText_Modern_Moves[]        = _("JOC D'ATACS {PKMN}");
-static const u8 sText_Legendary_Abilities[] = _("HABILITATS DELS LEGEN.");
+static const u8 sText_Legendary_Abilities[] = _("HAB. DELS LEGEN.");
 static const u8 sText_New_Legendaries[]     = _("{COLOR 3}{SHADOW 3}LEGEND. EXTRA");
 //static const u8 sText_New_Effectiveness[]   = _("TAULA DE TIPUS");
 static const u8 sText_Next[]                = _("SEGÜENT");
@@ -775,31 +775,31 @@ static const u8 sText_Empty[]               = _("");
 static const u8 sText_Description_Save[]    = _("Guarda i continua...");
 
 static const u8 sText_Description_Mode_Gamemode_Classic[]         = _("Configuració recomanada.\n{COLOR 7}{COLOR 8}NOTA: Les seleccions son PERMANENTS.");
-static const u8 sText_Description_Mode_Gamemode_Modern[]          = _("Choose your own rules.\n{COLOR 7}{COLOR 8}NOTA: Les seleccions son PERMANENTS.");
-static const u8 sText_Description_Mode_Gamemode_Custom[]          = _("Choose your own rules.\n{COLOR 7}{COLOR 8}NOTA: Les seleccions son PERMANENTS.");
+static const u8 sText_Description_Mode_Gamemode_Modern[]          = _("Tria les teues propies regles.\n{COLOR 7}{COLOR 8}NOTA: Les seleccions son PERMANENTS.");
+static const u8 sText_Description_Mode_Gamemode_Custom[]          = _("Tria les teues propies regles.\n{COLOR 7}{COLOR 8}NOTA: Les seleccions son PERMANENTS.");
 //static const u8 sText_Description_Mode_AlternateSpawns_Vanilla[]        = _("Use VANILLA wild encounters.\nUnchanged from the original.");
 //static const u8 sText_Description_Mode_AlternateSpawns_Postgame[]       = _("VANILLA, but after becoming champion,\nall 423 {PKMN} will be available.");
 //static const u8 sText_Description_Mode_AlternateSpawns_Modern[]         = _("Use MODERN wild encounters.\nAll 423 {PKMN} will be available.");
 static const u8 sText_Description_Mode_InfiniteTMs_On[]           = _("Les MT es poden reutilitzar.\nOpció recomanada.");
 static const u8 sText_Description_Mode_InfiniteTMs_Off[]          = _("Les MT no es poden reutilitzar.\nCom al joc original.");
-static const u8 sText_Description_Mode_SurvivePoison_On[]         = _("Els {PKMN} sobreviuran a l'estat\nVERÍ amb 1 PS.");
+static const u8 sText_Description_Mode_SurvivePoison_On[]         = _("Els {PKMN} sobreviuran a l'estat VERÍ\namb 1 PS.");
 static const u8 sText_Description_Mode_SurvivePoison_Off[]        = _("Els {PKMN} s'acabaran debilitant en\nser enverinats.");
-static const u8 sText_Description_Mode_Synchronize_Old[]          = _("SINCRONITZAT funciona com a la GEN. III.\n50% de probab. de copiar el caràcter.");
-static const u8 sText_Description_Mode_Synchronize_New[]          = _("SINCRONITZAT funciona com a la GEN. VIII+.\n100% de probab. de copiar el caràcter.");
-static const u8 sText_Description_Mode_Mints_Off[]                = _("Les mentes no es troben disponibles fins\nque no es finalitze el joc.");
+static const u8 sText_Description_Mode_Synchronize_Old[]          = _("SINCRON. funciona com en la GEN. III.\n50% de probab. de copiar el caràcter.");
+static const u8 sText_Description_Mode_Synchronize_New[]          = _("SINCRON. funciona com en la GEN. VIII+.\n100% de probab. de copiar el caràcter.");
+static const u8 sText_Description_Mode_Mints_Off[]                = _("Les mentes no es troben disponibles\nfins que no es finalitze el joc.");
 static const u8 sText_Description_Mode_Mints_On[]                 = _("Les mentes es poden comprar en PRETTY PETAL\nFLOWER SHOP després de la 4a medalla.");
 static const u8 sText_Description_Mode_New_Citrus_Off[]           = _("La BAIA TRONJA restableix 30 PS.\nIgual que en la GEN. III.");
-static const u8 sText_Description_Mode_New_Citrus_On[]            = _("La BAIA TRONJA restableix un 25% \ndels PS totals. Igual que en la GEN. IV i següents.");
+static const u8 sText_Description_Mode_New_Citrus_On[]            = _("La BAIA TRONJA restableix un 25% dels\nPS totals. Igual que en la GEN. IV+.");
 static const u8 sText_Description_Mode_Modern_Types_Off[]         = _("Tipus de {PKMN} originals. No inclou els\n{PKMN} que es van afegir al FADA en la GEN. VI.");
 static const u8 sText_Description_Mode_Modern_Types_On[]          = _("Els {PKMN} tenen tipus modificats\nper a fer-los més viables.");
-static const u8 sText_Description_Mode_Fairy_Types_Off[]          = _("El TIPUS FADA no s'afegeix als {PKMN} \nque el tenen en la GEN. VI.");
+static const u8 sText_Description_Mode_Fairy_Types_Off[]          = _("El TIPUS FADA no s'afegeix als {PKMN}\nque el tenen en la GEN. VI.");
 static const u8 sText_Description_Mode_Fairy_Types_On[]           = _("El TIPUS FADA s'afegeix o es canvia\nen certs {PKMN}, com en la GEN. VI.");
 static const u8 sText_Description_Mode_New_Stats_Off[]            = _("Estadístiques dels {PKMN} originals,\nde la GEN. III.");
 static const u8 sText_Description_Mode_New_Stats_On[]             = _("Estadístiques modificades per a fer\ncerts {PKMN} més viables.");
-static const u8 sText_Description_Mode_Sturdy_Off[]               = _("ROBUST funciona com en la GEN. III.\nNomés evita atacs KO (GUILLOTINA, etc.)");
-static const u8 sText_Description_Mode_Sturdy_On[]                = _("ROBUST funciona com en la GEN. V+.\nEls {PKMN} sobreviuen atacs letals amb 1 PS.");
-static const u8 sText_Description_Mode_Modern_Moves_Off[]         = _("Sense ATACS nous, i el JOC D'ATACS original\nper a tots els {PKMN} + ATACS OU i TUTOR nous.");
-static const u8 sText_Description_Mode_Modern_Moves_On[]          = _("13 ATACS nous, i un JOC D'ATACS millorat\nper a tots els {PKMN} + ATACS OU i TUTOR nous.");
+static const u8 sText_Description_Mode_Sturdy_Off[]               = _("ROBUST funciona com en la GEN. III.\nSols evita atacs KO (GUILLOTINA, etc.)");
+static const u8 sText_Description_Mode_Sturdy_On[]                = _("ROBUST funciona com en la GEN. V+.\nEls {PKMN} aguanten atacs letals amb 1 PS.");
+static const u8 sText_Description_Mode_Modern_Moves_Off[]         = _("Cap ATAC nous i el JOC D'ATACS original\nper a tots, ATACS OU i TUTOR nous.");
+static const u8 sText_Description_Mode_Modern_Moves_On[]          = _("13 ATACS nous, un JOC D'ATACS millorat\nper a tots, ATACS OU i TUTOR nous.");
 static const u8 sText_Description_Mode_Leg_Abilities_Off[]        = _("PRESSIÓ es manté com a habilitat\nprincipal d'alguns legendaris.");
 static const u8 sText_Description_Mode_Leg_Abilities_On[]         = _("Els legendaris canvien PRESSIÓ per\nuna habilitat millor.");
 static const u8 sText_Description_Mode_New_Legendaries_Off[]      = _("No s'afegeixen legendaris extra.");
@@ -2267,8 +2267,8 @@ static void ReDrawAll(void)
 
 // Draw Choices functions ****SPECIFIC****
 // MENU_RANDOMIZER
-static const u8 sText_Off[]  = _("OFF");
-static const u8 sText_On[]   = _("ON");
+static const u8 sText_Off[]  = _("NO");
+static const u8 sText_On[]   = _("SÍ");
 static const u8 sText_None[] = _("NONE");
 static void DrawChoices_Random_OffOn(int selection, int y, bool8 active)
 {
@@ -2280,9 +2280,9 @@ static void DrawChoices_Random_OffOn(int selection, int y, bool8 active)
 }
 
 
-static const u8 sClassic[]  = _("RECOMMENDED");
+static const u8 sClassic[]  = _("        RECOMANAT");
 static const u8 sModern[]   = _("MODERN");
-static const u8 sCustom[]   = _("CUSTOM");
+static const u8 sCustom[]   = _("PROPI");
 static const u8 *const sText_Mode_Strings[] = {sClassic,  sCustom};
 
 static void DrawChoices_Mode_Classic_Modern_Selector(int selection, int y)
@@ -2329,7 +2329,7 @@ static void DrawChoices_Mode_Classic_Modern_Selector(int selection, int y)
     }
 }
 
-static const u8 sText_Random[]  = _("RANDOM");
+static const u8 sText_Random[]  = _("ALEATORI");
 static void DrawChoices_Random_OffRandom(int selection, int y, bool8 active)
 {
     u8 styles[2] = {0};
@@ -2414,7 +2414,7 @@ static void DrawChoices_Random_Items(int selection, int y)
     DrawChoices_Random_OffRandom(selection, y, active);
 }
 
-static const u8 sText_Random_Chaos[] = _("CHAOS");
+static const u8 sText_Random_Chaos[] = _("CAOS");
 static void DrawChoices_Random_OffChaos(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_RANDOM_CHAOS);
@@ -2438,9 +2438,9 @@ static void DrawChoices_Nuzlocke_OnOff(int selection, int y, bool8 active)
     DrawOptionMenuChoice(sText_Off, GetStringRightAlignXOffset(1, sText_Off, 198), y, styles[1], active);
 }
 
-static const u8 sText_Challenges_Nuzlocke_Easy[]        = _("EASY");
+static const u8 sText_Challenges_Nuzlocke_Easy[]        = _("FÀCIL");
 static const u8 sText_Challenges_Nuzlocke_Normal[]      = _("NORMAL");
-static const u8 sText_Challenges_Nuzlocke_Hardcore[]    = _("HARD");
+static const u8 sText_Challenges_Nuzlocke_Hardcore[]    = _("DIFÍCIL");
 static const u8 *const sText_Nuzlocke_Strings[] = {sText_Off, sText_Challenges_Nuzlocke_Easy, sText_Challenges_Nuzlocke_Normal, sText_Challenges_Nuzlocke_Hardcore};
 
 static void DrawChoices_Challenges_Nuzlocke(int selection, int y)
@@ -2486,8 +2486,8 @@ static void DrawChoices_Nuzlocke_Nicknaming(int selection, int y)
     bool8 active = CheckConditions(MENUITEM_NUZLOCKE_NICKNAMING);
     DrawChoices_Nuzlocke_OnOff(selection, y, active);
 }
-static const u8 sText_Nuzlocke_Cemetery[]  = _("CEMETERY");
-static const u8 sText_Nuzlocke_Deletion[]  = _("RELEASE");
+static const u8 sText_Nuzlocke_Cemetery[]  = _("CEMENT.");
+static const u8 sText_Nuzlocke_Deletion[]  = _("ALLIBERA");
 static void DrawChoices_Nuzlocke_Deletion(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_NUZLOCKE_DELETION);
@@ -2503,7 +2503,7 @@ static void DrawChoices_Nuzlocke_RareCandy(int selection, int y)
 }
 
 // MENU_DIFFICULTY
-static const u8 sText_Yes[] = _("YES");
+static const u8 sText_Yes[] = _("SÍ");
 static const u8 sText_No[]  = _("NO");
 static void DrawChoices_Challenges_YesNo(int selection, int y, bool8 active)
 {
@@ -2528,8 +2528,8 @@ static void DrawChoices_Challenges_NoEVs(int selection, int y)
     bool8 active = CheckConditions(MENUITEM_DIFFICULTY_NO_EVS);
     DrawChoices_Challenges_YesNo(selection, y, active);
 }
-static const u8 sText_ScalingIVsEVs_Scaling[]   = _("SCALE");
-static const u8 sText_ScalingIVsEVs_Hard[]      = _("HARD");
+static const u8 sText_ScalingIVsEVs_Scaling[]   = _("ESCALA");
+static const u8 sText_ScalingIVsEVs_Hard[]      = _("DIFÍCIL");
 static void DrawChoices_Challenges_ScalingIVs(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_DIFFICULTY_SCALING_IVS);
@@ -2569,7 +2569,7 @@ static void DrawChoices_Challenges_PartyLimit(int selection, int y)
 }
 
 static const u8 sText_Challenges_LevelCap_Normal[]  = _("NORMAL");
-static const u8 sText_Challenges_LevelCap_Hard[]    = _("HARD");
+static const u8 sText_Challenges_LevelCap_Hard[]    = _("DIFÍCIL");
 static void DrawChoices_Challenges_LevelCap(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_DIFFICULTY_LEVEL_CAP);
@@ -2605,8 +2605,8 @@ static void DrawChoices_Challenges_Pokecenters(int selection, int y)
 
 
 // MENU_CHALLENGES
-static const u8 sText_Challenges_EvoLimit_First[]   = _("FIRST");
-static const u8 sText_Challenges_EvoLimit_All[]     = _("ALL");
+static const u8 sText_Challenges_EvoLimit_First[]   = _("PRIMERA");
+static const u8 sText_Challenges_EvoLimit_All[]     = _("TOTES");
 static void DrawChoices_Challenges_EvoLimit(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_CHALLENGES_EVO_LIMIT);
@@ -2670,7 +2670,7 @@ static void DrawChoices_Challenges_Mirror_Thief(int selection, int y)
 }
 
 static const u8 sText_Features_RTC_RTC[]   = _("RTC");
-static const u8 sText_Features_RTC_Fake_RTC[]   = _("FAKE RTC");
+static const u8 sText_Features_RTC_Fake_RTC[]   = _("RTC FALS");
 static void DrawChoices_Features_Rtc_Type(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_FEATURES_RTC_TYPE);
@@ -2737,7 +2737,7 @@ static const u8 sText_Encounters_Modern_Long[]    = _("MODERN");
     DrawOptionMenuChoice(sText_On, GetStringRightAlignXOffset(1, sText_On, 198), y, styles[1], active);
 }*/
 
-static const u8 sText_Max_Party_IVs_30_31[]   = _("NO (HP)");
+static const u8 sText_Max_Party_IVs_30_31[]   = _("NO (PS)");
 static void DrawChoices_Challenges_MaxPartyIVs(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_DIFFICULTY_MAX_PARTY_IVS);
@@ -3149,7 +3149,7 @@ static void DrawChoices_Challenges_LessEscapes(int selection, int y)
     DrawOptionMenuChoice(sText_On, GetStringRightAlignXOffset(1, sText_On, 198), y, styles[1], active);
 }
 
-static const u8 sText_Challenges_Expensive_Off[]   = _("OFF");
+static const u8 sText_Challenges_Expensive_Off[]   = _("NO");
 static const u8 sText_Challenges_Expensive_5[]     = _("x5");
 static const u8 sText_Challenges_Expensive_10[]    = _("x10");
 static const u8 sText_Challenges_Expensive_50[]    = _("x50!");
@@ -3179,8 +3179,8 @@ static void DrawChoices_Difficulty_Escape_Rope_Dig(int selection, int y)
     DrawOptionMenuChoice(sText_No, GetStringRightAlignXOffset(1, sText_No, 198), y, styles[1], active);
 }
 
-static const u8 sText_Features_Frontier_Ban[]   = _("BAN");
-static const u8 sText_Features_Frontier_UnBan[]     = _("UNBAN");
+static const u8 sText_Features_Frontier_Ban[]   = _("SÍ");
+static const u8 sText_Features_Frontier_UnBan[]     = _("NO");
 static void DrawChoices_Features_FrontierBans(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_FEATURES_FRONTIER_BANS);
