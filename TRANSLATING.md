@@ -2,7 +2,11 @@
 
 # TRANSLATING POKéMON HEART & SOUL
 
-This document contains useful suggestions in case you want to localize Pokémon Heart&Soul to your own language.
+This document gathers useful information, suggestions and tips in case you try to localize Pokémon Heart&Soul to your own language. It is based originally on the experience of [translating H&S into Catalan](https://github.com/Ecron/pokemonHnS-CA/TRANSLATING.md), but it's a living document, so every new info would be greatly appreciated. Feel free to expand it with your own translation experiences, to add new suggestions and to improve it in any other way.
+
+### Unofficial translation forks
+- [Pokémon Cor i Ànima](https://github.com/Ecron/pokemonHnS-CA) (Pokémon Heart&Soul, Catalan version)
+- ...
 
 ### Translation Tips and Tricks
 - For regular in-game dialogues, max. string length would be around 40 characters. Any sentence longer than that would need to be broken to the next line.
