@@ -871,7 +871,7 @@ static const u8 sText_Description_Random_Trainer_On[]               = _("Els equ
 static const u8 sText_Description_Random_Static_Off[]               = _("Els encontres estàtics seran els\nmateixos que al joc original.");
 static const u8 sText_Description_Random_Static_On[]                = _("Els {PKMN} amb malnom, del casino, errants\ni alguns {PKMN} especials no canviaran.");
 static const u8 sText_Description_Random_BalanceTiers_Off[]         = _("La distribució dels POKéMON {COLOR 7}{COLOR 8}no\n{COLOR 7}{COLOR 8}s'equilibra{COLOR 1}{COLOR 2} en base a la seua força!");
-static const u8 sText_Description_Random_BalanceTiers_On[]          = _("Els {PKMN} es reemplacen amb uns altres similars.\nActualment basat en els estats evolutius.");
+static const u8 sText_Description_Random_BalanceTiers_On[]          = _("Els {PKMN} es reemplacen amb uns altres\nsimilars, segons els estats evolutius.");
 static const u8 sText_Description_Random_IncludeLegendaries_Off[]   = _("No s'inclouran els POKéMON llegendaris\nen l'aleatorietat.");
 static const u8 sText_Description_Random_IncludeLegendaries_On[]    = _("Inclou els POKéMON llegendaris en\nl'aleatorietat!");
 static const u8 sText_Description_Random_Types_Off[]                = _("Els tipus dels POKéMON són els\nmateixos que en el joc original.");
@@ -883,14 +883,14 @@ static const u8 sText_Description_Random_Abilities_On[]             = _("Aleator
 static const u8 sText_Description_Random_Evos_Off[]                 = _("Les evolucions dels POKéMON són\nles mateixes que en el joc original.");
 static const u8 sText_Description_Random_Evos_On[]                  = _("Aleatoritza les evolucions\ndels POKéMON.");
 static const u8 sText_Description_Random_Evo_Methods_Off[]          = _("Les línies d'evolució dels POKéMON\nno pateixen canvis.");
-static const u8 sText_Description_Random_Evo_Methods_On[]           = _("Aleatoritza les línies d'evolució.\nPermet que es produïsquen línies noves!");
+static const u8 sText_Description_Random_Evo_Methods_On[]           = _("Aleatoritza les línies d'evolució.\nPermet que hi hagen línies noves!");
 static const u8 sText_Description_Random_Effectiveness_Off[]        = _("La taula d'efectivitat dels tipus\nés la mateixa que al joc original.");
-static const u8 sText_Description_Random_Effectiveness_On[]         = _("Aleatoritza les efiticitats dels tipus.\n{COLOR 7}{COLOR 8}ATENCIÓ: POT FUNCIONAR MALAMENT!");
-static const u8 sText_Description_Random_Items_Off[]                = _("Els objetctes trobats o rebuts són\nels mateixos que al joc original.");
-static const u8 sText_Description_Random_Items_On[]                 = _("Aleatoritza els objectes trobats, amagats\ni rebuts. S'exlouen els ítems CLAU!");
+static const u8 sText_Description_Random_Effectiveness_On[]         = _("Aleatoritza la taula d'efectivitat.\n{COLOR 7}{COLOR 8}ATENCIÓ: POT FUNCIONAR MALAMENT!");
+static const u8 sText_Description_Random_Items_Off[]                = _("Els objectes trobats o rebuts són\nels mateixos que al joc original.");
+static const u8 sText_Description_Random_Items_On[]                 = _("Aleatoritza els objectes trobats,\namagats i rebuts. S'exclouen els CLAU!");
 static const u8 sText_Description_Random_ChaosMode_Off[]            = _("El mode caòtic està desactivat.");
 static const u8 sText_Description_Random_ChaosMode_On[]             = _("Les opcions anteriors seran molt\ncaòtiques. {COLOR 7}{COLOR 8}NO recomanat!");
-static const u8 sText_Description_Random_Next[]                     = _("Continua a les opcions\n del Nuzlocke.");
+static const u8 sText_Description_Random_Next[]                     = _("Continua a les opcions del Nuzlocke.");
 static const u8 *const sOptionMenuItemDescriptionsRandomizer[MENUITEM_RANDOM_COUNT][2] =
 {
     [MENUITEM_RANDOM_OFF_ON]                    = {sText_Description_Randomizer_Off,               sText_Description_Randomizer_On},
@@ -912,20 +912,20 @@ static const u8 *const sOptionMenuItemDescriptionsRandomizer[MENUITEM_RANDOM_COU
 };
 
 static const u8 sText_Description_Nuzlocke_Base[]               = _("El mode Nuzlocke està desactivat.");
-static const u8 sText_Description_Nuzlocke_Easy[]               = _("Els {PKMN} debilitats ja no es podran usar!\nNo s'apliquen més regles.");
-static const u8 sText_Description_Nuzlocke_Normal[]             = _("Una captura per ruta! Els {PKMN} debilitats\nja no es podran usar.");
-static const u8 sText_Description_Nuzlocke_Hard[]               = _("Les mateixes regles que en NORMAL però també\n{COLOR 7}{COLOR 8}elimina la partida si perds un combat!");
+static const u8 sText_Description_Nuzlocke_Easy[]               = _("Els {PKMN} debilitats no es podran usar!\nNo s'apliquen més regles.");
+static const u8 sText_Description_Nuzlocke_Normal[]             = _("Una captura per ruta! Els {PKMN}\ndebilitats ja no es podran usar.");
+static const u8 sText_Description_Nuzlocke_Hard[]               = _("Igual que el mode NORMAL, però a més\n{COLOR 7}{COLOR 8}elimina la partida si perds un combat!");
 static const u8 sText_Description_Nuzlocke_SpeciesClause_Off[]  = _("El jugador sempre ha de capturar el\nprimer POKéMON de cada ruta.");
-static const u8 sText_Description_Nuzlocke_SpeciesClause_On[]   = _("Només els POKéMON no capturats compten\ncom a primer encontre. {COLOR 7}{COLOR 8}RECOMANAT!");
-static const u8 sText_Description_Nuzlocke_ShinyClause_Off[]    = _("El jugador només pot capturar un POKéMON\nbrillant si és el primer encontre.");
-static const u8 sText_Description_Nuzlocke_ShinyClause_On[]     = _("El jugador sempre pot capturar un POKéMON\nbrillant. {COLOR 7}{COLOR 8}RECOMANAT!");
+static const u8 sText_Description_Nuzlocke_SpeciesClause_On[]   = _("Només els {PKMN} no capturats compten\ncom a primer encontre. {COLOR 7}{COLOR 8}RECOMANAT!");
+static const u8 sText_Description_Nuzlocke_ShinyClause_Off[]    = _("El jugador només pot capturar un {PKMN}\nbrillant si és el primer encontre.");
+static const u8 sText_Description_Nuzlocke_ShinyClause_On[]     = _("El jugador sempre pot capturar un {PKMN}\nbrillant. {COLOR 7}{COLOR 8}RECOMANAT!");
 static const u8 sText_Description_Nuzlocke_Nicknaming_Off[]     = _("Els malnoms són opcionals.");
 static const u8 sText_Description_Nuzlocke_Nicknaming_On[]      = _("Força el jugador a donar un malnom\na tots els POKéMON. {COLOR 7}{COLOR 8}RECOMANAT!");
-static const u8 sText_Description_Nuzlocke_Deletion_Cemetery[]  = _("Els POKéMON debilitats s'envien al PC\ndesprés del combat i no es poden recuperar.");
-static const u8 sText_Description_Nuzlocke_Deletion_Deletion[]  = _("Els POKéMON debiliatats {COLOR 7}{COLOR 8}s'alliberen{COLOR 1}{COLOR 2}\ndesprés del combat!");
-static const u8 sText_Description_Nuzlocke_RareCandy_On[]       = _("Al PC del jugador hi haurà DOLÇ ESTRANY\ninfinits des de l'inici del joc.");
+static const u8 sText_Description_Nuzlocke_Deletion_Cemetery[]  = _("Els POKéMON debilitats s'envien al PC\ni no es poden tornar a gastar.");
+static const u8 sText_Description_Nuzlocke_Deletion_Deletion[]  = _("Els POKéMON debilitats {COLOR 7}{COLOR 8}s'alliberen{COLOR 1}{COLOR 2}\ndesprés del combat!");
+static const u8 sText_Description_Nuzlocke_RareCandy_On[]       = _("Al PC hi haurà DOLÇ ESTRANY infinits\ndes de l'inici del joc.");
 static const u8 sText_Description_Nuzlocke_RareCandy_Off[]      = _("El jugador no tindrà accés als\nDOLÇ ESTRANY infinits.");
-static const u8 sText_Description_Nuzlocke_Next[]               = _("Continua a les opcions\nde dificultat.");
+static const u8 sText_Description_Nuzlocke_Next[]               = _("Continua a les opcions de dificultat.");
 static const u8 *const sOptionMenuItemDescriptionsNuzlocke[MENUITEM_NUZLOCKE_COUNT][4] =
 {
     [MENUITEM_NUZLOCKE_NUZLOCKE]            = {sText_Description_Nuzlocke_Base,                 sText_Description_Nuzlocke_Easy,                    sText_Description_Nuzlocke_Normal,  sText_Description_Nuzlocke_Hard},
@@ -2529,7 +2529,7 @@ static void DrawChoices_Challenges_NoEVs(int selection, int y)
     DrawChoices_Challenges_YesNo(selection, y, active);
 }
 static const u8 sText_ScalingIVsEVs_Scaling[]   = _("ESCALA");
-static const u8 sText_ScalingIVsEVs_Hard[]      = _("DIFÍCIL");
+static const u8 sText_ScalingIVsEVs_Hard[]      = _("DIF.");
 static void DrawChoices_Challenges_ScalingIVs(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_DIFFICULTY_SCALING_IVS);
@@ -2569,7 +2569,7 @@ static void DrawChoices_Challenges_PartyLimit(int selection, int y)
 }
 
 static const u8 sText_Challenges_LevelCap_Normal[]  = _("NORMAL");
-static const u8 sText_Challenges_LevelCap_Hard[]    = _("DIFÍCIL");
+static const u8 sText_Challenges_LevelCap_Hard[]    = _("DIF.");
 static void DrawChoices_Challenges_LevelCap(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_DIFFICULTY_LEVEL_CAP);
