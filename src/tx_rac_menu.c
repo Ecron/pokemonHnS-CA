@@ -937,10 +937,10 @@ static const u8 *const sOptionMenuItemDescriptionsNuzlocke[MENUITEM_NUZLOCKE_COU
     [MENUITEM_NUZLOCKE_NEXT]                = {sText_Description_Nuzlocke_Next,                 sText_Empty,                                        sText_Empty,                        sText_Empty},
 };
 
-static const u8 sText_Description_Difficulty_Party_Limit[]              = _("Limits the amount of {PKMN} in the party.\n{COLOR 7}{COLOR 8}“1” has visual bugs in DOUBLE BATTLES.");
-static const u8 sText_Description_Difficulty_LevelCap_Base[]            = _("No level cap. Overleveling possible.\n");
-static const u8 sText_Description_Difficulty_LevelCap_Normal[]          = _("Maximum level is based on the\nnext gym's highest POKéMON level.");
-static const u8 sText_Description_Difficulty_LevelCap_Hard[]            = _("Maximum level is based on the\nnext gym's {COLOR 7}{COLOR 8}lowest POKéMON level.");
+static const u8 sText_Description_Difficulty_Party_Limit[]              = _("Limita el número de {PKMN} en l'equip.\n{COLOR 7}{COLOR 8}“1” no quedarà bé als COMBATS DOBLES.");
+static const u8 sText_Description_Difficulty_LevelCap_Base[]            = _("No hi ha cap nivell màxim. Es pot\nsobrepassar el nivell dels líders.");
+static const u8 sText_Description_Difficulty_LevelCap_Normal[]          = _("El nivell màxim es basa en el del\n{PKMN} de més nivell del pròxim gimnàs.");
+static const u8 sText_Description_Difficulty_LevelCap_Hard[]            = _("El nivell màxim es basa en el del\n{PKMN} {COLOR 7}{COLOR 8}de menys nivell{COLOR 1}{COLOR 2} del pròxim gimnàs.");
 static const u8 sText_Description_Difficulty_ExpMultiplier_1_0[]        = _("POKéMON gain normal EXP. Points.\nStacks with HARD MODE EXP.");
 static const u8 sText_Description_Difficulty_ExpMultiplier_1_5[]        = _("POKéMON gain 50 percent more EXP.\nPoints! Stacks with HARD MODE EXP.");
 static const u8 sText_Description_Difficulty_ExpMultiplier_2_0[]        = _("POKéMON gain double EXP. Points!\nStacks with HARD MODE EXP.");
@@ -1023,7 +1023,7 @@ static const u8 *const sOptionMenuItemDescriptionsChallenges[MENUITEM_CHALLENGES
 };
 
 // Disabled descriptions
-static const u8 sText_Description_Disabled_Feature[]  = _("{COLOR 7}{COLOR 8}This feature is not currently\nsupported for this game.");
+static const u8 sText_Description_Disabled_Feature[]  = _("{COLOR 7}{COLOR 8}El joc encara no és compatible\namb aquesta funcionalitat.");
 static const u8 *const sOptionMenuItemDescriptionsDisabledMode[MENUITEM_MODE_COUNT] =
 {
     [MENUITEM_MODE_CLASSIC_MODERN]        = sText_Empty,
@@ -1057,10 +1057,10 @@ static const u8 *const sOptionMenuItemDescriptionsDisabledFeatures[MENUITEM_FEAT
     [MENUITEM_FEATURES_NEXT]                  = sText_Empty,
 };
 
-static const u8 sText_Description_Disabled_Random_SimiliarEvolutionLevel[]  = _("Only usable with random starter,\nTrainer, wild or static POKéMON.");
-static const u8 sText_Description_Disabled_Random_IncludeLegendaries[]      = _("Only usable with random starter,\nTrainer, wild or static POKéMON.");
-static const u8 sText_Description_Disabled_Random_Chaos_Mode[]              = _("Only usable if other random options\nare activated.");
-static const u8 sText_Description_Disabled_Random_Type_Effectiveness[]      = _("Currently not available.");
+static const u8 sText_Description_Disabled_Random_SimiliarEvolutionLevel[]  = _("Només disponible amb {PKMN} inicial,\nsalvat., entren. o estàtics aleatoris.");
+static const u8 sText_Description_Disabled_Random_IncludeLegendaries[]      = _("Només disponible amb {PKMN} inicial,\nsalvat., entren. o estàtics aleatoris.");
+static const u8 sText_Description_Disabled_Random_Chaos_Mode[]              = _("Només disponible si s'activen altres\nopcions aleatòries.");
+static const u8 sText_Description_Disabled_Random_Type_Effectiveness[]      = _("Actualment no disponible.");
 static const u8 *const sOptionMenuItemDescriptionsDisabledRandomizer[MENUITEM_RANDOM_COUNT] =
 {
     [MENUITEM_RANDOM_OFF_ON]                    = sText_Empty,
@@ -1081,7 +1081,7 @@ static const u8 *const sOptionMenuItemDescriptionsDisabledRandomizer[MENUITEM_RA
     [MENUITEM_RANDOM_NEXT]                      = sText_Empty,
 };
 
-static const u8 sText_Description_Disabled_Nuzlocke_Nuzlocke[]   = _("Only usable with Nuzlocke!");
+static const u8 sText_Description_Disabled_Nuzlocke_Nuzlocke[]   = _("Només disponible amb el Nuzlocke!");
 static const u8 *const sOptionMenuItemDescriptionsDisabledNuzlocke[MENUITEM_NUZLOCKE_COUNT] =
 {
     [MENUITEM_NUZLOCKE_NUZLOCKE]            = sText_Empty,
@@ -1107,8 +1107,8 @@ static const u8 *const sOptionMenuItemDescriptionsDisabledDifficulty[MENUITEM_DI
     [MENUITEM_DIFFICULTY_NEXT]                  = sText_Empty,
 };  
 
-static const u8 sText_Description_Disabled_Challenges_MirrorThief[]    = _("Only usable with Mirror Mode!");
-static const u8 sText_Description_Disabled_Features_PCHeal[]  = _("Always disabled with POKéCENTER\nChallenge.");
+static const u8 sText_Description_Disabled_Challenges_MirrorThief[]    = _("Només disponible amb el Mode Espill!");
+static const u8 sText_Description_Disabled_Features_PCHeal[]  = _("Sempre desactivat amb el repte\ndel Centre POKéMON.");
 static const u8 *const sOptionMenuItemDescriptionsDisabledChallenges[MENUITEM_CHALLENGES_COUNT] =
 {
     [MENUITEM_DIFFICULTY_POKECENTER]            = sText_Empty,
