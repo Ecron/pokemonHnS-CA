@@ -10,7 +10,8 @@ This document gathers useful information, suggestions and tips in case you try t
 
 ### Translation Tips and Tricks
 - For regular in-game dialogues, max. string length would be around 40 characters. Any sentence longer than that would need to be broken to the next line.
-- Regarding the Gamemode settings at the beginning of a new game, the max. string length for the settings' names is recommended to be of 15 or 16 characters. Regarding the bottom explanations, a good rule would be not to exceed 35 or 36 characters, depending on the number of capital letters. A {PKMN} code can be used to insert a 2-character PKMN symbol.
+- Regarding the name of each Gamemode setting, at the beginning of a new game, the max. string length for the settings' names is recommended to be of 15 or 16 characters. This also applies to the settings' names in the Options menu.
+- Regarding the bottom explanations of each Gamemode setting, a good rule would be not to exceed 35 or 36 characters, depending on the number of capital letters (màximum 38 chars). A {PKMN} code can be used to insert a 2-character PKMN symbol. A good QoL tool is to paste a code like `("123456789012345678901234567890123456\n123456789012345678901234567890123456");` under the description you're translating so you don't need to count each time you write a translation. This also applies to the descriptions in the Options menu.
 - ...
 
 ### Hard to find, important files to be translated:
