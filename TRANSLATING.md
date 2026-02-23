@@ -20,6 +20,9 @@ This document gathers useful information, suggestions and tips in case you try t
 - Initial game settings (GameMode, Randomizer, Nuzlocke, etc.):
   - ../src/tx_rac_menu.c
   - ../src/tx_rac_viewer.c
+- Options menu, items and descriptions:
+  - ../src/strings.c
+  - ../src/options_plus_menu.c
 - ...
 
 ### Comprehensive list of translatable text files:
