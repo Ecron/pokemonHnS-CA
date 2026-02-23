@@ -624,7 +624,7 @@ static const u8 sText_PCHeal[]              = _("{PKMN} CURATS AL PC");
 static const u8 sText_Expensive[]           = _("ULTRA CAR!");
 static const u8 sText_EvoLimit[]            = _("LÍMIT D'EVOLUCIÓ");
 static const u8 sText_OneTypeChallenge[]    = _("NOMÉS UN TIPUS");
-static const u8 sText_BaseStatEqualizer[]   = _("ESTAD. BÀSIQUES");
+static const u8 sText_BaseStatEqualizer[]   = _("ESTADÍST. BASE");
 static const u8 sText_Mirror[]              = _("MODE ESPILL");
 static const u8 sText_MirrorThief[]         = _("LLADRE ESPILL");
 static const u8 sText_Save[]                = _("GUARDA");
@@ -948,7 +948,7 @@ static const u8 sText_Description_Difficulty_ExpMultiplier_0_0[]        = _("Els
 static const u8 sText_Description_Difficulty_Items_Player_Yes[]         = _("El jugador pot usar objectes\nals combats.");
 static const u8 sText_Description_Difficulty_Items_Player_No[]          = _("El jugador {COLOR 7}{COLOR 8}NO POT usar objectes\nals combats. Es permeten els equipats!");
 static const u8 sText_Description_Difficulty_Items_Trainer_Yes[]        = _("Els entrenadors poden usar objectes\nals combats.");
-static const u8 sText_Description_Difficulty_Items_Trainer_No[]         = _("Els entrenadors {COLOR 7}{COLOR 8}NO PODEN usar objectes\nals combats.");
+static const u8 sText_Description_Difficulty_Items_Trainer_No[]         = _("Els entrenadors NO PODEN usar\nobjectes als combats.");
 static const u8 sText_Description_Difficulty_NoEVs_Off[]                = _("Els POKéMON del jugador guanyen\npunts d'esforç de manera normal.");
 static const u8 sText_Description_Difficulty_NoEVs_On[]                 = _("Els POKéMON del jugador {COLOR 7}{COLOR 8}NO{COLOR 1}{COLOR 2} guanyen\ncap punt d'esforç!");
 static const u8 sText_Description_Difficulty_ScalingIVs_Off[]           = _("Els POKéMON dels entrenadors tenen\nles fortaleses innates esperades.");
@@ -989,7 +989,7 @@ static const u8 *const sOptionMenuItemDescriptionsDifficulty[MENUITEM_DIFFICULTY
 };  
 
 static const u8 sText_Description_Difficulty_Pokecenter_Yes[]           = _("El jugador pot visitar Centres {PKMN}\ni altres llocs per a curar l'equip.");
-static const u8 sText_Description_Difficulty_Pokecenter_No[]            = _("El jugador {COLOR 7}{COLOR 8}NO POT curar l'equip als\nCentres {PKMN} ni en altres llocs.");
+static const u8 sText_Description_Difficulty_Pokecenter_No[]            = _("El jugador {COLOR 7}{COLOR 8}NO POT curar l'equip en els\nCentres {PKMN} ni en altres llocs.");
 static const u8 sText_Description_Challenges_PCHeal_Yes[]               = _("Els POKéMON que es guarden en el PC\nes curaran, com sempre.");
 static const u8 sText_Description_Challenges_PCHeal_No[]                = _("Els POKéMON que es guarden en el PC\nno es curaran.");
 static const u8 sText_Description_Challenges_EvoLimit_Base[]            = _("Els POKéMON evolucionen com s'espera.");
