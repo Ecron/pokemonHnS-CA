@@ -11,6 +11,8 @@ gText_Birch_Pokemon::
 	.string "Açò és el que anomenem un “POKéMON”.\p"
 	.string "$"
 
+// You need to go to ../src/strings.c#L107 to translate this single line of OAK's speech.
+
 gText_Birch_MainSpeech::
 	.string "El món es troba habitat per unes\n"
 	.string "criatures que anomenem POKéMON.\p"
