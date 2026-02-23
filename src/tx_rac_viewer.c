@@ -177,7 +177,7 @@ static const u8 sText_Chk_PCHeal[]            = _("{PKMN} CURATS AL PC");
 static const u8 sText_Chk_Expensive[]         = _("ULTRA CAR!");
 static const u8 sText_Chk_EvoLimit[]          = _("LÍMIT D'EVOLUCIÓ");
 static const u8 sText_Chk_OneType[]           = _("NOMÉS UN TIPUS");
-static const u8 sText_Chk_BaseStatEq[]        = _("ESTAD. BÀSIQUES");
+static const u8 sText_Chk_BaseStatEq[]        = _("ESTADÍST. BASE");
 static const u8 sText_Chk_Mirror[]            = _("MODE ESPILL");
 static const u8 sText_Chk_MirrorThief[]       = _("LLADRE ESPILL");
 
