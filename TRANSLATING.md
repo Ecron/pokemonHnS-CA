@@ -23,7 +23,9 @@ This document gathers useful information, suggestions and tips in case you try t
 - Options menu, items and descriptions:
   - ../src/strings.c
   - ../src/options_plus_menu.c
-- ...
+- POKéGEAR texts:
+  - ../scr/strings.c
+  - ../graphics/pokenav/ --> There are a lot of texts here that seem editable, but they are actually graphics 🙄
 
 ### Comprehensive list of translatable text files:
 
