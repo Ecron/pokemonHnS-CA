@@ -52,16 +52,16 @@ EventScript_CancelCut::
 	end
 
 Text_WantToCut:
-	.string "Pareix que este arbre es pot\n"
-	.string "TALLAR!\p"
-	.string "Vols utilitzar TALL?$"
+	.string "This tree looks like it can be\n"
+	.string "CUT down!\p"
+	.string "Would you like to CUT it?$"
 
 Text_MonUsedFieldMove:
-	.string "{STR_VAR_1} utilitza {STR_VAR_2}!$"
+	.string "{STR_VAR_1} used {STR_VAR_2}!$"
 
 Text_CantCut:
-	.string "Pareix que este arbre es pot\n"
-	.string "TALLAR!$"
+	.string "This tree looks like it can be\n"
+	.string "CUT down!$"
 
 @ Use rock smash from party menu
 EventScript_UseRockSmash::
@@ -156,7 +156,7 @@ EventScript_EndHeadbutt::
 	end
 
 Text_MonUsedHeadbutt::
-	.string "{STR_VAR_1} utilitza CABOTADA!$"
+	.string "{STR_VAR_1} used HEADBUTT!$"
 
 
 EventScript_FollowerFieldMove:
@@ -317,21 +317,20 @@ EventScript_CancelSmash::
 	end
 
 Text_WantToSmash:
-
-	.string "És una pedra badada.\n"
-	.string "Vols utilitzar TRENCAPEDRES?$"
+	.string "This rock appears to be breakable.\n"
+	.string "Would you like to use ROCK SMASH?$"
 
 Text_CantSmash:
-	.string "És una pedra badada. Segur que\n"
-	.string "un POKéMON la podria trencar.$"
+	.string "It's a rugged rock, but a POKéMON\n"
+	.string "may be able to smash it.$"
 
 Text_WantToHeadbutt:
-	.string "Podrien haver POKéMON a l'arbre.\n"
-	.string "Vols utilitzar CABOTADA?$"
+	.string "This tree may house POKéMON.\n"
+	.string "Would you like to use HEADBUTT?$"
 
 Text_CantHeadbutt:
-	.string "És un arbre xicotet, però hi\n"
-	.string "podria viure un POKéMON salvatge.$"
+	.string "It's a small tree, but a wild\n"
+	.string "POKéMON may be living within.$"
 
 EventScript_StrengthBoulder::
 	lockall
@@ -378,20 +377,20 @@ EventScript_CancelStrength::
 	end
 
 Text_WantToStrength:
-	.string "Pareix que un POKéMON podria\n"
-	.string "moure esta pedra.\p"
-	.string "Vols utilitzar FORÇA?$"
+	.string "It's a big boulder, but a POKéMON\n"
+	.string "may be able to push it aside.\p"
+	.string "Would you like to use STRENGTH?$"
 
 Text_MonUsedStrength:
-	.string "{STR_VAR_1} utilitza FORÇA!$"
+	.string "{STR_VAR_1} used STRENGTH!$"
 
 Text_CantStrength:
-	.string "Pareix que un POKéMON podria\n"
-	.string "moure esta pedra.\p"
+	.string "It's a big boulder, but a POKéMON\n"
+	.string "may be able to push it aside.$"
 
 Text_StrengthActivated:
-	.string "FORÇA fa possible moure\n"
-	.string "pedres arreu.$"
+	.string "STRENGTH made it possible to move\n"
+	.string "boulders around.$"
 
 EventScript_UseWaterfall::
 	lockall
@@ -417,15 +416,15 @@ EventScript_EndWaterfall::
 	end
 
 Text_CantWaterfall:
-	.string "L'aigua cau des de ben alt.\n"
-	.string "Fa un soroll atronador.$"
+	.string "A wall of water is crashing down with\n"
+	.string "a mighty roar.$"
 
 Text_WantToWaterfall:
-	.string "L'aigua cau des de ben alt.\n"
-	.string "Vols utilitzar CASCADA?$"
+	.string "It's a large waterfall.\n"
+	.string "Would you like to use WATERFALL?$"
 
 Text_MonUsedWaterfall:
-	.string "{STR_VAR_1} utilitza CASCADA.$"
+	.string "{STR_VAR_1} used WATERFALL.$"
 
 EventScript_UseDive::
 	lockall
@@ -543,34 +542,34 @@ Movement_WhirlpoolWest:
 	step_end
 
 Text_CantWhirlpool:
-	.string "L'aigua s'arremolina i gira\n"
-	.string "amb un soroll atronador.$"
+	.string "The water is swirling and spinning\n"
+	.string "around with a mighty roar.$"
 
 Text_CantDive:
-	.string "El mar és molt profund.\n"
-	.string "Un POKéMON podria baixar al fons.$"
+	.string "The sea is deep here. A POKéMON\n"
+	.string "may be able to go underwater.$"
 
 Text_WantToDive:
-	.string "El mar és molt profund.\n"
-	.string "Vols utilitzar BUSSEIG?$"
+	.string "The sea is deep here.\n"
+	.string "Would you like to use DIVE?$"
 
 Text_MonUsedDive:
-	.string "{STR_VAR_1} utilitza SIFÓ.$"
+	.string "{STR_VAR_1} used WHIRLPOOL.$"
 
 Text_CantSurface:
-	.string "S'hi filtra un poc de llum solar.\n"
-	.string "Un POKéMON podria emergir.$"
+	.string "Light is filtering down from above.\n"
+	.string "A POKéMON may be able to surface.$"
 
 Text_WantToSurface:
-	.string "S'hi filtra un poc de llum solar.\n"
-	.string "Vols utilitzar BUSSEIG?$"
+	.string "Light is filtering down from above.\n"
+	.string "Would you like to use DIVE?$"
 
 EventScript_FailSweetScent::
 	msgbox Text_FailSweetScent, MSGBOX_SIGN
 	end
 
 Text_FailSweetScent:
-	.string "Pareix que ací no hi ha res…$"
+	.string "Looks like there's nothing here…$"
 
 SetTimeEncounters::
 	callnative SetTimeBasedEncounters
