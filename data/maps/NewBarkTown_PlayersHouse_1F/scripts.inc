@@ -160,8 +160,8 @@ NewBarkTown_PlayersHouse_1F_Text_ElmsLookingForYou:
 	.string "el PROFESSOR OLM, t'estava buscant.\p"
 	.string "Ha dit que volia demanar-te si\n"
 	.string "podies fer-li un favor.\p"
-	.string "Ah! Quasi ho oblide! Ja han reparat el\n"
-	.string "teu POKéFON, acaba d'arribar de la botiga.\p"
+	.string "Ah! Quasi ho oblide! Ja han reparat el teu\n"
+	.string "POKéFON, acaba d'arribar de la botiga.\p"
 	.string "Ací el tens!$"
 
 NewBarkTown_PlayersHouse_1F_Text_ObtainedPokeGear:
@@ -188,7 +188,7 @@ NewBarkTown_PlayersHouse_1F_Text_ExplainRunningShoes:
 
 NewBarkTown_PlayersHouse_1F_Text_MomHurryUpElmIsWaiting:
 	.string "MAMÀ: El PROF. OLM t'espera.\p"
-	.string "Afanya't, rei!$"
+	.string "Afanya't, carinyet!$"
 
 NewBarkTown_PlayersHouse_1F_Text_MomsFriend:
 	.string "Hola, {PLAYER}!\p"
