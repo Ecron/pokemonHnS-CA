@@ -99,7 +99,7 @@ NewBarkTown_Lab_Text_ElmAideIsWaiting:
 	.string "{PLAYER}!\p"
 	.string "Qué fas ací?\p"
 	.string "El meu ajudant t'està esperant\n"
-	.string "en CIUTAT MALVA!$"
+	.string "en CIUTAT VIOLETA!$"
 
 NewBarkTown_Lab_EventScript_ElmIntro::
 	msgbox NewBarkTown_Lab_Text_ElmIntro, MSGBOX_YESNO
@@ -623,13 +623,13 @@ NewBarkTown_Lab_Text_ElmIntro:
 	.string "Estic inmers en una nova\n"
 	.string "investigació POKéMON.\l"
 	.string "Em preguntava si em podries\l"
-	.string "tirar una maneta, {PLAYER}.\p"
+	.string "tirar una maneta.\p"
 	.string "El cas és que…\p"
 	.string "Estic escrivint una publicació que vull\n"
 	.string "presentar en una conferència.\p"
 	.string "Però hi ha algunes coses que\n"
 	.string "encara no acabe d'entendre bé.\p"
-	.string "Per tant!\p"
+	.string "El cas!\p"
 	.string "M'agradaria que criares un POKéMON\n"
 	.string "que he capturat no fa molt.$"
 
@@ -642,7 +642,7 @@ NewBarkTown_Lab_Text_ElmRefused:
 	.string "que m'ajudes!$"
 
 NewBarkTown_Lab_Text_ElmResearchAmbitions:
-	.string "Quan anuncie les meues troballes,\n"
+	.string "En anunciar les meues troballes,\n"
 	.string "segur que obtindrem una millor\p"
 	.string "perspectiva dels diversos misteris\n"
 	.string "dels POKéMON.\p"
@@ -658,11 +658,11 @@ NewBarkTown_Lab_Text_ElmMissionFromMrPokemon:
 	.string "Ei, escolta.\p"
 	.string "Tinc un conegut que li diuen\n"
 	.string "el SR. POKéMON.\p"
-	.string "No para de trobar coses estranyes i\n"
+	.string "Només fa que trobar coses estranyes i\n"
 	.string "devanir-se dels seus descobriments.\p"
 	.string "Total, que acabe de rebre un correu seu\n"
-	.string "en el que diu que esta volta sí que és\l"
-	.string "de veres.\p"
+	.string "en el que diu que ara sí, que esta\l"
+	.string "volta sí que és de veres.\p"
 	.string "M'intriga molt, però estem ocupats amb\n"
 	.string "les nostres investigacions POKéMON…\p"
 	.string "Espera!\n"
@@ -672,9 +672,9 @@ NewBarkTown_Lab_Text_ElmMissionFromMrPokemon:
 
 NewBarkTown_Lab_Text_ElmChooseAPokemon:
 	.string "Vull que entrenes un dels POKéMON\n"
-	.string "que hi ha a dins d'aquestes POKéBALL.\p"
+	.string "que hi ha a dins d'estes POKéBALL.\p"
 	.string "Seràs el primer company\n"
-	.string "d'aquest POKéMON, {PLAYER}!\p"
+	.string "d'un d'estos POKéMON, {PLAYER}!\p"
 	.string "Endavant. Tria'n un!$"
 
 NewBarkTown_Lab_Text_ElmWhereGoing:
@@ -709,7 +709,7 @@ NewBarkTown_Lab_Text_Nickname:
 	.string "a {STR_VAR_1}?$"
 
 NewBarkTown_Lab_Text_ElmDirections1:
-	.string "El SR. POKéMON a les afores de\n"
+	.string "El SR. POKéMON viu a les afores de\n"
 	.string "CIUTAT CIRERA, la ciutat\l"
 	.string "d'ací al costat.\p"
 	.string "La ruta és pràcticament directa,\n"
@@ -776,7 +776,7 @@ NewBarkTown_Lab_Text_ElmAfterTheft4:
 	.string "Hauries d'iniciar el repte\n"
 	.string "dels GIMNASOS POKéMON.\p"
 	.string "El més proper seria el de\n"
-	.string "la CIUTAT MALVA.\p"
+	.string "la CIUTAT VIOLETA.\p"
 	.string "… {PLAYER}. El camí cap al\n"
 	.string "campionat serà llarg.\p"
 	.string "Abans d'anar-te'n, no t'oblides\n"
@@ -792,7 +792,7 @@ NewBarkTown_Lab_Text_ElmAideHasEgg:
 	.string "amb el meu ajudant?\p"
 	.string "L'hauries d'haver trobat, a ell i\n"
 	.string "a l'OU, al CENTRE POKéMON de\p"
-	.string "CIUTAT MALVA.\p"
+	.string "CIUTAT VIOLETA.\p"
 	.string "Segur que no l'has vist.\n"
 	.string "Vés i troba'l allà.$"
 
@@ -920,7 +920,7 @@ NewBarkTown_Lab_Text_LabMonEgg:
 
 NewBarkTown_Lab_Text_AideGivePotion:
 	.string "{PLAYER}, vull que et quedes\n"
-	.string "aço, et vindrà bé.$"
+	.string "açò, et vindrà bé.$"
 
 NewBarkTown_Lab_Text_AideAlwaysBusy:
 	.string "Només en som tres, per això estem\n"
