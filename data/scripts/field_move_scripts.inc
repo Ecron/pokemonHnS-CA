@@ -555,7 +555,7 @@ Text_WantToDive:
 	.string "Vols utilitzar BUSSEIG?$"
 
 Text_MonUsedDive:
-	.string "{STR_VAR_1} utilitza SIFÓ.$"
+	.string "{STR_VAR_1} utilitza GORGA.$"
 
 Text_CantSurface:
 	.string "S'hi filtra un poc de llum solar.\n"
