@@ -289,14 +289,14 @@ static const struct ListMenuTemplate sItemListMenu =
     .cursorKind = CURSOR_BLACK_ARROW
 };
 
-static const u8 sMenuText_ByName[] = _("NAME");
-static const u8 sMenuText_ByType[] = _("TYPE");
-static const u8 sMenuText_ByAmount[] = _("AMOUNT");
-static const u8 sMenuText_ByNumber[] = _("NUMBER");
-static const u8 sText_NothingToSort[] = _("There's nothing to sort!");
-static const u8 sMenuText_Tap[] = _("TAP");
-static const u8 sMenuText_Hold[] = _("HOLD");
-static const u8 sText_RegisterHow[] = _("Register this\nitem by tapping or\nholding SELECT?");
+static const u8 sMenuText_ByName[] = _("NOM");
+static const u8 sMenuText_ByType[] = _("TIPUS");
+static const u8 sMenuText_ByAmount[] = _("QUANTITAT");
+static const u8 sMenuText_ByNumber[] = _("NÚMERO");
+static const u8 sText_NothingToSort[] = _("No hi ha res que ordenar!");
+static const u8 sMenuText_Tap[] = _("PREM");
+static const u8 sMenuText_Hold[] = _("MANTÍN");
+static const u8 sText_RegisterHow[] = _("L'assigneu prement\no mantenint el\nbotó SELECT?");
 static const struct MenuAction sItemMenuActions[] = {
     [ACTION_USE]               = {gMenuText_Use,      {ItemMenu_UseOutOfBattle}},
     [ACTION_TOSS]              = {gMenuText_Toss,     {ItemMenu_Toss}},
@@ -1316,7 +1316,7 @@ static void Task_BagMenu_HandleInput(u8 taskId)
                 }
                 if ((gBagMenu->numItemStacks[gBagPosition.pocket] - 1) <= 1)
                 {
-                    static const u8 sText_NothingToSort[] = _("There's nothing to sort!");
+                    static const u8 sText_NothingToSort[] = _("No hi ha res que ordenar!");
                     PlaySE(SE_FAILURE);
                     DisplayItemMessage(taskId, 1, sText_NothingToSort, HandleErrorMessage);
                     break;
@@ -2797,11 +2797,11 @@ enum ItemSortType
 	ITEM_TYPE_FOSSIL,
 	ITEM_TYPE_MAIL,
 };
-static const u8 sText_SortItemsHow[] = _("Sort items how?");
-static const u8 sText_Name[] = _("name");
-static const u8 sText_Type[] = _("type");
-static const u8 sText_Amount[] = _("amount");
-static const u8 sText_ItemsSorted[] = _("Items sorted by {STR_VAR_1}!");
+static const u8 sText_SortItemsHow[] = _("Com ho ordenes?");
+static const u8 sText_Name[] = _("nom");
+static const u8 sText_Type[] = _("tipus");
+static const u8 sText_Amount[] = _("quantitat");
+static const u8 sText_ItemsSorted[] = _("Objectes ordenats per {STR_VAR_1}!");
 static const u8 *const sSortTypeStrings[] = 
 {
     [SORT_ALPHABETICALLY] = sText_Name,
