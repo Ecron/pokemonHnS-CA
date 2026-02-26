@@ -379,7 +379,7 @@ EventScript_CancelStrength::
 
 Text_WantToStrength:
 	.string "Pareix que un POKéMON podria\n"
-	.string "moure esta pedra.\p"
+	.string "moure esta roca.\p"
 	.string "Vols utilitzar FORÇA?$"
 
 Text_MonUsedStrength:
@@ -387,11 +387,11 @@ Text_MonUsedStrength:
 
 Text_CantStrength:
 	.string "Pareix que un POKéMON podria\n"
-	.string "moure esta pedra.\p"
+	.string "moure esta roca.\p"
 
 Text_StrengthActivated:
 	.string "FORÇA fa possible moure\n"
-	.string "pedres arreu.$"
+	.string "roques arreu.$"
 
 EventScript_UseWaterfall::
 	lockall
