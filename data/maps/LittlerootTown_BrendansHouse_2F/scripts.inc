@@ -273,9 +273,9 @@ PlayersHouse_2F_EventScript_GameCube::
 	end
 
 PlayersHouse_2F_Text_ClockIsStopped:
-	.string "The clock is stopped…\p"
-	.string "Better set it and start it before\n"
-	.string "heading downstairs!$"
+	.string "El rellotge s'ha parat…\p"
+	.string "Millor posar-lo en hora\n"
+	.string "abans de baixar!$"
 
 PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
 	.string "MOM: {PLAYER}, how do you like your\n"
