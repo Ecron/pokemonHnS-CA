@@ -474,15 +474,14 @@ static const u8 sText_Desc_AutorunDiveOn[]         = _("Busseja ràpidament sens
 static const u8 sText_Desc_AutorunDiveOff[]        = _("Mantín premut el botó B per a\nbussejar ràpidament.");
 static const u8 sText_Desc_FishingOn[]             = _("En pescar, bobina automàticament.");
 static const u8 sText_Desc_FishingOff[]            = _("Bobina de manera manual en pescar.\nFes-ho com sempre ho has fet!");
-static const u8 sText_Desc_EvenFasterJoyOn[]       = _("NURSE JOY heals you faster.");
-//                                                     "123456789012345678901234567890123456\n123456789012345678901234567890123456"
-static const u8 sText_Desc_EvenFasterJoyOff[]      = _("NURSE JOY heals you with the\nusual animation.");
-static const u8 sText_Desc_SkipIntroOn[]           = _("Skips the Copyright screen and\nintro. Applies to soft-resets.");
-static const u8 sText_Desc_SkipIntroOff[]          = _("Shows the Copyright screen and\nthe game's introduction.");
-static const u8 sText_Desc_OverworldCallsOn[]      = _("TRAINERs will be able to call you,\noffering rematches and info.");
-static const u8 sText_Desc_OverworldCallsOff[]     = _("You will not receive calls.\nSpecial events will still occur.");
-static const u8 sText_Desc_Units_Imperial[]        = _("Display BERRY and POKéMON weight\nand size in pounds and inches.");
-static const u8 sText_Desc_Units_Metric[]          = _("Display BERRY and POKéMON weight\nand size in kilograms and meters.");
+static const u8 sText_Desc_EvenFasterJoyOn[]       = _("L'INFERMERA JOY cura l'equip\nmés ràpidament.");
+static const u8 sText_Desc_EvenFasterJoyOff[]      = _("L'INFERMERA JOY cura l'equip amb\nl'animació habitual.");
+static const u8 sText_Desc_SkipIntroOn[]           = _("Omet la pantalla de drets d'autor\ni la intro. S'aplica a reinicis suaus.");
+static const u8 sText_Desc_SkipIntroOff[]          = _("Mostra la pantalla de derets d'autor\ni la introducció del joc.");
+static const u8 sText_Desc_OverworldCallsOn[]      = _("Els ENTRENADORS et podran tocar per\na demanar revenges i informació.");
+static const u8 sText_Desc_OverworldCallsOff[]     = _("No rebràs telefonades, excepte les\ndels esdeveniments especials.");
+static const u8 sText_Desc_Units_Imperial[]        = _("Mostra el pes i la mida de les BAIES\ni els POKéMON en lliures i polzades.");
+static const u8 sText_Desc_Units_Metric[]          = _("Mostra el pes i la mida de les BAIES\ni els POKéMON en kilograms i metres.");
 static const u8 *const sOptionMenuItemDescriptionsMain[MENUITEM_MAIN_COUNT][3] =
 {
     [MENUITEM_MAIN_TEXTSPEED]   = {sText_Desc_TextSpeed,            sText_Empty,                sText_Empty},
@@ -505,6 +504,7 @@ static const u8 *const sOptionMenuItemDescriptionsMain[MENUITEM_MAIN_COUNT][3] =
 
 // Custom {PKMN}
 static const u8 sText_Desc_StyleOn[]               = _("PHYSICAL and SPECIAL MOVES\nare MOVE specific.");
+//                                                     "123456789012345678901234567890123456\n123456789012345678901234567890123456"
 static const u8 sText_Desc_StyleOff[]              = _("PHYSICAL and SPECIAL MOVES\ndepend on the POKéMON TYPE.");
 static const u8 sText_Desc_TypeEffectiveOn[]       = _("TYPE effectiveness will be\nshown in battles.");
 static const u8 sText_Desc_TypeEffectiveOff[]      = _("TYPE effectiveness won't be\nshown in battles.");
