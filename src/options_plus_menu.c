@@ -465,15 +465,15 @@ static const u8 sText_Desc_FrameType[]          = _("Tria el marc que rodeja les
 static const u8 sText_Desc_FollowerOn[]            = _("Permet que el primer POKéMON de\nl'equip et seguisca.");
 static const u8 sText_Desc_FollowerOff[]           = _("Camina sense acompanyant.");
 static const u8 sText_Desc_FollowerLargeOn[]       = _("Activa els {PKMN} acompanyants grans.\nPot produir errors gràfics.");
-static const u8 sText_Desc_FollowerLargeOff[]      = _("Activa els {PKMN} acompanyants grans.\nRecomanat.");
+static const u8 sText_Desc_FollowerLargeOff[]      = _("Desactiva els {PKMN} acompanyants grans.\nRecomanat.");
 static const u8 sText_Desc_AutorunOn[]             = _("Corre sense prémer B.");
 static const u8 sText_Desc_AutorunOff[]            = _("Mantín premut el botó B per a córrer.");
 static const u8 sText_Desc_AutorunSurfOn[]         = _("Surfeja ràpidament sense prémer B.");
 static const u8 sText_Desc_AutorunSurfOff[]        = _("Mantín premut el botó B per a\nsurfejar ràpidament.");
 static const u8 sText_Desc_AutorunDiveOn[]         = _("Busseja ràpidament sense prémer B.");
 static const u8 sText_Desc_AutorunDiveOff[]        = _("Mantín premut el botó B per a\nbussejar ràpidament.");
-static const u8 sText_Desc_FishingOn[]             = _("En pescar, bobina automàticament.");
-static const u8 sText_Desc_FishingOff[]            = _("Bobina de manera manual en pescar.\nFes-ho com sempre ho has fet!");
+static const u8 sText_Desc_FishingOn[]             = _("En pescar, cobra la llinya\nautomàticament.");
+static const u8 sText_Desc_FishingOff[]            = _("En pescar, cobra la llinya de manera\nmanual. Com sempre s'ha fet!");
 static const u8 sText_Desc_EvenFasterJoyOn[]       = _("L'INFERMERA JOY cura l'equip\nmés ràpidament.");
 static const u8 sText_Desc_EvenFasterJoyOff[]      = _("L'INFERMERA JOY cura l'equip amb\nl'animació habitual.");
 static const u8 sText_Desc_SkipIntroOn[]           = _("Omet la pantalla de drets d'autor\ni la intro. S'aplica a reinicis suaus.");
@@ -503,30 +503,29 @@ static const u8 *const sOptionMenuItemDescriptionsMain[MENUITEM_MAIN_COUNT][3] =
 };
 
 // Custom {PKMN}
-static const u8 sText_Desc_StyleOn[]               = _("PHYSICAL and SPECIAL MOVES\nare MOVE specific.");
-//                                                     "123456789012345678901234567890123456\n123456789012345678901234567890123456"
-static const u8 sText_Desc_StyleOff[]              = _("PHYSICAL and SPECIAL MOVES\ndepend on the POKéMON TYPE.");
-static const u8 sText_Desc_TypeEffectiveOn[]       = _("TYPE effectiveness will be\nshown in battles.");
-static const u8 sText_Desc_TypeEffectiveOff[]      = _("TYPE effectiveness won't be\nshown in battles.");
-static const u8 sText_Desc_FastIntroOn[]           = _("Skip the sliding animation\nand enter battles faster.");
-static const u8 sText_Desc_FastIntroOff[]          = _("Battles load at the usual speed.");
-static const u8 sText_Desc_FastBattleOn[]          = _("Skips all delays in battles, which\nmakes them faster.");
-static const u8 sText_Desc_FastBattleOff[]         = _("Manual delay skipping. You can\npress A or B to skip delays.");
-static const u8 sText_Desc_Run_Type_Off[]          = _("No quick running from battles.");
-static const u8 sText_Desc_Run_Type_LR[]           = _("Hold {L_BUTTON}+{R_BUTTON}, then {A_BUTTON} to run from\nbattles before they start.");
-static const u8 sText_Desc_Run_Type_B[]            = _("Press {B_BUTTON} to move the cursor to the RUN\noption after the battle started.");
-static const u8 sText_Desc_Run_Type_B_2[]          = _("Press {B_BUTTON} to run from battles before\nthey start.");
-static const u8 sText_Desc_LR_Run_On[]             = _("Enables a prompt to show that you\ncan run away from battles.");
-static const u8 sText_Desc_LR_Run_Off[]            = _("Disables said prompt to flee.\nButton combo still works.");
-static const u8 sText_Desc_Ball_Prompt_On[]        = _("Press {R_BUTTON} in battle to use Pokeballs.\nHold {L_BUTTON}/{R_BUTTON} to swap POKéBALLS.");
-static const u8 sText_Desc_Ball_Prompt_Off[]       = _("Disables the prompt to use\nPOKéBALLS quickly.");
-static const u8 sText_Desc_NewBackgrounds_Old[]    = _("Original battle terrain backgrounds.");
-//static const u8 sText_Desc_NewBackgrounds_New[]    = _("Modernized battle terrain\nbackgrounds, similar to GEN IV.");
-static const u8 sText_Desc_NewBattleUI_Old[]        = _("Original GEN III Battle UI.");
-static const u8 sText_Desc_NewBattleUI_New[]        = _("Modernized GEN IV Battle UI.");
-static const u8 sText_Desc_GenThreeRecharge[]      = _("RECHARGE MOVES like HYPER BEAM will\nalways need to recharge after use.");
-static const u8 sText_Desc_GenOneRecharge[]        = _("If a RECHARGE MOVE KO's the opponent,\nno recharge turn is needed.");
-static const u8 sText_Desc_NewBackgrounds_New[]     = _("Modernized battle terrain\nbackgrounds, from HnS.");
+static const u8 sText_Desc_StyleOn[]               = _("Els ATACS FÍSICS i ESPECIALS són\nespecífics de cada ATAC.");
+static const u8 sText_Desc_StyleOff[]              = _("Els ATACS FÍSICS i ESPECIALS\ndepenen del TIPUS del POKéMON.");
+static const u8 sText_Desc_TypeEffectiveOn[]       = _("Es mostrarà l'efectivitat dels TIPUS\nen els combats.");
+static const u8 sText_Desc_TypeEffectiveOff[]      = _("No es mostrarà l'efectivitat dels\nTIPUS en els combats.");
+static const u8 sText_Desc_FastIntroOn[]           = _("Omet l'animació lateral i entra\nmés ràpidament en els combats.");
+static const u8 sText_Desc_FastIntroOff[]          = _("Els combats es carreguen\na la velocitat habitual.");
+static const u8 sText_Desc_FastBattleOn[]          = _("Omet les esperes en les batalles, el\nque les fa més ràpides.");
+static const u8 sText_Desc_FastBattleOff[]         = _("Omet les esperes de manera manual.\nPrem A o B per a ometre-les.");
+static const u8 sText_Desc_Run_Type_Off[]          = _("No hi ha fugida àgil dels combats.");
+static const u8 sText_Desc_Run_Type_LR[]           = _("Mantín {L_BUTTON}+{R_BUTTON} i prem {A_BUTTON} per a fugir\ndels combats abans que comencen.");
+static const u8 sText_Desc_Run_Type_B[]            = _("Prem {B_BUTTON} per a moure el cursor a l'opció\nFUIG en començar el combat.");
+static const u8 sText_Desc_Run_Type_B_2[]          = _("Prem {B_BUTTON} per a fugir dels combats\nabans que comencen.");
+static const u8 sText_Desc_LR_Run_On[]             = _("Activa un missatge que mostra que\npots fugir dels combats.");
+static const u8 sText_Desc_LR_Run_Off[]            = _("Desactiva el missatge de poder fugir.\nLa combinació de botons funcionarà.");
+static const u8 sText_Desc_Ball_Prompt_On[]        = _("Prem {R_BUTTON} per a utilitzar POKéBALLs.\nMantín {L_BUTTON}/{R_BUTTON} per a intercanviar-les.");
+static const u8 sText_Desc_Ball_Prompt_Off[]       = _("Desactiva el missatge de poder\nutilitzar POKéBALLS de manera ràpida.");
+static const u8 sText_Desc_NewBackgrounds_Old[]    = _("Fons del terreny dels combats\noriginal.");
+//static const u8 sText_Desc_NewBackgrounds_New[]    = _("Fons del terreny dels combats\nmodernitzats, similars als de la GEN. IV.");
+static const u8 sText_Desc_NewBackgrounds_New[]    = _("Fons del terreny dels combats\nmodernitzats, del Cor i Ànima.");
+static const u8 sText_Desc_NewBattleUI_Old[]       = _("Interfície de combat original de\nla GEN. III.");
+static const u8 sText_Desc_NewBattleUI_New[]       = _("Interfície de combat modernitzada,\ncom en la GEN. IV.");
+static const u8 sText_Desc_GenThreeRecharge[]      = _("Els ATACS RECARREGABLES, com ara\nHIPERRAIG, necessiten un torn extra.");
+static const u8 sText_Desc_GenOneRecharge[]        = _("Si un ATAC RECARREGABLE debilita el\nrival, no hi ha torn de recàrrega.");
 static const u8 *const sOptionMenuItemDescriptionsCustom[MENUITEM_BATTLE_COUNT][4] =
 {
 
@@ -542,10 +541,10 @@ static const u8 *const sOptionMenuItemDescriptionsCustom[MENUITEM_BATTLE_COUNT][
     [MENUITEM_BATTLE_RUN_TYPE]            = {sText_Desc_Run_Type_Off,             sText_Desc_Run_Type_LR,             sText_Desc_Run_Type_B,         sText_Desc_Run_Type_B_2},
 };
 
-static const u8 sText_Desc_SoundMono[]                       = _("Sound is the same in all speakers.\nRecommended for original hardware.");
-static const u8 sText_Desc_SoundStereo[]                     = _("Play the left and right audio channel\nseperatly. Great with headphones.");
-static const u8 sText_Desc_Music_On[]                        = _("Enables music playback.\nChange maps to take effect.");
-static const u8 sText_Desc_Music_Off[]                       = _("Disables music playback.\nChange maps to take effect.");
+static const u8 sText_Desc_SoundMono[]                       = _("El mateix so en tots els altaveus.\nRecomanat en el maquinari original.");
+static const u8 sText_Desc_SoundStereo[]                     = _("Separa els canals d'àudio dret i\nesquerre. Genial amb auriculars.");
+static const u8 sText_Desc_Music_On[]                        = _("Activa la reproducció de música.\nCanvia de mapa perquè funcione.");
+static const u8 sText_Desc_Music_Off[]                       = _("Desactiva la reproducció de música.\nCanvia de mapa perquè funcione.");
 static const u8 sText_Desc_BikeMusicOn[]                     = _("Enables BIKE music.");
 static const u8 sText_Desc_BikeMusicOff[]                    = _("Disables BIKE music.");
 static const u8 sText_Desc_SurfMusicOn[]                     = _("Enables SURF music.");
