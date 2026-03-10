@@ -905,12 +905,11 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanWhereShouldIGoNext:
 	.string "POKéMON next…$"
 
 LittlerootTown_ProfessorBirchsLab_Text_SeriousLookingMachine:
-	.string "Sembla una màquina prou complexa.\p"
-	.string "El PROFESSOR la deu gastar per a\n
-	.string "les seues investigacions.$"
+	.string "Sembla una màquina prou complexa.\n"
+	.string "El PROF. la deu gastar per a investigar.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_PCUsedForResearch:
-	.string "Un PC que s'usa per a fer recerca.\n"
+	.string "Un PC que s'utilitza per a fer recerca.\n"
 	.string "Millor no toquejar-lo.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CrammedWithBooksOnPokemon:
@@ -918,7 +917,7 @@ LittlerootTown_ProfessorBirchsLab_Text_CrammedWithBooksOnPokemon:
 	.string "sobre POKéMON.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BookTooHardToRead:
-	.string "Este llibre sembla molt complicat.$"
+	.string "It's a book that's too hard to read.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OtherRegionsUpgradeToNational:
 	.string "PROF. BIRCH: Now…\p"
