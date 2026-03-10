@@ -662,7 +662,7 @@ NewBarkTown_Lab_Text_ElmMissionFromMrPokemon:
 	.string "devanir-se dels seus descobriments.\p"
 	.string "Total, que acabe de rebre un correu seu\n"
 	.string "en el que diu que ara sí, que esta\l"
-	.string "volta sí que és de veres.\p"
+	.string "vegada sí que és de veres.\p"
 	.string "M'intriga molt, però estem ocupats amb\n"
 	.string "les nostres investigacions POKéMON…\p"
 	.string "Espera!\n"
