@@ -29,6 +29,7 @@ This document gathers useful information, suggestions and tips in case you try t
   - ../scr/strings.c
   - ../graphics/pokenav/ --> There are a lot of texts here that seem coded text, but they are actually graphics 🙄
 - POKéMON Summary Screen:
+  - ../scr/strings.c
   - ../graphics/summary_screen/tiles.png
 
 ## FILES LISTS
