@@ -28,6 +28,8 @@ This document gathers useful information, suggestions and tips in case you try t
 - POKéGEAR texts:
   - ../scr/strings.c
   - ../graphics/pokenav/ --> There are a lot of texts here that seem coded text, but they are actually graphics 🙄
+- POKéMON Summary Screen:
+  - ../graphics/summary_screen/tiles.png
 
 ## FILES LISTS
 ### Comprehensive list of translatable text files:
