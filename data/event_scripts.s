@@ -856,8 +856,8 @@ gText_SandstormIsVicious::
 	.string "It's impossible to keep going.$"
 
 gText_SelectWithoutRegisteredItem::
-	.string "Es pot associar un objecte de la MOXILLA\n"
-	.string "al botó SELECT per a usar-lo.$"
+	.string "Es pot associar un objecte de la MOTXILLA\n"
+	.string "al botó SELECT per a utilitzar-lo.$"
 
 gText_SelectWithoutRegisteredLongItem::
 	.string "A second item in the BAG can be\n"
