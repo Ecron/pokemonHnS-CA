@@ -34,7 +34,7 @@ Route29_Trigger_Monview::
 	end
 
 Route29_Text_PressAorB:
-	.string "Press A or B to stop viewing.$"
+	.string "Prem A o B per a deixar de veure.$"
 
 Route29_EventScript_OldMan::
 	lock
@@ -158,58 +158,58 @@ Route29_EventScript_ItemPotion::
 	end
 
 Route29_Text_OldMan1:
-	.string "POKéMON hide in the grass.\n"
-	.string "Who knows when they'll pop out…$"
+	.string "Els POKéMON s'amaguen en l'herba.\n"
+	.string "Poden aparéixer en qualsevol moment…$"
 
 Route29_Text_OldMan2:
-	.string "I've seen you a couple times.\n"
-	.string "How many POKéMON have you caught?\p"
-	.string "Would you like me to tell you\n"
-	.string "how to catch POKéMON?$"
+	.string "Ja t'he vist un parell de vegades.\n"
+	.string "Quants POKéMON has capturat?\p"
+	.string "Vols que t'explique com es fa\n"
+	.string "per a capturar POKéMON?$"
 
 Route29_Text_OldManExplanation:
-	.string "If you weaken them first,\n"
-	.string "POKéMON are easier to catch.\p"
-	.string "Then, throw a ball at them from\n"
-	.string "your bag! Any ball will do.\p"
-	.string "If you want to learn more,\n"
-	.string "go to the ACADEMY in VIOLET CITY!\p"
-	.string "The students there know a lot\n"
-	.string "about POKéMON.$"
+	.string "Si els debilites primer,\n"
+	.string "és més fàcil capturar-los.\p"
+	.string "Aleshores, llança'ls una POKéBALL\n"
+	.string "de la motxilla! Tria'n el tipus que vulgues.\p"
+	.string "Si vols aprendre'n més,\n"
+	.string "vés a l'ACADÈMIA en CIUTAT MALVA!\p"
+	.string "Allà els estudiants en saben molt,\n"
+	.string "sobre els POKéMON.$"
 
 Route29_Text_OldManDeclined:
-	.string "Oh. Fine, then.\p"
-	.string "Check every route to find\n"
-	.string "different types of POKéMON.\p"
-	.string "Your POKéDEX shows where you can\n"
-	.string "find them too!\p"
-	.string "If you want to learn more,\n"
-	.string "go to the ACADEMY in VIOLET CITY!\p"
-	.string "The students know a lot about\n"
-	.string "POKéMON.$"
+	.string "Ah. Bé, com vulgues.\p"
+	.string "Investiga cada ruta per a trobar\n"
+	.string "tipus de POKéMON diferents.\p"
+	.string "També pots consultar en la POKéDEX\n"
+	.string "on els pots trobar!\p"
+	.string "Si vols aprendre'n més,\n"
+	.string "vés a l'ACADÈMIA en CIUTAT MALVA!\p"
+	.string "Allà els estudiants en saben molt,\n"
+	.string "sobre els POKéMON.$"
 
 Route29_Text_Youngster:
-	.string "Yo. How are your POKéMON?\p"
-	.string "If they're weak and not ready\n"
-	.string "for battle, keep out of the grass.$"
+	.string "Ie. Com estan els teus POKéMON?\p"
+	.string "Si estan dèbils i no poden lluitar,\n"
+	.string "no vages per l'herba.$"
 
 Route29_Text_Lass:
-	.string "See those ledges?\n"
-	.string "It's scary to jump off them.\p"
-	.string "But you can go to NEW BARK\n"
-	.string "without walking through the grass.$"
+	.string "Veus aquelles ribes?\n"
+	.string "Fa por botar des de dalt.\p"
+	.string "Però pots anar a POBLE BORRÓ\n"
+	.string "sense haver de caminar per l'herba.$"
 
 Route29_Text_Girl:
-	.string "I wanted to take a break,\n"
-	.string "so I saved to record my progress.$"
+	.string "Volia fer un descans i guardar\n"
+	.string "la partida, per a no perdre el progrés.$"
 
 Route29_Text_Boy_WaitingForDay:
-	.string "I'm waiting for POKéMON that\n"
-	.string "appear only later in the day.$"
+	.string "Estic esperant als POKéMON que\n"
+	.string "només apareixen a mitjan vesprada.$"
 
 Route29_Text_Boy_WaitingForNight:
-	.string "I'm waiting for POKéMON that\n"
-	.string "appear only at night.$"
+	.string "Estic esperant als POKéMON que\n"
+	.string "només apareixen de nit.$"
 
 Route29_Text_MeetTuscany:
 	.string "TUSCANY: I do believe that this\n"
