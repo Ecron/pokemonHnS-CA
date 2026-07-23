@@ -212,35 +212,33 @@ Route29_Text_Boy_WaitingForNight:
 	.string "només apareixen de nit.$"
 
 Route29_Text_MeetTuscany:
-	.string "TUSCANY: I do believe that this\n"
-	.string "is the first time we've met?\p"
-	.string "I'm TUSCANY of the WEEKDAY FAMILY.\p"
-	.string "If you can guess my favorite day,\n"
-	.string "I'll give you a reward.$"
+	.string "MARTINA: Em sembla que aquesta és\n"
+	.string "la primera vegada que ens trobem.\p"
+	.string "Em diuen MARTINA, de la FAMÍLIA SETMANA.\p"
+	.string "Si endevines quin és el meu dia favorit,\n"
+	.string "et donaré un regalet.$"
 
 Route29_Text_TuscanyNope:
-	.string "Not quite!$"
+	.string "No, eixe no és!$"
 
 Route29_Text_TuscanyGivesGift:
-	.string "Yes! By way of introduction,\n"
-	.string "please accept this gift, a SILK\l"
-	.string "SCARF.$"
+	.string "Sí! Accepta aquest regal de,\n"
+	.string "presentació, un MOCADOR SUAU.$"
 
 Route29_Text_TuscanyGaveGift:
-	.string "TUSCANY: Wouldn't you agree\n"
-	.string "that it is most adorable?\p"
-	.string "It strengthens NORMAL-type\n"
-	.string "moves.\p"
-	.string "I am certain it will be of use.$"
+	.string "MARTINA: No creus que és\n"
+	.string "súper adorable?\p"
+	.string "Reforça els atacs de tipus\n"
+	.string "normal.\p"
+	.string "Segur que et farà profit.$"
 
 Route29_Text_TuscanyTuesday:
-	.string "TUSCANY: Have you met MONICA,\n"
-	.string "my older sister?\p"
-	.string "Or my younger brother, WESLEY?\p"
-	.string "I am the third of seven\n"
-	.string "children.$"
+	.string "MARTINA: T'has trobat amb LLUNA,\n"
+	.string "ma germana major?\p"
+	.string "O amb mon germà menut, HERMES?\p"
+	.string "Sóc la tercera de set germans.$"
 
 Route29_Text_Sign1:
-	.string "ROUTE 29\p"
-	.string "CHERRYGROVE CITY - NEW BARK TOWN$"
+	.string "RUTA 29\p"
+	.string "CIUTAT CIRERA - POBLE BORRÓ$"
 
