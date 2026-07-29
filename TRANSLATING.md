@@ -24,12 +24,21 @@ This document gathers useful information, suggestions and tips in case you try t
 - Initial game settings (GameMode, Randomizer, Nuzlocke, etc.):
   - ../src/tx_rac_menu.c
   - ../src/tx_rac_viewer.c
-- Options menu, items and descriptions:
+- Options menu (entries and descriptions):
   - ../src/strings.c
   - ../src/options_plus_menu.c
+- POKéMON names: ../src/data/text/species_names.h
+- Moves:
+  - Names: ../src/data/text/move_names.h
+  - Descriptions: ../src/data/text/move_descriptions.h
+- Objects:
+  - Names: ../src/data/items.h
+  - Descriptions: ../src/data/text/item_descriptions.h
+- Abilities (names and descriptions): ../src/data/text/abilities.h
+- Nature names: ../src/data/text/nature_names.h
 - POKéGEAR texts:
   - ../scr/strings.c
-  - ../graphics/pokenav/ --> There are a lot of texts here that seem coded text, but they are actually graphics 🙄
+  - ../graphics/pokenav/ (There are a lot of texts here that may seem coded text, but they are actually graphics 🙄)
 - POKéMON Summary Screen (Pokémon info, stats, EV, IV, moves, etc.):
   - ../scr/strings.c
   - ../graphics/summary_screen/tiles.png
